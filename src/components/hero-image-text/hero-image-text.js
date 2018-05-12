@@ -8,6 +8,7 @@ class HeroImageText extends Component {
         <header className="Hero-image-text-header">
           
         </header>
+        <p> YOLO </p>
       </div>
     );
   }
