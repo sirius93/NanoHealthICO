@@ -1,0 +1,79 @@
+.ico-summary {
+  margin-top: 150px;
+  background-image: linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
+  background-image: -o-linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
+  background-image: -moz-linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
+  background-image: -webkit-linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
+  background-image: -ms-linear-gradient(bottom, #ecf4fe 50%, #fff 50%); }
+  .ico-summary-container {
+    background-image: url("..//../assets/images/oval-8.svg");
+    width: 1024px;
+    height: 1024px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Din Next Bold; }
+  .ico-summary-heading {
+    margin-top: 140px; }
+    .ico-summary-heading h4 {
+      font-size: 48px;
+      font-weight: bold;
+      letter-spacing: normal;
+      color: #ffffff; }
+    .ico-summary-heading p {
+      width: 70px;
+      height: 8px;
+      opacity: 0.1;
+      background-color: #ffffff;
+      display: inline-block; }
+  .ico-summary-token-name {
+    margin-top: 21px; }
+    .ico-summary-token-name h4 {
+      font-size: 54px;
+      font-weight: bold;
+      color: #4492fe; }
+    .ico-summary-token-name p {
+      opacity: 0.5;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      color: #ffffff; }
+  .ico-summary-token-count {
+    margin-top: 45px; }
+    .ico-summary-token-count h4 {
+      font-size: 54px;
+      font-weight: bold;
+      color: #3bc37e; }
+    .ico-summary-token-count p {
+      opacity: 0.5;
+      font-size: 24px;
+      letter-spacing: 4px;
+      text-align: center;
+      color: #ffffff; }
+  .ico-summary-token-circulation {
+    margin-top: 37px; }
+    .ico-summary-token-circulation h4 {
+      font-size: 54px;
+      font-weight: bold;
+      text-align: center;
+      color: #8a83ff; }
+    .ico-summary-token-circulation p {
+      opacity: 0.5;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      text-align: center;
+      color: #ffffff; }
+  .ico-summary-token-price {
+    margin-top: 66px; }
+    .ico-summary-token-price h4 {
+      font-size: 54px;
+      font-weight: bold;
+      text-align: center;
+      color: #fed980; }
+    .ico-summary-token-price p {
+      opacity: 0.5;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      text-align: center;
+      color: #ffffff; }

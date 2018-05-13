@@ -1,0 +1,103 @@
+.ico-distribution {
+  background-color: #ecf4fe; }
+  .ico-distribution-left-image {
+    padding: 40px;
+    border: solid 10px #e1edfc;
+    border-right: none;
+    background-color: #fff;
+    border-radius: 360px 0 0 360px;
+    margin-right: -177px;
+    margin-top: 70px; }
+    .ico-distribution-left-image .ico-distribution-image img {
+      width: 100%; }
+  .ico-distribution-text {
+    font-family: Din Next Bold;
+    text-align: left; }
+    .ico-distribution-text p {
+      font-weight: bold;
+      line-height: 1.33;
+      letter-spacing: 4px;
+      color: #103363;
+      text-transform: uppercase; }
+    .ico-distribution-text h5 {
+      font-size: 36px;
+      font-weight: bold; }
+    .ico-distribution-text .tech {
+      margin-top: 30px; }
+    .ico-distribution-text .tech-per {
+      color: #635ce4;
+      margin-bottom: 30px; }
+    .ico-distribution-text .biz-per {
+      color: #4492fe;
+      margin-bottom: 30px; }
+    .ico-distribution-text .market-per {
+      color: #3bc37e;
+      margin-bottom: 30px; }
+    .ico-distribution-text .legal-per {
+      color: #fdcf78;
+      margin-bottom: 30px; }
+  .ico-distribution-right-image {
+    padding: 40px;
+    border: solid 10px #e1edfc;
+    border-left: none;
+    background-color: #fff;
+    border-radius: 0px 360px 360px 0;
+    margin-left: -177px;
+    margin-top: 70px; }
+    .ico-distribution-right-image .ico-distribution-image img {
+      width: 100%; }
+    .ico-distribution-right-image .ico-distribution-text {
+      font-family: Din Next Bold;
+      text-align: left;
+      padding-left: 177px; }
+      .ico-distribution-right-image .ico-distribution-text p {
+        font-weight: bold;
+        line-height: 1.33;
+        letter-spacing: 4px;
+        color: #103363;
+        text-transform: uppercase; }
+      .ico-distribution-right-image .ico-distribution-text h5 {
+        font-size: 36px;
+        font-weight: bold; }
+      .ico-distribution-right-image .ico-distribution-text .tech {
+        margin-top: 30px; }
+      .ico-distribution-right-image .ico-distribution-text .tech-per {
+        color: #635ce4;
+        margin-bottom: 30px; }
+      .ico-distribution-right-image .ico-distribution-text .biz-per {
+        color: #4492fe;
+        margin-bottom: 30px; }
+      .ico-distribution-right-image .ico-distribution-text .market-per {
+        color: #3bc37e;
+        margin-bottom: 30px; }
+      .ico-distribution-right-image .ico-distribution-text .legal-per {
+        color: #fdcf78;
+        margin-bottom: 30px; }
+  .ico-distribution-double-container {
+    border-radius: 360px;
+    background-color: #ffffff;
+    border: solid 10px #e1edfc;
+    padding: 40px;
+    margin-top: 70px;
+    margin-bottom: 100px; }
+  .ico-distribution-double-text {
+    text-align: center;
+    font-family: Din Next Bold;
+    text-transform: uppercase; }
+    .ico-distribution-double-text-1 {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.25;
+      letter-spacing: 4px;
+      text-align: center;
+      color: #f97352;
+      margin-top: 60px; }
+    .ico-distribution-double-text-2 {
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.6;
+      letter-spacing: 4px;
+      text-align: center;
+      color: #635ce4; }

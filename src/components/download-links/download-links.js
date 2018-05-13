@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './download-links.css';
-import WhitePaper from '../../assets/images/whitepaper.svg';
-import Deck from '../../assets/images/deck.svg';
-import LitePaper from '../../assets/images/litepaper.svg'
+import WhitePaper from '../../assets/images/whitepaper.png';
+import Deck from '../../assets/images/deck.png';
+import LitePaper from '../../assets/images/litepaper.png'
 
 class DownloadLinks extends Component {
   render() {
