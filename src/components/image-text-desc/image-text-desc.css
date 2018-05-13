@@ -1,20 +1,30 @@
-.telegram-button-link {
-  display: block;
-  font-family: Din Next Bold;
-  font-size: 20px;
-  font-weight: bold;
-  color: #2c6cc5;
-  border-radius: 30px;
-  line-height: 1.2;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  text-align: center;
-  float: left;
-  min-width: 495px;
-  padding: 15px 0;
-  margin-top: 52px;
-  background: #fff url("..//../assets/images/telegram.svg") scroll no-repeat 5px center; }
-
-.telegram-button-link:hover {
-  text-decoration: none;
-  color: #2c6cc5; }
+.image-text-desc {
+  margin-top: 69px; }
+  .image-text-desc-heading {
+    font-family: Din Next Bold;
+    font-size: 48px;
+    font-weight: bold;
+    color: #4492fe;
+    margin-top: 90px; }
+  .image-text-desc-text {
+    font-family: Din Next;
+    font-size: 24px;
+    line-height: 1.33;
+    color: #103363;
+    margin-top: 19px;
+    max-width: 459px;
+    word-break: keep-all; }
+  .image-text-desc .combined-text-box {
+    margin-top: 45px; }
+  .image-text-desc .combined-text-image, .image-text-desc .combined-text-description {
+    position: absolute; }
+  .image-text-desc span.combined-text-description {
+    position: absolute;
+    padding: 30px;
+    margin: 0;
+    font-family: Din Next Medium Italic;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    color: #635ce4;
+    line-height: 1; }

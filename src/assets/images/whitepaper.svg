@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="236px" viewBox="0 0 230 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>B45190B8-5EA5-4761-BDC5-23768E39A722</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DAD8FF" offset="0%"></stop>
+            <stop stop-color="#B3AFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#7E77EB" offset="0%"></stop>
+            <stop stop-color="#635CE4" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-27.3%" y="-18.9%" width="154.5%" height="137.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M2,4.43583157e-17 L100.114083,2.22044605e-15 L130,30 L130,178 C130,179.104569 129.104569,180 128,180 L2,180 C0.8954305,180 1.3527075e-16,179.104569 0,178 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-4"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01" transform="translate(-209.000000, -1911.000000)">
+            <g id="whitepaper" transform="translate(209.000000, 1911.000000)">
+                <g id="Group-24" transform="translate(0.000000, 76.000000)" fill="url(#linearGradient-1)" opacity="0.400000006">
+                    <rect id="Rectangle-12" x="0" y="0" width="230" height="160" rx="8"></rect>
+                </g>
+                <g id="Group-22" transform="translate(50.000000, 0.000000)">
+                    <path d="M12,29 L94.7119163,29 L120,55.5 L120,186 C120,187.104569 119.104569,188 118,188 L12,188 C10.8954305,188 10,187.104569 10,186 L10,31 C10,29.8954305 10.8954305,29 12,29 Z" id="Rectangle-13-Copy" fill="url(#linearGradient-2)" filter="url(#filter-3)"></path>
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="Rectangle-13" fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+                    <text id="White-Paper" mask="url(#mask-5)" font-family="DINNextLTPro-Medium, DIN Next LT Pro" font-size="24" font-weight="400" line-spacing="24" fill="#FFFFFF">
+                        <tspan x="11" y="134">White</tspan>
+                        <tspan x="11" y="158">Paper</tspan>
+                    </text>
+                    <circle id="Oval-12-Copy" stroke="#FFFFFF" stroke-width="4" opacity="0.100000001" mask="url(#mask-5)" cx="10" cy="-3" r="19"></circle>
+                    <circle id="Oval-12-Copy-2" stroke="#FFFFFF" stroke-width="4" opacity="0.100000001" mask="url(#mask-5)" cx="30" cy="57" r="9"></circle>
+                    <circle id="Oval-12-Copy-7" stroke="#FFFFFF" stroke-width="4" opacity="0.100000001" mask="url(#mask-5)" cx="0" cy="76" r="9"></circle>
+                    <circle id="Oval-12-Copy-8" stroke="#FFFFFF" stroke-width="4" opacity="0.100000001" mask="url(#mask-5)" cx="130" cy="34" r="9"></circle>
+                    <circle id="Oval-12-Copy-3" stroke="#FFFFFF" stroke-width="4" opacity="0.100000001" mask="url(#mask-5)" cx="50" cy="19" r="9"></circle>
+                    <circle id="Oval-12-Copy-4" stroke="#FFFFFF" stroke-width="4" opacity="0.100000001" mask="url(#mask-5)" cx="65" cy="54" r="4"></circle>
+                    <circle id="Oval-12-Copy-9" stroke="#FFFFFF" stroke-width="4" opacity="0.100000001" mask="url(#mask-5)" cx="89.5" cy="28.5" r="8.5"></circle>
+                    <circle id="Oval-12-Copy-5" stroke="#FFFFFF" stroke-width="4" opacity="0.100000001" mask="url(#mask-5)" cx="105" cy="64" r="14"></circle>
+                    <path d="M100,0 L130,30 L110,30 C104.477153,30 100,25.5228475 100,20 L100,0 Z" id="Rectangle-14" fill="#B3AFFF" mask="url(#mask-5)"></path>
+                    <rect id="Rectangle-15" fill="#FFFFFF" opacity="0.400000006" mask="url(#mask-5)" x="-2" y="105" width="132" height="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

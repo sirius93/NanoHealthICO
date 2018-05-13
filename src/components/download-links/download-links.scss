@@ -1,0 +1,32 @@
+.download-link-container{
+    margin-top: 160px;
+    .download-links-container{
+            background-image: url('..//../assets/images/more-about-us.svg');
+            width: 1024px;
+            height: 500px;
+            background-repeat: no-repeat;
+            .donwload-links-heading{
+                font-family: Din Next Bold;
+                font-size: 40px;
+                font-weight: bold;
+                color: #4492fe;
+                margin-top: 95px;
+                margin-bottom: 25px;
+            }
+            img.donwload-link-image {
+                position: absolute;
+            }
+            a.donwload-link-anchor {
+                position: absolute;
+                top: 200px;
+                left: 65px;
+                font-family: Din Next Bold;
+                font-size: 16px;
+                font-weight: bold;
+                letter-spacing: 4px;
+                color: #103363;
+                text-transform: uppercase;
+            }
+        } 
+}
+  
