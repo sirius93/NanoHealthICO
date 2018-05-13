@@ -13,7 +13,7 @@ class HeroImageText extends Component {
               <div className="col-xs-12">
                 <a href="/" className="Hero-image-text-logo"></a>
                 <h1 className="Hero-image-text-header">Transforming Global Health and Wellness using blockchain</h1>
-                <p className="Hero-image-text-subtext">NHT makes it very easy and rewarding, to stay Healthy and Fit</p>
+                <p className="Hero-image-text-subtext">NHCT makes it very easy and rewarding, to stay Healthy and Fit</p>
               </div>
           </div>
           <div className="row">

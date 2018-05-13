@@ -15,7 +15,7 @@ class IcoSummary extends Component {
                 </div>
                 <div className="col-xs-12 ico-summary-token-name">
                   <h4> ERC 20 token</h4>
-                    <p>(NHT) - NanoHealth Token</p>
+                    <p>(NHCT) - Nano Health Care Token</p>
                 </div>
                 <div className="col-xs-6 ico-summary-token-count">
                   <h4>$9 million</h4>

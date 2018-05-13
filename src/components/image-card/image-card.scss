@@ -1,96 +1,115 @@
-.ico-summary{
-    margin-top: 150px;
-    background-image: linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
-    background-image: -o-linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
-    background-image: -moz-linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
-    background-image: -webkit-linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
-    background-image: -ms-linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
-    &-container{
-        background-image: url('..//../assets/images/oval-8.svg');
-        width: 1024px;
-        height: 1024px;
-        background-repeat: no-repeat;
-        text-align: center;
+.image-card{
+    text-align: center;    
+    &-header{
+        font-family: Din Next Medium;
+        font-size: 32px;
+        color: #103363;
+        margin-top: 150px;
+    }
+    &-sub-header{
         font-family: Din Next Bold;
+        font-size: 48px;
+        font-weight: bold;
+        color: #4492fe;
+        margin-top: 11px;
+        margin-bottom: 45px;
     }
-    &-heading{
-        margin-top: 140px;
-        h4{
-            font-size: 48px;
-            font-weight: bold;
-            letter-spacing: normal;
-            color: #ffffff;
+    &-container{
+        .image-card-image-1{
+            border-radius: 0 0 10px 0;
         }
-        p{
-            width: 70px;
-            height: 8px;
-            opacity: 0.1;
-            background-color: #ffffff;
-            display: inline-block;
-        }
-    }
-    &-token-name{
-        margin-top: 21px;
-        h4{
-            font-size: 54px;
-            font-weight: bold;
-            color: #4492fe;
-        }
-        p{
-            opacity: 0.5;
-            font-size: 24px;
-            font-weight: bold;
-            letter-spacing: 4px;
-            color: #ffffff;
-        }
-    }
-    &-token-count{
-        margin-top: 45px;
-        h4{
-            font-size: 54px;
-            font-weight: bold;
-            color: #3bc37e;
-        }
-        p{
-            opacity: 0.5;
-            font-size: 24px;
-            letter-spacing: 4px;
-            text-align: center;
-            color: #ffffff; 
-        }
-    }
-    &-token-circulation{
-        margin-top: 37px;
-        h4{
-            font-size: 54px;
-            font-weight: bold;
-            text-align: center;
-            color: #8a83ff;
-        }
-        p{
-            opacity: 0.5;
-            font-size: 24px;
-            font-weight: bold;
-            letter-spacing: 4px;
-            text-align: center;
-            color: #ffffff;   
-        }
-    }
-    &-token-price{
-        margin-top: 66px;
-        h4{
-            font-size: 54px;
-            font-weight: bold;
-            text-align: center;
-            color: #fed980;
-        }
-        p{
-            opacity: 0.5; 
-            font-size: 24px;
-            font-weight: bold;
-            letter-spacing: 4px;
-            text-align: center;
-            color: #ffffff;
+        .image-card-text{
+            &-1{
+                border-radius: 0 10px 0 0;
+                background-color: #fdcf78;
+                min-height: 350px;
+                min-width: 512px;
+                width: 100%;
+                float: left;
+                text-align: center;
+                h4{
+                    font-family: Din Next Bold;
+                    font-size: 36px;
+                    font-weight: bold;
+                    text-align: center;
+                    color: #172436;
+                    margin-top: 112px;
+                }
+                p{
+                    font-family: Din Next;
+                    font-size: 24px;
+                    line-height: 1.33;
+                    text-align: center;
+                    color: #172436;
+                }
+                a{
+                    font-family: Din Next Bold Italic;
+                    font-size: 16px;
+                    font-weight: bold;
+                    font-style: italic;
+                    line-height: 2;
+                    letter-spacing: 3px;
+                    text-align: center;
+                    color: #7a5816;
+                }
+            }
+            &-2{
+                min-height: 350px;
+                min-width: 512px;
+                background-color: #3bc37e;
+                color: #fff;
+                h4{
+                    font-family: Din Next Bold;
+                    font-size: 36px;
+                    font-weight: bold;
+                    text-align: center;
+                    padding: 112px 20px 0 20px;
+                    margin-top: 0;
+                }
+                p{
+                    font-family: Din Next;
+                    font-size: 24px;
+                    line-height: 1.33;
+                    text-align: center;
+                }
+
+            }
+            &-3{
+                min-height: 350px;
+                min-width: 512px;
+                background-color: #4492fe;
+                color: #fff;
+                h4{
+                    font-family: Din Next Bold;
+                    font-size: 36px;
+                    font-weight: bold;
+                    text-align: center;
+                    padding: 112px 20px 0 20px;
+                    margin-top: 0;
+                }
+                p{
+                    font-family: Din Next;
+                    font-size: 24px;
+                    line-height: 1.33;
+                    text-align: center;
+                }
+
+            }
+            &-4{
+                min-height: 350px;
+                min-width: 512px;
+                border-radius: 0 0 0 10px;
+                background-color: #635ce4;
+                color: #fff;
+                h4{
+                    font-family: Din Next Bold;
+                    font-size: 36px;
+                    font-weight: bold;
+                    text-align: center;
+                    padding: 112px 20px 0 20px;
+                    margin-top: 0;
+                }
+            }
         }
     }
 }

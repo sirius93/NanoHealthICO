@@ -1,0 +1,35 @@
+.our-team{
+    margin-top: 130px;
+    &-heading{
+        font-family: Din Next Bold;
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+        color: #4492fe;
+        margin-bottom: 50px;
+    }
+    .image-container{
+      img{
+        border: 10px solid rgba(68, 146, 254, 0.2);
+        border-radius: 50%;
+      }
+    }
+    .text-container{
+      text-align: center;
+      h6{
+        font-family:Din Next Medium;
+        font-size: 24px;
+        font-weight: 500;
+        color: #4492fe;
+      }
+      p{
+        opacity: 0.5;
+        font-family: Din Next Bold;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 4px;
+        color: #103363;
+        text-transform: uppercase;
+      }
+    }
+}

@@ -19,7 +19,7 @@ class ImageTextDesc extends Component {
                 </p>
                 <div class="combined-text-box">
                   <img className="combined-text-image" src={Combinedtext} alt="Combinedtext" />
-                    <span className="combined-text-description">The NHT platform makes the above process Frictionless and Rewarding</span>
+                    <span className="combined-text-description">The NHCT platform makes the above process Frictionless and Rewarding</span>
                 </div>
               </div>
               <div className="col-xs-4">
