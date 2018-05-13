@@ -1,30 +1,34 @@
-.Hero-image-text {
+.Hero-image-text{
   text-align: center;
-  background-image: url("..//../assets/images/hero_section_bg.png");
+  background-image: url('..//../assets/images/hero_section_bg.png');
   height: 800px;
-  width: 100%; }
-  .Hero-image-text-logo {
-    background-image: url("..//../assets/images/nht-logo.svg");
-    padding: 0;
+  width: 100%;
+  &-logo{
+    background-image: url('..//../assets/images/nht-logo.svg');
+    padding:0;
     float: none;
     display: block;
     width: 90px;
     height: 70px;
     background-repeat: no-repeat;
     background-position: center center;
-    margin-top: 41px; }
-  .Hero-image-text-header {
+    margin-top: 41px;
+  }
+  &-header{
     color: #fff;
     font-family: Din Next Heavy;
     font-weight: 900;
     text-align: left;
     font-size: 64px;
-    margin-top: 71px; }
-  .Hero-image-text-subtext {
+    margin-top: 71px;
+  }
+  &-subtext{
     font-family: Din Next Medium;
     font-size: 32px;
     font-weight: 500;
     color: #fff;
     text-align: left;
     max-width: 570px;
-    margin-top: 17px; }
+    margin-top: 17px;
+  }
+}

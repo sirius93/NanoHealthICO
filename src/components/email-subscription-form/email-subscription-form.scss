@@ -1,0 +1,35 @@
+.email-subscription-form{
+  max-width: 495px;
+  float: left;
+  border: 1px solid grey;
+  max-height: 60px;
+  border-radius: 30px;
+  padding: 5px;
+  margin-top: 41px;
+  
+  &-wrapper{
+    input[type="email"] {
+      border: 0;
+      outline: 0;
+      background: inherit;
+      padding: 10px 10px 10px 10px;
+      min-width: 300px;
+    }
+    input:input-placeholder {
+      font-family: Din Next Medium;
+      font-size: 24px;
+      font-weight: 500;
+      color: #ffffff;
+    }
+     
+    button {
+      outline: none;
+      background-color: #fff;
+      border-radius: 55%;
+      color: #4492fe;
+      border: none;
+      width: 48px;
+      height: 48px; 
+  } 
+  }     
+}

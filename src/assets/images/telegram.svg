@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>5D4284D3-EA7D-4DA2-A3DC-B806D39ACB30</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3883EB" offset="0%"></stop>
+            <stop stop-color="#4492FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="65.97%" y1="43.69%" x2="85.12%" y2="80.24%" id="linearGradient-2">
+            <stop stop-color="#EFF7FC" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01" transform="translate(-216.000000, -449.000000)">
+            <g id="telegram" transform="translate(210.000000, 443.000000)">
+                <g transform="translate(6.000000, 6.000000)">
+                    <circle id="Oval-3" fill="url(#linearGradient-1)" cx="24" cy="24" r="24"></circle>
+                    <g id="Group" transform="translate(12.000000, 14.000000)" fill-rule="nonzero">
+                        <path d="M9.09090909,18.7272727 C8.38407273,18.7272727 8.50418182,18.4603818 8.2604,17.7873636 L6.18181818,10.9465273 L22.1818182,1.45454545" id="Shape" fill="#C8DAEA"></path>
+                        <path d="M9.09090909,18.7272727 C9.63636364,18.7272727 9.87736364,18.4778182 10.1818182,18.1818182 L13.0909091,15.3530909 L9.46218182,13.1649091" id="Shape" fill="#A9C9DD"></path>
+                        <path d="M9.46181818,13.1654545 L18.2545455,19.6616364 C19.2579091,20.2152545 19.9820727,19.9286182 20.232,18.7300909 L23.8110909,1.86409091 C24.1775273,0.394963636 23.2510727,-0.271363636 22.2912,0.164418182 L1.27483636,8.26823636 C-0.159727273,8.84363636 -0.151363636,9.64398182 1.01334545,10.0006 L6.40661818,11.6839273 L18.8926182,3.80665455 C19.4820545,3.44921818 20.0230364,3.64138364 19.5790182,4.03545455" id="Shape" fill="url(#linearGradient-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
