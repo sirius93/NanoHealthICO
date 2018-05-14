@@ -17,7 +17,7 @@ class DownloadLinks extends Component {
                 </div>
                 <div className="col-xs-12 col-sm-3 col-md-3">
                   <div className="donwload-link-image-container">
-                    <img className="donwload-link-image" src={Deck} /><a href="#" className="donwload-link-anchor" title="Investor Deck">download <span class="glyphicon glyphicon-arrow-down"></span></a>                    
+                    <img className="donwload-link-image" src={Deck} /><a href="https://docsend.com/view/5sikgjv" className="donwload-link-anchor" title="Investor Deck">download <span class="glyphicon glyphicon-arrow-down"></span></a>                    
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-3 col-md-3">

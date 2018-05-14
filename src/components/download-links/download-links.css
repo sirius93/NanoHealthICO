@@ -1,5 +1,8 @@
 .download-link-container {
   margin-top: 160px; }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .download-link-container {
+      margin-top: unset; } }
   .download-link-container .download-links-container {
     background-image: url("..//../assets/images/more_about_us.png");
     width: 1024px;

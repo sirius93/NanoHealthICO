@@ -5,7 +5,10 @@
         font-size: 48px;
         font-weight: bold;
         color: #4492fe;
-        margin-top: 90px;    
+        margin-top: 90px;
+        @media screen and (min-width:320px) and (max-width:767px){
+            margin-top: 0px;
+        }    
     }
     &-text{
         font-family: Din Next;
