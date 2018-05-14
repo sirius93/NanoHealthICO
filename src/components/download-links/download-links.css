@@ -42,3 +42,6 @@
       letter-spacing: 4px;
       color: #103363;
       text-transform: uppercase; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .download-link-container .download-links-container a.donwload-link-anchor {
+          left: 100px; } }
