@@ -17,17 +17,17 @@ class DownloadLinks extends Component {
                 </div>
                 <div className="col-xs-12 col-sm-3 col-md-3">
                   <div className="donwload-link-image-container">
-                    <img className="donwload-link-image" src={Deck} /><a href="https://docsend.com/view/5sikgjv" className="donwload-link-anchor" title="Investor Deck">download <span class="glyphicon glyphicon-arrow-down"></span></a>                    
+                    <img className="donwload-link-image"  src={Deck} /><a href="https://docsend.com/view/5sikgjv" target="_blank" className="donwload-link-anchor" title="Investor Deck">download <span class="glyphicon glyphicon-arrow-down"></span></a>                    
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-3 col-md-3">
                   <div className="donwload-link-image-container">
-                    <img className="donwload-link-image" src={WhitePaper} /><a href="javascript:void(0)" className="donwload-link-anchor" title="White Paper">Coming Soon <span class="glyphicon glyphicon-arrow-down"></span></a>
+                    <img className="donwload-link-image" src={WhitePaper} /><a href="javascript:void(0)" target="_blank" className="donwload-link-anchor" title="White Paper">Coming Soon <span class="glyphicon glyphicon-arrow-down"></span></a>
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-3 col-md-3">
                   <div className="donwload-link-image-container">
-                    <img className="donwload-link-image" src={LitePaper} /><a href="javascript:void(0)" className="donwload-link-anchor" title="Light Paper">Coming soon <span class="glyphicon glyphicon-arrow-down"></span></a>
+                    <img className="donwload-link-image" src={LitePaper} /><a href="javascript:void(0)" target="_blank" className="donwload-link-anchor" title="Light Paper">Coming soon <span class="glyphicon glyphicon-arrow-down"></span></a>
                   </div>
                 </div>
               </div>

@@ -29,7 +29,7 @@ class OurTeam extends Component {
                   <img width="100%" src={ceo} alt="teammate"/>
                 </div>
                 <div className="text-container">
-                  <h6><a href="https://www.linkedin.com/in/manishranjan2/">Manish Ranjan</a></h6>
+                  <h6><a target="_blank" href="https://www.linkedin.com/in/manishranjan2/">Manish Ranjan</a></h6>
                   <p>CEO</p>
                 </div>
               </div>
@@ -40,7 +40,7 @@ class OurTeam extends Component {
                   <img width="100%" src={cto} alt="teammate"/>
                 </div>
                 <div className="text-container">
-                  <h6><a href="https://www.linkedin.com/in/nagav/">Nagarjuna Vangala</a></h6>
+                  <h6><a target="_blank" href="https://www.linkedin.com/in/nagav/">Nagarjuna Vangala</a></h6>
                   <p>CTO</p>
                 </div>
               </div>
@@ -51,7 +51,7 @@ class OurTeam extends Component {
                   <img width="100%" src={business} alt="teammate"/>
                 </div>
                 <div className="text-container">
-                  <h6><a href="https://www.linkedin.com/in/nagav/">Praveen Dwarkanath</a></h6>
+                  <h6><a target="_blank" href="https://www.linkedin.com/in/nagav/">Praveen Dwarkanath</a></h6>
                   <p>Business and Partnerships</p>
                 </div>
               </div>
