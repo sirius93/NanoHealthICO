@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './image-text-desc.css';
 import HealthWellness from '../../assets/images/health-wellness.png';
+import HealthWellness2x from '../../assets/images/health-wellness@2x.png';
+import HealthWellnessMobile from '../../assets/images/health_Wellness_mobile.png';
+import HealthWellnessMobile2x from '../../assets/images/health_Wellness_mobile@2x.png';
 import Combinedtext from '../../assets/images/combined-shape.png';
 
 class ImageTextDesc extends Component {
@@ -25,7 +28,13 @@ class ImageTextDesc extends Component {
                 </div>
               </div>
               <div className="col-xs-12 col-sm-4 col-md-4">
-                <img width="100%" src={HealthWellness}/>
+                {/* <img width="100%" src={HealthWellness}/> */}
+                <picture>
+                  <source media="(max-width: 767px)" srcset={ HealthWellnessMobile + ' 1x' + ',' + HealthWellnessMobile2x + ' 2x' } />
+                  <source media="(max-width: 1025px)" srcset={ HealthWellness + ' 1x' + ',' + HealthWellness2x + ' 2x' } />
+                  <source srcset={ HealthWellness + ' 1x' + ',' + HealthWellness2x + ' 2x' }  />
+                  <img src={HealthWellness} alt="Learn" />
+                </picture>
               </div>
             </div>
           </div>

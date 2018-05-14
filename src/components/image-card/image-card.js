@@ -3,9 +3,13 @@ import './image-card.css';
 import UseofProceeds from '../../assets/images/group-20.png';
 // import Image2 from '../../assets/images/rectangle-16-copy-2.png';
 import Image2 from '../../assets/images/rectangle-16-copy-2.png';
+import Image22x from '../../assets/images/rectangle-16-copy-2@2x.png';
 import Image3 from '../../assets/images/rectangle-16-copy-4.png';
+import Image32x from '../../assets/images/rectangle-16-copy-4@2x.png';
 import Image4 from '../../assets/images/rectangle-16-copy-6.png';
+import Image42x from '../../assets/images/rectangle-16-copy-6@2x.png';
 import Play from '../../assets/images/play.png';
+import Play2x from '../../assets/images/play@2x.png';
 
 class ImageCard extends Component {
   render() {
@@ -19,7 +23,8 @@ class ImageCard extends Component {
               <div className="image-card-container" style={{marginBottom: '10px'}} >
                 <div className="row">
                   <div className="col-xs-12 col-sm-6 col-md-6">
-                    <img className="image-card-image image-card-image-1" src={Image2} alt="image1"/>
+                    {/* <img className="image-card-image image-card-image-1" src={Image2} alt="image1"/> */}
+                    <iframe className="image-card-image image-card-image-1" width="512" height="350" src="https://www.youtube.com/embed/8K1mQs1NYok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                   <div className="col-xs-12 col-sm-6 col-md-6">
                     <div className="image-card-text-1">
@@ -39,14 +44,25 @@ class ImageCard extends Component {
                   </div>
                   </div>
                   <div className="col-xs-12 col-sm-6 col-md-6">
-                    <img className="image-card-image" src={Image2} alt="image2"/>
+                    <picture>
+                      <source media="(max-width: 767px)" srcset={ Image2 + ' 1x' + ',' + Image22x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ Image2 + ' 1x' + ',' + Image22x + ' 2x' } />
+                      <source srcset={ Image2 + ' 1x' + ',' + Image22x + ' 2x' }  />
+                      <img className="image-card-image" src={Image2} alt="image2"/>
+                    </picture>
+                    {/* <img className="image-card-image" src={Image2} alt="image2"/> */}
                   </div>
                 </div>
               </div>
               <div className="image-card-container">
                 <div className="row">
                   <div className="col-xs-12 col-sm-6 col-md-6">
-                    <img className="image-card-image" src={Image3} alt="image3"/>
+                    <picture>
+                      <source media="(max-width: 767px)" srcset={ Image3 + ' 1x' + ',' + Image32x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ Image3 + ' 1x' + ',' + Image32x + ' 2x' } />
+                      <source srcset={ Image3 + ' 1x' + ',' + Image32x + ' 2x' }  />
+                      <img className="image-card-image" src={Image3} alt="image3"/>
+                    </picture>
                   </div>
                   <div className="col-xs-12 col-sm-6 col-md-6">
                   <div className="image-card-text-3">
@@ -64,7 +80,12 @@ class ImageCard extends Component {
                     </div>
                   </div>
                   <div className="col-xs-12 col-sm-6 col-md-6">
-                    <img className="image-card-image" src={Image4} alt="image1"/>
+                    <picture>
+                      <source media="(max-width: 767px)" srcset={ Image4 + ' 1x' + ',' + Image42x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ Image4 + ' 1x' + ',' + Image42x + ' 2x' } />
+                      <source srcset={ Image4 + ' 1x' + ',' + Image42x + ' 2x' }  />
+                      <img className="image-card-image" src={Image4} alt="image1"/>
+                    </picture>
                   </div>
                 </div>
               </div>                           

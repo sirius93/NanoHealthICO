@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import './ico-distribution.css';
 import UseofProceeds from '../../assets/images/group-20.png';
+import UseofProceeds2x from '../../assets/images/group-20@2x.png';
 import NHTTokendis from '../../assets/images/group_20.png';
+import NHTTokendis2x from '../../assets/images/group_20@2x.png';
 import Wawa from '../../assets/images/group-21.png';
+import Wawa2x from '../../assets/images/group-21@2x.png';
 import Warma from '../../assets/images/group-21-copy.png';
+import Warma2x from '../../assets/images/group-21-copy@2x.png';
 
 
 class IcoDistribution extends Component {
@@ -16,7 +20,13 @@ class IcoDistribution extends Component {
               <div className="ico-distribution-left-image">
                 <div className="row">
                   <div className="col-xs-6 ico-distribution-image">
-                    <img src={UseofProceeds} alt="Use of Proceeds"/>
+                  <picture>
+                      <source media="(max-width: 767px)" srcset={ UseofProceeds + ' 1x' + ',' + UseofProceeds2x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ UseofProceeds + ' 1x' + ',' + UseofProceeds2x + ' 2x' } />
+                      <source srcset={ UseofProceeds + ' 1x' + ',' + UseofProceeds2x + ' 2x' }  />
+                      <img  src={UseofProceeds} alt="Use of Proceeds" />
+                  </picture>
+                    {/* <img src={UseofProceeds} alt="Use of Proceeds"/> */}
                   </div>
                   <div className="col-xs-6 ico-distribution-text">
                     <p className="tech">Tech Dev and Deploy</p>
@@ -45,7 +55,13 @@ class IcoDistribution extends Component {
                     <h5 className="legal-per">2%</h5>
                   </div>
                   <div className="col-xs-6 ico-distribution-image">
-                    <img src={NHTTokendis} alt="NHT token distribution"/>
+                  <picture>
+                      <source media="(max-width: 767px)" srcset={ NHTTokendis + ' 1x' + ',' + NHTTokendis2x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ NHTTokendis + ' 1x' + ',' + NHTTokendis2x + ' 2x' } />
+                      <source srcset={ NHTTokendis + ' 1x' + ',' + NHTTokendis2x + ' 2x' }  />
+                      <img  src={NHTTokendis} alt="NHT token distribution" />
+                  </picture>
+                    {/* <img src={NHTTokendis} alt="NHT token distribution"/> */}
                   </div>
                 </div>
               </div> 
@@ -54,7 +70,12 @@ class IcoDistribution extends Component {
                   <div className="ico-distribution-double-container">
                     <div className="row">
                       <div className="col-xs-12 col-sm-4 col-md-4">
-                        <img width="100%" src={Wawa} alt="wawa"/>
+                        <picture>
+                          <source media="(max-width: 767px)" srcset={ Wawa + ' 1x' + ',' + Wawa2x + ' 2x' } />
+                          <source media="(max-width: 1025px)" srcset={ Wawa + ' 1x' + ',' + Wawa2x + ' 2x' } />
+                          <source srcset={ Wawa + ' 1x' + ',' + Wawa2x + ' 2x' }  />
+                          <img width="100%" src={Wawa} alt="wawa"/>
+                        </picture>
                         <p className="wawa100">100%</p>
                       </div>
                       <div className="col-xs-12 col-sm-4 col-md-4 ico-distribution-double-text">
@@ -62,7 +83,12 @@ class IcoDistribution extends Component {
                         <p className="ico-distribution-double-text-2"> User rewards </p>
                       </div>
                       <div className="col-xs-12 col-sm-4 col-md-4">
-                      <img width="100%" src={Warma} alt="wawa"/>
+                        <picture>
+                          <source media="(max-width: 767px)" srcset={ Warma + ' 1x' + ',' + Warma2x + ' 2x' } />
+                          <source media="(max-width: 1025px)" srcset={ Warma + ' 1x' + ',' + Warma2x + ' 2x' } />
+                          <source srcset={ Warma + ' 1x' + ',' + Warma2x + ' 2x' }  />
+                          <img width="100%" src={Warma} alt="wawa"/>
+                        </picture>
                       <p className="warma100">100%</p>
                       </div>
                     </div>
