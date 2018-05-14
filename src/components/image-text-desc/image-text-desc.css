@@ -16,6 +16,10 @@
     word-break: keep-all; }
   .image-text-desc .combined-text-box {
     margin-top: 45px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .image-text-desc .combined-text-box {
+        float: left;
+        margin-bottom: 275px; } }
   .image-text-desc .combined-text-image, .image-text-desc .combined-text-description {
     position: absolute; }
   .image-text-desc span.combined-text-description {
@@ -28,3 +32,6 @@
     font-style: italic;
     color: #635ce4;
     line-height: 1; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .image-text-desc span.combined-text-description {
+        font-size: 30px; } }

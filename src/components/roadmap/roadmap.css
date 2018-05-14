@@ -30,6 +30,10 @@
       text-align: right;
       color: #103363;
       width: 322px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .roadmap .StepProgress-item {
+          width: unset;
+          text-align: left; } }
       .roadmap .StepProgress-item:not(:last-child) {
         padding-bottom: 70px; }
       .roadmap .StepProgress-item::before {
@@ -56,6 +60,9 @@
         text-align: center;
         color: #4492fe;
         padding-top: 5px; }
+        @media screen and (min-width: 320px) and (max-width: 767px) {
+          .roadmap .StepProgress-item::after {
+            left: 90px; } }
       .roadmap .StepProgress-item.in-between::after {
         content: "";
         font-size: 10px;
@@ -68,6 +75,9 @@
         background-image: linear-gradient(to bottom, #79c4ff, #4492fe);
         margin-top: 40px;
         left: 467px; }
+        @media screen and (min-width: 320px) and (max-width: 767px) {
+          .roadmap .StepProgress-item.in-between::after {
+            left: 143px; } }
 
 .roadmap .StepProgress-item.current::after {
   content: '2018'; }

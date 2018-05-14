@@ -50,18 +50,20 @@ class IcoDistribution extends Component {
                 </div>
               </div> 
               <div className="ico-distribution-double">
-                <div className="col-xs-10 col-xs-offset-1">
+                <div className="col-xs-12 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                   <div className="ico-distribution-double-container">
                     <div className="row">
-                      <div className="col-xs-4">
+                      <div className="col-xs-12 col-sm-4 col-md-4">
                         <img width="100%" src={Wawa} alt="wawa"/>
+                        <p className="wawa100">100%</p>
                       </div>
-                      <div className="col-xs-4 ico-distribution-double-text">
+                      <div className="col-xs-12 col-sm-4 col-md-4 ico-distribution-double-text">
                         <p className="ico-distribution-double-text-1">Ecosystem development</p>
                         <p className="ico-distribution-double-text-2"> User rewards </p>
                       </div>
-                      <div className="col-xs-4">
+                      <div className="col-xs-12 col-sm-4 col-md-4">
                       <img width="100%" src={Warma} alt="wawa"/>
+                      <p className="warma100">100%</p>
                       </div>
                     </div>
                   </div>

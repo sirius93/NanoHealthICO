@@ -4,6 +4,10 @@
     background-color: #4492fe;
     text-align: center;
     border-radius: 500px 500px 0 0;
+    @media screen and (min-width:320px) and (max-width:767px){
+      border-radius: unset;
+      margin: -10px;
+    }
     h4.contact-heading{
       font-family: Din Next Heavy;
       font-size: 36px;
@@ -21,9 +25,15 @@
     .telegram-content {
       text-align: center;
       padding: 0 25%;
+      @media screen and (min-width:320px) and (max-width:767px){
+        padding: 0;
+      }
     }
     .email-content {
       padding: 0 25%;
+      @media screen and (min-width:320px) and (max-width:767px){
+        padding: 0;
+      }
     }
     .social-share-links{
       display: none;

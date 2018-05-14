@@ -17,11 +17,11 @@ class IcoSummary extends Component {
                   <h4> ERC 20 token</h4>
                     <p>(NHCT) - Nano Health Care Token</p>
                 </div>
-                <div className="col-xs-6 ico-summary-token-count">
+                <div className="col-xs-12 col-sm-6 col-md-6 ico-summary-token-count">
                   <h4>$9 million</h4>
                   <p>Hard Cap</p>
                 </div>
-                <div className="col-xs-6 ico-summary-token-count">
+                <div className="col-xs-12 col-sm-6 col-md-6 ico-summary-token-count">
                   <h4>$1.5 million</h4>
                   <p>Soft Cap</p>
                 </div>

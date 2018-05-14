@@ -9,8 +9,8 @@ class ImageTextDesc extends Component {
       <div className="image-text-desc">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12">
-              <div className="col-xs-8">
+            <div className="col-xs-12 col-sm-12 col-md-12">
+              <div className="col-xs-12 col-sm-8 col-md-8">
                 <h4 className="image-text-desc-heading">
                   Your Health and Wellness is in your Hands
                 </h4>
@@ -18,12 +18,14 @@ class ImageTextDesc extends Component {
                 Being healthy means continuously working towards it via regular exercise, medical checkups and sometimes taking medicine when necessary. This involves coordination between various Health and Wellness providers and adherence to schedule.
                 </p>
                 <div class="combined-text-box">
-                  <img className="combined-text-image" src={Combinedtext} alt="Combinedtext" />
+                  <div className="combined-text-box-container">
+                    <img className="combined-text-image" src={Combinedtext} alt="Combinedtext" />
                     <span className="combined-text-description">The NHCT platform makes the above process Frictionless and Rewarding</span>
+                  </div>
                 </div>
               </div>
-              <div className="col-xs-4">
-                <img src={HealthWellness}/>
+              <div className="col-xs-12 col-sm-4 col-md-4">
+                <img width="100%" src={HealthWellness}/>
               </div>
             </div>
           </div>

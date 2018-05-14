@@ -23,7 +23,7 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div> */}
-            <div className="col-xs-4">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={ceo} alt="teammate"/>
@@ -34,7 +34,7 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-4">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={cto} alt="teammate"/>
@@ -45,7 +45,7 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-4">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={business} alt="teammate"/>
