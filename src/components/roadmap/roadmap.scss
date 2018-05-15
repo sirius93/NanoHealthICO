@@ -10,63 +10,22 @@
         text-align: center;
         color: #4492fe;
     }
-    .wrapper {
-        text-align: center;
-        margin-top: 50px;
-      }
-      
-      .StepProgress {
-        position: relative;
-        padding-left: 45px;
-        list-style: none;
-        
-        &::before {
-          display: inline-block;
-          content: '';
-          position: absolute;
-          top: 0;
-        //   left: 15px;
-          width: 10px;
-          height: 100%;
-          border-left: 4px solid #dae9ff;
+    #progress{
+        margin: 75px 43%;
+        @media screen and (min-width:320px) and (max-width:767px){
+             margin: 50px 30%;   
         }
-        &-item {
-          position: relative;
-          counter-increment: list;
-          font-family: Din Next;
-            font-size: 24px;
-            line-height: 1.17;
-            text-align: right;
-            color: #103363;
-            width: 322px;
-            @media screen and (min-width:320px) and (max-width:767px){
-                text-align: left;
-                text-align: justify;
-                line-height: 1;
-                padding-right: 10px;
-                width: 130px;
-            }
-          
-          &:not(:last-child) {
-            padding-bottom: 70px;
-          }
-          
-          &::before {
-            display: inline-block;
-            content: '';
-            position: absolute;
-            height: 10%;
-            width: 37px;
-            top: 20px;
-            // background: #dae9ff;
-          }
-          
-          &::after {
-            content: '';
-            display: inline-block;
-            position: absolute;
-            top: 0;
-            left: 415px;
+        @media screen and (min-width:768px) and (max-width:991px){
+            margin: 75px 40%;   
+        }
+    }
+    .node {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        display:inline-block;
+        &.current:before{
+            content: "2018";
             width: 120px;
             height: 50px;
             border: 4px solid #dae9ff;
@@ -77,52 +36,134 @@
             font-weight: bold;
             text-align: center;
             color: #4492fe;
-            padding-top: 5px;
+            padding: 5px 20px;
+            position: relative;
+            right: 25px;
             @media screen and (min-width:320px) and (max-width:767px){
-                left: 90px;
+               font-size: 20px;
+               right: 20px;  
             }
-          }
-          
-          &.in-between {
-            &::before {
-            //   border-left: 4px solid #dae9ff;
-            }
-            &::after {
-              content: "";
-              font-size: 10px;
-              color: #FFF;
-              text-align: center;
-              border: 4px solid #dae9ff;
-              background-color: #dae9ff;
-              width: 18px;
-              height: 18px;
-              background-image: linear-gradient(to bottom, #79c4ff, #4492fe);
-              margin-top: 40px;
-              left: 467px;
-              @media screen and (min-width:320px) and (max-width:767px){
-                left: 143px;
-            }
-            }
-          }
         }
-      }
-}
-
-.roadmap .StepProgress-item.current::after{
-    content: '2018'
-}
-.roadmap .StepProgress-item.next::after{
-    content: '2019'
-}
-.roadmap .StepProgress-item.next-to-next::after{
-    content: '2020'
-}
-.roadmap StepProgress-item in-between .left::before{
-    left: 0;
-}
-.roadmap StepProgress-item in-between .left{
-    text-align: left;
-}
-.roadmap StepProgress-item in-between .right{
-    text-align: right;
+        &.next::before{
+            content: "2019";
+            width: 120px;
+            height: 50px;
+            border: 4px solid #dae9ff;
+            border-radius: 25px;
+            background-color: #FFF;
+            font-family: Din Next Bold;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            color: #4492fe;
+            padding: 5px 20px;
+            position: relative;
+            right: 25px;
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 20px;
+                right: 20px;  
+             }
+        }
+        &.next-to-next:before{
+            content: "2020";
+            width: 120px;
+            height: 50px;
+            border: 4px solid #dae9ff;
+            border-radius: 25px;
+            background-color: #FFF;
+            font-family: Din Next Bold;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            color: #4492fe;
+            padding: 5px 20px;
+            position: relative;
+            right: 25px; 
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 20px;
+                right: 20px;  
+             }
+        }
+        &.round{
+            background-image: linear-gradient(to bottom, #79c4ff, #4492fe);
+            border: solid 4px #dae9ff;
+            left: 20px;
+            top: 5px;
+            position: relative;
+            margin-top: -10px;
+        }
+        &.round:before{
+            content: "";
+            position: relative;
+            width: 61px;
+            height: 4px;
+            border-radius: 2px;
+            background-color: #dae9ff;
+            display: inline-block;
+            top: 5px;
+            right: 60px;
+        }
+        &.round.right:before{
+            content: "";
+            position: relative;
+            width: 61px;
+            height: 4px;
+            border-radius: 2px;
+            background-color: #dae9ff;
+            display: inline-block;
+            top: 2px;
+            left: 14px;
+        }
+    }
+        
+    .divider {
+        height: 60px;
+        width: 8px;
+        opacity: 0.2;
+        border-radius: 4px;
+        background-color: #4492fe;
+        margin-left: 25px;
+        margin-top: 5px;
+        margin-bottom: -1px;
+        @media screen and (min-width:320px) and (max-width:767px){
+            margin-top: 3px;
+         }
+    }
+    
+    li p {
+        display: inline-block;
+        margin-left: -360px;
+        font-family: Din Next;
+        font-size: 24px;
+        line-height: 1.17;
+        color: #103363;
+        width: 322px;
+        float: left;
+        text-align: right;
+        @media screen and (min-width:320px) and (max-width:767px){
+                line-height: 1;
+                font-size: 10px;
+                margin-left: -150px;
+                width: 100px;
+                letter-spacing: 1px;
+                word-break: break-word;
+            }
+        @media screen and (min-width:768px) and (max-width:991px){
+            width: 300px;  
+        }    
+        &.para-right{
+            margin-left: 130px;
+            margin-top: -30px;
+            text-align: left;
+            @media screen and (min-width:320px) and (max-width:767px){
+                margin-left: 110px;
+                margin-top: -30px;
+            }
+        }
+    }
+    
+    li {
+        list-style: none;
+        line-height: 0px;
+    }
 }
