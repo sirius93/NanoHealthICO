@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './image-card.css';
 import UseofProceeds from '../../assets/images/group-20.png';
-// import Image2 from '../../assets/images/rectangle-16-copy-2.png';
+import Image1 from '../../assets/images/award-image.png';
 import Image2 from '../../assets/images/rectangle-16-copy-2.png';
 import Image22x from '../../assets/images/rectangle-16-copy-2@2x.png';
 import Image3 from '../../assets/images/rectangle-16-copy-4.png';
@@ -23,8 +23,8 @@ class ImageCard extends Component {
               <div className="image-card-container" style={{marginBottom: '10px'}} >
                 <div className="row">
                   <div className="col-xs-12 col-sm-6 col-md-6 padding-right">
-                    {/* <img className="image-card-image image-card-image-1" src={Image2} alt="image1"/> */}
-                    <iframe className="image-card-image image-card-image-1" width="100%" height="350" src="https://www.youtube.com/embed/8K1mQs1NYok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <img className="image-card-image image-card-image-1" src={Image1} alt="image1"/>
+                    {/* <iframe className="image-card-image image-card-image-1" width="100%" height="350" src="https://www.youtube.com/embed/8K1mQs1NYok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> */}
                   </div>
                   <div className="col-xs-12 col-sm-6 col-md-6 padding-left">
                     <div className="image-card-text-1">
@@ -40,7 +40,7 @@ class ImageCard extends Component {
                   <div className="col-xs-12 col-sm-6 col-md-6 padding-right">
                   <div className="image-card-text-2">
                       <h4>Raised $1 million</h4>
-                      <p>From the Clinton Foundation in 2014.</p>
+                      <p>From HULT Prize in 2014.</p>
                   </div>
                   </div>
                   <div className="col-xs-12 col-sm-6 col-md-6 padding-left">

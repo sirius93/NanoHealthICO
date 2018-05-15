@@ -3,6 +3,7 @@ import './our-team.css';
 import ceo from '../../assets/images/manishranjan.png';
 import cto from '../../assets/images/nagarjuna.png';
 import business from '../../assets/images/praveen.png';
+import teamimage from '../../assets/images/team-image.jpg';
 
 class OurTeam extends Component {
   render() {
@@ -54,6 +55,11 @@ class OurTeam extends Component {
                   <h6><a target="_blank" href="https://www.linkedin.com/in/praveen-dwarakanath-0bb7505/">Praveen Dwarkanath</a></h6>
                   <p>Business and Partnerships</p>
                 </div>
+              </div>
+            </div>
+            <div className="col-xs-12">
+              <div className="team-image">
+                <img width="100%" src={teamimage} alt="team-image" />
               </div>
             </div>
             </div>
