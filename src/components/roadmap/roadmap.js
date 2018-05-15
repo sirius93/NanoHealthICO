@@ -11,17 +11,17 @@ class RoadMap extends Component {
             <h4 className="roadmap-heading">Our Roadmap</h4>
             <ul id="progress">
               <li><div class="node current"></div><p></p></li>
-              <li><div class="divider"></div></li>
+              <li><div class="divider div-1"></div></li>
               <li><div class="node round"></div><p>Integrate Wellness services and tracking along with continuous care</p></li>
-              <li><div class="divider"></div></li>
+              <li><div class="divider div-2"></div></li>
               <li><div class="node next"></div><p></p></li> 
-              <li><div class="divider"></div></li>  
+              <li><div class="divider div-3"></div></li>  
               <li><div class="node round"></div><p>Internal exchange of Wawa, Warma and NHCT</p></li>
-              <li><div class="divider"></div></li>  
+              <li><div class="divider div-4"></div></li>  
               <li><div class="node round right"></div><p className="para-right">Health and wellness data marketplace for researchers, universities and Pharma companies</p></li>
-              <li><div class="divider"></div></li>
+              <li><div class="divider div-5"></div></li>
               <li><div class="node next-to-next"></div><p></p></li>
-              <li><div class="divider"></div></li>
+              <li><div class="divider div-6"></div></li>
               <li><div class="node round"></div><p>Integrations of NHCT verified data with other 3rd Party Apps</p></li>
             </ul>
             </div>

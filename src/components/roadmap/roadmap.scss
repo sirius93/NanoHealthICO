@@ -127,12 +127,33 @@
         margin-bottom: -1px;
         @media screen and (min-width:320px) and (max-width:767px){
             margin-top: 3px;
-         }
+        }
+        &.div{
+            &-1{
+                height: 35px;
+            }
+            &2{
+                height: 90px;
+            }
+            &3{
+                height: 35px;
+            }
+            &4{
+                height: 74px;
+            }
+            &5{
+                height: 110px;
+            }
+            &-6{
+                height: 40px;
+            }
+        }
+
     }
     
     li p {
         display: inline-block;
-        margin-left: -360px;
+        margin-left: -390px;
         font-family: Din Next;
         font-size: 24px;
         line-height: 1.17;
@@ -140,6 +161,7 @@
         width: 322px;
         float: left;
         text-align: right;
+        margin-top: -20px;
         @media screen and (min-width:320px) and (max-width:767px){
                 line-height: 1;
                 font-size: 10px;
