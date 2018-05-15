@@ -94,8 +94,8 @@
       border-radius: 2px;
       background-color: #dae9ff;
       display: inline-block;
-      top: 5px;
-      right: 60px; }
+      top: 1px;
+      right: 62px; }
     .roadmap .node.round.right:before {
       content: "";
       position: relative;
@@ -105,12 +105,11 @@
       background-color: #dae9ff;
       display: inline-block;
       top: 2px;
-      left: 14px; }
+      left: 12px; }
   .roadmap .divider {
     height: 60px;
     width: 8px;
     opacity: 0.2;
-    border-radius: 4px;
     background-color: #4492fe;
     margin-left: 25px;
     margin-top: 5px;
@@ -120,13 +119,13 @@
         margin-top: 3px; } }
     .roadmap .divider.div-1 {
       height: 35px; }
-    .roadmap .divider.div2 {
+    .roadmap .divider.div-2 {
       height: 90px; }
-    .roadmap .divider.div3 {
+    .roadmap .divider.div-3 {
       height: 35px; }
-    .roadmap .divider.div4 {
+    .roadmap .divider.div-4 {
       height: 74px; }
-    .roadmap .divider.div5 {
+    .roadmap .divider.div-5 {
       height: 110px; }
     .roadmap .divider.div-6 {
       height: 40px; }

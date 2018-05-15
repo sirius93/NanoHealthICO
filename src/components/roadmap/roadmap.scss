@@ -100,8 +100,8 @@
             border-radius: 2px;
             background-color: #dae9ff;
             display: inline-block;
-            top: 5px;
-            right: 60px;
+            top: 1px;
+            right: 62px;
         }
         &.round.right:before{
             content: "";
@@ -112,7 +112,7 @@
             background-color: #dae9ff;
             display: inline-block;
             top: 2px;
-            left: 14px;
+            left: 12px;
         }
     }
         
@@ -120,7 +120,6 @@
         height: 60px;
         width: 8px;
         opacity: 0.2;
-        border-radius: 4px;
         background-color: #4492fe;
         margin-left: 25px;
         margin-top: 5px;
@@ -132,16 +131,16 @@
             &-1{
                 height: 35px;
             }
-            &2{
+            &-2{
                 height: 90px;
             }
-            &3{
+            &-3{
                 height: 35px;
             }
-            &4{
+            &-4{
                 height: 74px;
             }
-            &5{
+            &-5{
                 height: 110px;
             }
             &-6{
