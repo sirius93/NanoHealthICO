@@ -18,7 +18,7 @@ class DownloadLinks extends Component {
                 <div className="col-xs-12 donwload-links-heading">
                     Learn more about us
                 </div>
-                <div className="col-xs-12 col-sm-3 col-md-3">
+                <div className="col-xs-12 col-sm-4 col-md-3">
                   <div className="donwload-link-image-container">
                     <picture>
                       <source media="(max-width: 767px)" srcset={ Deck + ' 1x' + ',' + Deck2x + ' 2x' } />
@@ -29,7 +29,7 @@ class DownloadLinks extends Component {
                     <a href="https://docsend.com/view/5sikgjv" target="_blank" className="donwload-link-anchor" title="Investor Deck">download <span class="glyphicon glyphicon-arrow-down"></span></a>                    
                   </div>
                 </div>
-                <div className="col-xs-12 col-sm-3 col-md-3">
+                <div className="col-xs-12 col-sm-4 col-md-3">
                   <div className="donwload-link-image-container">
                   <picture>
                       <source media="(max-width: 767px)" srcset={ WhitePaper + ' 1x' + ',' + WhitePaper2x + ' 2x' } />
@@ -40,7 +40,7 @@ class DownloadLinks extends Component {
                     <a href="javascript:void(0)" target="_blank" className="donwload-link-anchor" title="White Paper">Coming Soon <span class="glyphicon glyphicon-arrow-down"></span></a>
                   </div>
                 </div>
-                <div className="col-xs-12 col-sm-3 col-md-3">
+                <div className="col-xs-12 col-sm-4 col-md-3">
                   <div className="donwload-link-image-container">
                     <picture>
                       <source media="(max-width: 767px)" srcset={ LitePaper + ' 1x' + ',' + LitePaper2x + ' 2x' } />

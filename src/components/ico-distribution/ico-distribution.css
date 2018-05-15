@@ -10,7 +10,7 @@
     margin-top: 70px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .ico-distribution-left-image {
-        margin-right: 0; } }
+        margin-right: -15px; } }
     .ico-distribution-left-image .ico-distribution-image img {
       width: 100%; }
   .ico-distribution-text {
@@ -49,7 +49,7 @@
     margin-top: 70px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .ico-distribution-right-image {
-        margin-left: 0; } }
+        margin-left: -15px; } }
     .ico-distribution-right-image .ico-distribution-image img {
       width: 100%; }
     .ico-distribution-right-image .ico-distribution-text {
@@ -100,6 +100,10 @@
       text-align: center;
       color: #103363;
       opacity: 0.9; }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .ico-distribution-double-container p.wawa100 {
+          font-size: 15px;
+          top: 55%; } }
     .ico-distribution-double-container p.warma100 {
       position: absolute;
       top: 50%;
@@ -111,6 +115,10 @@
       text-align: center;
       color: #103363;
       opacity: 0.9; }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .ico-distribution-double-container p.warma100 {
+          font-size: 15px;
+          top: 55%; } }
   .ico-distribution-double-text {
     text-align: center;
     font-family: Din Next Bold;
@@ -123,6 +131,10 @@
       text-align: center;
       color: #f97352;
       margin-top: 60px; }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .ico-distribution-double-text-1 {
+          font-size: 15px;
+          margin-top: 10px; } }
     .ico-distribution-double-text-2 {
       font-size: 20px;
       font-weight: bold;
@@ -132,3 +144,6 @@
       letter-spacing: 4px;
       text-align: center;
       color: #635ce4; }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .ico-distribution-double-text-2 {
+          font-size: 15px; } }

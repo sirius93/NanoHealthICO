@@ -33,7 +33,7 @@ class ImageTextDesc extends Component {
                   <source media="(max-width: 767px)" srcset={ HealthWellnessMobile + ' 1x' + ',' + HealthWellnessMobile2x + ' 2x' } />
                   <source media="(max-width: 1025px)" srcset={ HealthWellness + ' 1x' + ',' + HealthWellness2x + ' 2x' } />
                   <source srcset={ HealthWellness + ' 1x' + ',' + HealthWellness2x + ' 2x' }  />
-                  <img src={HealthWellness} alt="Learn" />
+                  <img width="100%" src={HealthWellness} alt="Learn" />
                 </picture>
               </div>
             </div>

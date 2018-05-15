@@ -3,6 +3,14 @@
     @media screen and (min-width:320px) and (max-width:767px){
         margin-top: 100px;
     }
+    @media screen and (min-width:768px) and (max-width:991px){
+        margin-top: 100px;
+        background-image: linear-gradient(bottom, #ecf4fe 67%, #fff 50%);
+        background-image: -o-linear-gradient(bottom, #ecf4fe 67%, #fff 50%);
+        background-image: -moz-linear-gradient(bottom, #ecf4fe 67%, #fff 50%);
+        background-image: -webkit-linear-gradient(bottom, #ecf4fe 67%, #fff 50%);
+        background-image: -ms-linear-gradient(bottom, #ecf4fe 67%, #fff 50%);
+    }
     background-image: linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
     background-image: -o-linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
     background-image: -moz-linear-gradient(bottom, #ecf4fe 50%, #fff 50%);
@@ -19,19 +27,34 @@
             background-image: unset;
             background-color: #01126b;
             width: unset;
-            margin: -10px;
-          }
+            margin: 0 -15px;
+        }
+        @media screen and (min-width:768px) and (max-width:991px){
+            background-image: url('..//../assets/images/oval-8.svg');
+            background-size: 100%;
+            height: 800px;
+            width: unset;
+        }
     }
     &-heading{
         margin-top: 140px;
         @media screen and (min-width:320px) and (max-width:767px){
             margin-top: 20px;
         }
+        @media screen and (min-width:768px) and (max-width:991px){
+            margin-top: 50px;
+        }
         h4{
             font-size: 48px;
             font-weight: bold;
             letter-spacing: normal;
             color: #ffffff;
+            @media screen and (min-width:768px) and (max-width:991px){
+                font-size: 30px;
+            }
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 30px;
+            }
         }
         p{
             width: 70px;
@@ -39,6 +62,14 @@
             opacity: 0.1;
             background-color: #ffffff;
             display: inline-block;
+            @media screen and (min-width:768px) and (max-width:991px){
+                width: 50px;
+                height: 5px;
+            }
+            @media screen and (min-width:320px) and (max-width:767px){
+                width: 50px;
+                height: 5px;
+            }
         }
     }
     &-token-name{
@@ -47,6 +78,12 @@
             font-size: 54px;
             font-weight: bold;
             color: #4492fe;
+            @media screen and (min-width:768px) and (max-width:991px){
+                font-size: 35px;
+            }
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 35px;
+            }
         }
         p{
             opacity: 0.5;
@@ -54,6 +91,12 @@
             font-weight: bold;
             letter-spacing: 4px;
             color: #ffffff;
+            @media screen and (min-width:768px) and (max-width:991px){
+                font-size: 20px;
+            }
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 20px;
+            }
         }
     }
     &-token-count{
@@ -62,6 +105,12 @@
             font-size: 54px;
             font-weight: bold;
             color: #3bc37e;
+            @media screen and (min-width:768px) and (max-width:991px){
+                font-size: 35px;
+            }
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 35px;
+            }
         }
         p{
             opacity: 0.5;
@@ -69,6 +118,12 @@
             letter-spacing: 4px;
             text-align: center;
             color: #ffffff; 
+            @media screen and (min-width:768px) and (max-width:991px){
+                font-size: 20px;
+            }
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 20px;
+            }
         }
     }
     &-token-circulation{
@@ -78,6 +133,12 @@
             font-weight: bold;
             text-align: center;
             color: #8a83ff;
+            @media screen and (min-width:768px) and (max-width:991px){
+                font-size: 35px;
+            }
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 35px;
+            }
         }
         p{
             opacity: 0.5;
@@ -85,7 +146,13 @@
             font-weight: bold;
             letter-spacing: 4px;
             text-align: center;
-            color: #ffffff;   
+            color: #ffffff;  
+            @media screen and (min-width:768px) and (max-width:991px){
+                font-size: 20px;
+            }
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 20px;
+            } 
         }
     }
     &-token-price{
@@ -95,6 +162,12 @@
             font-weight: bold;
             text-align: center;
             color: #fed980;
+            @media screen and (min-width:768px) and (max-width:991px){
+                font-size: 35px;
+            }
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 35px;
+            }
         }
         p{
             opacity: 0.5; 
@@ -103,6 +176,12 @@
             letter-spacing: 4px;
             text-align: center;
             color: #ffffff;
+            @media screen and (min-width:768px) and (max-width:991px){
+                font-size: 20px;
+            }
+            @media screen and (min-width:320px) and (max-width:767px){
+                font-size: 20px;
+            }
         }
     }
 }

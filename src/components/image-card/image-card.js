@@ -22,11 +22,11 @@ class ImageCard extends Component {
               <h4 className="image-card-sub-header">NHCT is backed by NanoHealth</h4>
               <div className="image-card-container" style={{marginBottom: '10px'}} >
                 <div className="row">
-                  <div className="col-xs-12 col-sm-6 col-md-6">
+                  <div className="col-xs-12 col-sm-6 col-md-6 padding-right">
                     {/* <img className="image-card-image image-card-image-1" src={Image2} alt="image1"/> */}
-                    <iframe className="image-card-image image-card-image-1" width="512" height="350" src="https://www.youtube.com/embed/8K1mQs1NYok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe className="image-card-image image-card-image-1" width="100%" height="350" src="https://www.youtube.com/embed/8K1mQs1NYok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
-                  <div className="col-xs-12 col-sm-6 col-md-6">
+                  <div className="col-xs-12 col-sm-6 col-md-6 padding-left">
                     <div className="image-card-text-1">
                       <h4>HULT prize winners 2014</h4>
                       <p>Only team from India to win it.</p>
@@ -37,18 +37,18 @@ class ImageCard extends Component {
               </div>
               <div className="image-card-container">
                 <div className="row">
-                  <div className="col-xs-12 col-sm-6 col-md-6">
+                  <div className="col-xs-12 col-sm-6 col-md-6 padding-right">
                   <div className="image-card-text-2">
                       <h4>Raised $1 million</h4>
                       <p>From the Clinton Foundation in 2014.</p>
                   </div>
                   </div>
-                  <div className="col-xs-12 col-sm-6 col-md-6">
+                  <div className="col-xs-12 col-sm-6 col-md-6 padding-left">
                     <picture>
                       <source media="(max-width: 767px)" srcset={ Image2 + ' 1x' + ',' + Image22x + ' 2x' } />
                       <source media="(max-width: 1025px)" srcset={ Image2 + ' 1x' + ',' + Image22x + ' 2x' } />
                       <source srcset={ Image2 + ' 1x' + ',' + Image22x + ' 2x' }  />
-                      <img className="image-card-image" src={Image2} alt="image2"/>
+                      <img width="100%" className="image-card-image" src={Image2} alt="image2"/>
                     </picture>
                     {/* <img className="image-card-image" src={Image2} alt="image2"/> */}
                   </div>
@@ -56,15 +56,15 @@ class ImageCard extends Component {
               </div>
               <div className="image-card-container">
                 <div className="row">
-                  <div className="col-xs-12 col-sm-6 col-md-6">
+                  <div className="col-xs-12 col-sm-6 col-md-6 padding-right">
                     <picture>
                       <source media="(max-width: 767px)" srcset={ Image3 + ' 1x' + ',' + Image32x + ' 2x' } />
                       <source media="(max-width: 1025px)" srcset={ Image3 + ' 1x' + ',' + Image32x + ' 2x' } />
                       <source srcset={ Image3 + ' 1x' + ',' + Image32x + ' 2x' }  />
-                      <img className="image-card-image" src={Image3} alt="image3"/>
+                      <img width="100%" className="image-card-image" src={Image3} alt="image3"/>
                     </picture>
                   </div>
-                  <div className="col-xs-12 col-sm-6 col-md-6">
+                  <div className="col-xs-12 col-sm-6 col-md-6 padding-left">
                   <div className="image-card-text-3">
                       <h4>Touched 75,000 lives up till now</h4>
                       <p>With many more to go.</p>
@@ -74,17 +74,17 @@ class ImageCard extends Component {
               </div>
               <div className="image-card-container">
                 <div className="row">
-                  <div className="col-xs-12 col-sm-6 col-md-6">
+                  <div className="col-xs-12 col-sm-6 col-md-6 padding-right">
                   <div className="image-card-text-4">
                       <h4>Successful pilots run with Telangana Govt (pop 35 million), ICICI Lombard, and other Corporates</h4>
                     </div>
                   </div>
-                  <div className="col-xs-12 col-sm-6 col-md-6">
+                  <div className="col-xs-12 col-sm-6 col-md-6 padding-left">
                     <picture>
                       <source media="(max-width: 767px)" srcset={ Image4 + ' 1x' + ',' + Image42x + ' 2x' } />
                       <source media="(max-width: 1025px)" srcset={ Image4 + ' 1x' + ',' + Image42x + ' 2x' } />
                       <source srcset={ Image4 + ' 1x' + ',' + Image42x + ' 2x' }  />
-                      <img className="image-card-image" src={Image4} alt="image1"/>
+                      <img width="100%" className="image-card-image" src={Image4} alt="image1"/>
                     </picture>
                   </div>
                 </div>

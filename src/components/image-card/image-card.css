@@ -1,5 +1,8 @@
 .image-card {
   text-align: center; }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .image-card {
+      margin: 0 -10px; } }
   .image-card-header {
     font-family: Din Next Medium;
     font-size: 32px;
@@ -15,20 +18,35 @@
     color: #4492fe;
     margin-top: 11px;
     margin-bottom: 45px; }
+  @media screen and (min-width: 768px) {
+    .image-card-container .padding-right {
+      padding-right: 0px; } }
+  @media screen and (min-width: 768px) {
+    .image-card-container .padding-left {
+      padding-left: 0px; } }
   .image-card-container .image-card-image-1 {
     border-radius: 10px 0 0 0; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .image-card-container .image-card-image-1 {
         border-radius: unset;
-        width: 100%; } }
-  @media screen and (min-width: 320px) and (max-width: 767px) {
-    .image-card-container .image-card-image {
-      width: 100%; } }
+        width: 100%;
+        height: 350px !important; } }
+  .image-card-container .image-card-image {
+    width: 100%;
+    height: 350px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .image-card-container .image-card-image {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .image-card-container .image-card-image {
+        width: 100%;
+        height: 350px; } }
   .image-card-container .image-card-text-1 {
     border-radius: 0 10px 0 0;
     background-color: #fdcf78;
     min-height: 350px;
-    min-width: 512px;
     width: 100%;
     float: left;
     text-align: center; }
@@ -39,6 +57,9 @@
       text-align: center;
       color: #172436;
       margin-top: 112px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .image-card-container .image-card-text-1 h4 {
+          margin-top: 30px; } }
     .image-card-container .image-card-text-1 p {
       font-family: Din Next;
       font-size: 24px;
@@ -54,9 +75,12 @@
       letter-spacing: 3px;
       text-align: center;
       color: #7a5816; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .image-card-container .image-card-text-1 a {
+          padding-bottom: 30px; } }
   .image-card-container .image-card-text-2 {
     min-height: 350px;
-    min-width: 512px;
+    width: 100%;
     background-color: #3bc37e;
     color: #fff; }
     .image-card-container .image-card-text-2 h4 {
@@ -66,14 +90,20 @@
       text-align: center;
       padding: 112px 20px 0 20px;
       margin-top: 0; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .image-card-container .image-card-text-2 h4 {
+          padding-top: 30px; } }
     .image-card-container .image-card-text-2 p {
       font-family: Din Next;
       font-size: 24px;
       line-height: 1.33;
       text-align: center; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .image-card-container .image-card-text-2 p {
+          padding-bottom: 30px; } }
   .image-card-container .image-card-text-3 {
     min-height: 350px;
-    min-width: 512px;
+    width: 100%;
     background-color: #4492fe;
     color: #fff; }
     .image-card-container .image-card-text-3 h4 {
@@ -83,14 +113,20 @@
       text-align: center;
       padding: 112px 20px 0 20px;
       margin-top: 0; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .image-card-container .image-card-text-3 h4 {
+          padding-top: 30px; } }
     .image-card-container .image-card-text-3 p {
       font-family: Din Next;
       font-size: 24px;
       line-height: 1.33;
       text-align: center; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .image-card-container .image-card-text-3 p {
+          padding-bottom: 30px; } }
   .image-card-container .image-card-text-4 {
     min-height: 350px;
-    min-width: 512px;
+    width: 100%;
     border-radius: 0 0 0 10px;
     background-color: #635ce4;
     color: #fff; }
@@ -101,6 +137,9 @@
       text-align: center;
       padding: 112px 20px 0 20px;
       margin-top: 0; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .image-card-container .image-card-text-4 h4 {
+          padding-top: 30px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   [class^="image-card-text"] {
