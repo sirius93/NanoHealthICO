@@ -5,7 +5,7 @@ class TelegramButton extends Component {
   render() {
     return (
       <div className="telegram-button">
-        <a className="telegram-button-link" href="https://t.me/Nanohealth">Join Our Telegram Group <span class="glyphicon glyphicon-arrow-right"></span></a>
+        <a className="telegram-button-link" href="https://t.me/Nanohealth" target="_blank">Join Our Telegram Group <span class="glyphicon glyphicon-arrow-right"></span></a>
       </div>
     );
   }

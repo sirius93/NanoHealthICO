@@ -48,6 +48,7 @@ class ContactUs extends Component {
                       <a href="www.twitter.com"><img src={twitter} alt="twitter"/></a>
                     </span>
                   </div>
+                  <br/>
                   <p className="copyright-text">© 2018 NanoHealth. All Rights Reserved.</p>  
                   </div>
                 </div>
