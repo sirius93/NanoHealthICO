@@ -1,4 +1,8 @@
 .Hero-image-text{
+  @media screen and (min-width:320px) and (max-width:767px){
+    background-color: #4492fe;
+    height: 650px;
+  }
   text-align: center;
   background-image: url('..//../assets/images/hero_section_bg.png');
   height: 800px;
@@ -21,6 +25,9 @@
     text-align: left;
     font-size: 64px;
     margin-top: 71px;
+    @media screen and (min-width:320px) and (max-width:767px){
+      font-size: 35px
+    }
   }
   &-subtext{
     font-family: Din Next Medium;
@@ -30,5 +37,23 @@
     text-align: left;
     max-width: 570px;
     margin-top: 17px;
+    @media screen and (min-width:320px) and (max-width:767px){
+      font-size: 20px
+    }
+  }
+}
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+.Hero-image-text {
+    background: url('..//../assets/images/hero_section_bg@2x.png') no-repeat;
+    background-size: 100%;
+    background-color: #4492fe;
+    @media screen and (min-width:320px) and (max-width:767px){
+      background: url('..//../assets/images/mobile_hero_bg@2x.png') no-repeat;
+      background-size: 100%;
+      background-color: #4492fe;
+    }
   }
 }

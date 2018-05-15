@@ -1,10 +1,23 @@
 .download-link-container {
   margin-top: 160px; }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .download-link-container {
+      margin-top: unset; } }
   .download-link-container .download-links-container {
-    background-image: url("..//../assets/images/more-about-us.svg");
-    width: 1024px;
+    background-image: url("..//../assets/images/more_about_us.png");
+    background-size: 100%;
     height: 500px;
     background-repeat: no-repeat; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .download-link-container .download-links-container {
+        background-image: unset;
+        width: unset;
+        height: unset; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .download-link-container .download-links-container {
+        background-image: unset;
+        width: unset;
+        height: unset; } }
     .download-link-container .download-links-container .donwload-links-heading {
       font-family: Din Next Bold;
       font-size: 40px;
@@ -12,8 +25,14 @@
       color: #4492fe;
       margin-top: 95px;
       margin-bottom: 25px; }
-    .download-link-container .download-links-container img.donwload-link-image {
-      position: absolute; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .download-link-container .download-links-container .donwload-links-heading {
+          font-size: 30px;
+          text-align: center; } }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .download-link-container .download-links-container .donwload-link-image-container {
+        margin-bottom: 50px;
+        text-align: center; } }
     .download-link-container .download-links-container a.donwload-link-anchor {
       position: absolute;
       top: 200px;
@@ -24,3 +43,16 @@
       letter-spacing: 4px;
       color: #103363;
       text-transform: uppercase; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .download-link-container .download-links-container a.donwload-link-anchor {
+          left: 100px; } }
+
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  .download-links-container {
+    background: url("..//../assets/images/more_about_us@2x.png") no-repeat;
+    background-size: 100%; } }
+  @media only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 320px) and (max-width: 767px), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px) {
+    .download-links-container {
+      background-image: unset;
+      width: unset;
+      height: unset; } }

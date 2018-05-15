@@ -1,5 +1,8 @@
 .roadmap{
     margin-top: 130px;
+    @media screen and (min-width:320px) and (max-width:767px){
+        margin-top: 100px;
+    }
     &-heading{
         font-family: Din Next Bold;
         font-size: 48px;
@@ -36,6 +39,13 @@
             text-align: right;
             color: #103363;
             width: 322px;
+            @media screen and (min-width:320px) and (max-width:767px){
+                text-align: left;
+                text-align: justify;
+                line-height: 1;
+                padding-right: 10px;
+                width: 130px;
+            }
           
           &:not(:last-child) {
             padding-bottom: 70px;
@@ -68,6 +78,9 @@
             text-align: center;
             color: #4492fe;
             padding-top: 5px;
+            @media screen and (min-width:320px) and (max-width:767px){
+                left: 90px;
+            }
           }
           
           &.in-between {
@@ -86,6 +99,9 @@
               background-image: linear-gradient(to bottom, #79c4ff, #4492fe);
               margin-top: 40px;
               left: 467px;
+              @media screen and (min-width:320px) and (max-width:767px){
+                left: 143px;
+            }
             }
           }
         }
