@@ -25,3 +25,5 @@
       letter-spacing: 4px;
       color: #103363;
       text-transform: uppercase; }
+  .our-team .team-image {
+    border: 10px solid rgba(68, 146, 254, 0.2); }

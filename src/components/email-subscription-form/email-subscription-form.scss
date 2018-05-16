@@ -24,8 +24,8 @@
       font-weight: 500;
       color: #ffffff;
       @media screen and (min-width:320px) and (max-width:767px){
-        width: unset;
-        padding: 10px 65px 0px 0px;
+        width: 275px;
+        padding: 5px 0;
         font-size: 20px;
       }
     }
@@ -59,7 +59,7 @@
       height: 48px; 
       @media screen and (min-width:320px) and (max-width:767px){
         float: right;
-        margin: -6px 15px 15px 0;
+        margin: -6px 6px 15px 0;
       }
   } 
   }     

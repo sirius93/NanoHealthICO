@@ -9,96 +9,232 @@
     font-weight: bold;
     text-align: center;
     color: #4492fe; }
-  .roadmap .wrapper {
-    text-align: center;
-    margin-top: 50px; }
-  .roadmap .StepProgress {
-    position: relative;
-    padding-left: 45px;
-    list-style: none; }
-    .roadmap .StepProgress::before {
-      display: inline-block;
-      content: '';
-      position: absolute;
-      top: 0;
-      width: 10px;
-      height: 100%;
-      border-left: 4px solid #dae9ff; }
-    .roadmap .StepProgress-item {
+  .roadmap #progress {
+    margin: 75px 43%; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .roadmap #progress {
+        margin: 50px 30%; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .roadmap #progress {
+        margin: 75px 40%; } }
+  .roadmap .node {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    display: inline-block; }
+    .roadmap .node.year-2014:before {
+      content: "2014";
+      width: 120px;
+      height: 50px;
+      border: 4px solid #dae9ff;
+      border-radius: 25px;
+      background-color: #FFF;
+      font-family: Din Next Bold;
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+      color: #4492fe;
+      padding: 5px 20px;
       position: relative;
-      counter-increment: list;
-      font-family: Din Next;
-      font-size: 24px;
-      line-height: 1.17;
-      text-align: right;
-      color: #103363;
-      width: 322px; }
+      right: 25px; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
-        .roadmap .StepProgress-item {
-          text-align: left;
-          text-align: justify;
-          line-height: 1;
-          padding-right: 10px;
-          width: 130px; } }
-      .roadmap .StepProgress-item:not(:last-child) {
-        padding-bottom: 70px; }
-      .roadmap .StepProgress-item::before {
-        display: inline-block;
-        content: '';
-        position: absolute;
-        height: 10%;
-        width: 37px;
-        top: 20px; }
-      .roadmap .StepProgress-item::after {
-        content: '';
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        left: 415px;
-        width: 120px;
-        height: 50px;
-        border: 4px solid #dae9ff;
-        border-radius: 25px;
-        background-color: #FFF;
-        font-family: Din Next Bold;
-        font-size: 28px;
-        font-weight: bold;
-        text-align: center;
-        color: #4492fe;
-        padding-top: 5px; }
-        @media screen and (min-width: 320px) and (max-width: 767px) {
-          .roadmap .StepProgress-item::after {
-            left: 90px; } }
-      .roadmap .StepProgress-item.in-between::after {
-        content: "";
+        .roadmap .node.year-2014:before {
+          font-size: 20px;
+          right: 20px; } }
+    .roadmap .node.year-2015:before {
+      content: "2015";
+      width: 120px;
+      height: 50px;
+      border: 4px solid #dae9ff;
+      border-radius: 25px;
+      background-color: #FFF;
+      font-family: Din Next Bold;
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+      color: #4492fe;
+      padding: 5px 20px;
+      position: relative;
+      right: 25px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .roadmap .node.year-2015:before {
+          font-size: 20px;
+          right: 20px; } }
+    .roadmap .node.year-2016:before {
+      content: "2016";
+      width: 120px;
+      height: 50px;
+      border: 4px solid #dae9ff;
+      border-radius: 25px;
+      background-color: #FFF;
+      font-family: Din Next Bold;
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+      color: #4492fe;
+      padding: 5px 20px;
+      position: relative;
+      right: 25px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .roadmap .node.year-2016:before {
+          font-size: 20px;
+          right: 20px; } }
+    .roadmap .node.year-2017:before {
+      content: "2017";
+      width: 120px;
+      height: 50px;
+      border: 4px solid #dae9ff;
+      border-radius: 25px;
+      background-color: #FFF;
+      font-family: Din Next Bold;
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+      color: #4492fe;
+      padding: 5px 20px;
+      position: relative;
+      right: 25px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .roadmap .node.year-2017:before {
+          font-size: 20px;
+          right: 20px; } }
+    .roadmap .node.year-2018:before {
+      content: "2018";
+      width: 120px;
+      height: 50px;
+      border: 4px solid #dae9ff;
+      border-radius: 25px;
+      background-color: #FFF;
+      font-family: Din Next Bold;
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+      color: #4492fe;
+      padding: 5px 20px;
+      position: relative;
+      right: 25px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .roadmap .node.year-2018:before {
+          font-size: 20px;
+          right: 20px; } }
+    .roadmap .node.year-2019:before {
+      content: "2019";
+      width: 120px;
+      height: 50px;
+      border: 4px solid #dae9ff;
+      border-radius: 25px;
+      background-color: #FFF;
+      font-family: Din Next Bold;
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+      color: #4492fe;
+      padding: 5px 20px;
+      position: relative;
+      right: 25px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .roadmap .node.year-2019:before {
+          font-size: 20px;
+          right: 20px; } }
+    .roadmap .node.year-2020:before {
+      content: "2020";
+      width: 120px;
+      height: 50px;
+      border: 4px solid #dae9ff;
+      border-radius: 25px;
+      background-color: #FFF;
+      font-family: Din Next Bold;
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+      color: #4492fe;
+      padding: 5px 20px;
+      position: relative;
+      right: 25px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .roadmap .node.year-2020:before {
+          font-size: 20px;
+          right: 20px; } }
+    .roadmap .node.round {
+      background-image: linear-gradient(to bottom, #79c4ff, #4492fe);
+      border: solid 4px #dae9ff;
+      left: 20px;
+      top: 5px;
+      position: relative;
+      margin-top: -10px; }
+    .roadmap .node.round:before {
+      content: "";
+      position: relative;
+      width: 61px;
+      height: 4px;
+      border-radius: 2px;
+      background-color: #dae9ff;
+      display: inline-block;
+      top: 1px;
+      right: 62px; }
+    .roadmap .node.round.right:before {
+      content: "";
+      position: relative;
+      width: 61px;
+      height: 4px;
+      border-radius: 2px;
+      background-color: #dae9ff;
+      display: inline-block;
+      top: 2px;
+      left: 12px; }
+  .roadmap .divider {
+    height: 60px;
+    width: 8px;
+    opacity: 0.2;
+    background-color: #4492fe;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: -1px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .roadmap .divider {
+        margin-top: 3px; } }
+    .roadmap .divider.div-1 {
+      height: 35px; }
+    .roadmap .divider.div-2 {
+      height: 90px; }
+    .roadmap .divider.div-3 {
+      height: 35px; }
+    .roadmap .divider.div-4 {
+      height: 74px; }
+    .roadmap .divider.div-5 {
+      height: 110px; }
+    .roadmap .divider.div-6 {
+      height: 40px; }
+  .roadmap li p {
+    display: inline-block;
+    margin-left: -390px;
+    font-family: Din Next;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #103363;
+    width: 322px;
+    float: left;
+    text-align: right;
+    margin-top: -20px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .roadmap li p {
+        line-height: 1;
         font-size: 10px;
-        color: #FFF;
-        text-align: center;
-        border: 4px solid #dae9ff;
-        background-color: #dae9ff;
-        width: 18px;
-        height: 18px;
-        background-image: linear-gradient(to bottom, #79c4ff, #4492fe);
-        margin-top: 40px;
-        left: 467px; }
-        @media screen and (min-width: 320px) and (max-width: 767px) {
-          .roadmap .StepProgress-item.in-between::after {
-            left: 143px; } }
-
-.roadmap .StepProgress-item.current::after {
-  content: '2018'; }
-
-.roadmap .StepProgress-item.next::after {
-  content: '2019'; }
-
-.roadmap .StepProgress-item.next-to-next::after {
-  content: '2020'; }
-
-.roadmap StepProgress-item in-between .left::before {
-  left: 0; }
-
-.roadmap StepProgress-item in-between .left {
-  text-align: left; }
-
-.roadmap StepProgress-item in-between .right {
-  text-align: right; }
+        margin-left: -150px;
+        width: 100px;
+        letter-spacing: 1px;
+        word-break: break-word; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .roadmap li p {
+        width: 300px; } }
+    .roadmap li p.para-right {
+      margin-left: 130px;
+      margin-top: -30px;
+      text-align: left; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .roadmap li p.para-right {
+          margin-left: 110px;
+          margin-top: -30px; } }
+  .roadmap li {
+    list-style: none;
+    line-height: 0px; }
