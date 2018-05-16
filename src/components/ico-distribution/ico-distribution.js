@@ -34,9 +34,9 @@ class IcoDistribution extends Component {
                     <p className="biz">Sales, Biz Dev and Mktg</p>
                     <h5 className="biz-per">20%</h5>
                     <p className="market">Market expansion</p>
-                    <h5 className="market-per">20%</h5>
+                    <h5 className="market-per">15%</h5>
                     <p className="legal">Legal and Consulting</p>
-                    <h5 className="legal-per">20%</h5>
+                    <h5 className="legal-per">10%</h5>
                   </div>
                 </div>
               </div>
