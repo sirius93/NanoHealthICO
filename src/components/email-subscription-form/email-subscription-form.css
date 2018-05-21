@@ -8,9 +8,10 @@
   margin-top: 41px; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .email-subscription-form {
-      min-width: 350px;
+      min-width: 340px;
       letter-spacing: 1px;
-      padding: 10px 0; } }
+      padding: 10px 0;
+      float: none; } }
   .email-subscription-form-wrapper input[type="email"] {
     border: 0;
     outline: 0;

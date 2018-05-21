@@ -7,9 +7,10 @@
   padding: 5px;
   margin-top: 41px;
   @media screen and (min-width:320px) and (max-width:767px){
-    min-width: 350px;
+    min-width: 340px;
     letter-spacing: 1px;
     padding: 10px 0;
+    float: none;
   }
   
   &-wrapper{

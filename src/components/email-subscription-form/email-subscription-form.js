@@ -31,7 +31,6 @@ class EmailSubscriptioForm extends Component {
     axios.post(EMAIL_SUBSCRIPTION_API, { email: this.state.email })
     .then( 
         (response) => {  
-          debugger
           this.setState({successMessage : true});
           this.setState({email : ""});
           console.log(this.state.successMessage);
