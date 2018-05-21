@@ -18,7 +18,7 @@ class HeroImageText extends Component {
           </div>
           <div className="row">
             <div className="col-xs-12">
-              <TelegramButton/>
+              <TelegramButton isNormalButton ={false} isTeleButton ={true} />
             </div>
           </div>
           <div className="row">

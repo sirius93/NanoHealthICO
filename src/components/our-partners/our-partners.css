@@ -1,0 +1,36 @@
+.our-partners {
+  margin-top: 130px; }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .our-partners {
+      margin-top: 50px; } }
+  .our-partners-heading {
+    font-family: Din Next Bold;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #4492fe; }
+  .our-partners-subheading {
+    font-family: Din Next Medium;
+    font-size: 24px;
+    color: #103363;
+    text-align: center;
+    margin-bottom: 60px; }
+  .our-partners-section-container {
+    text-align: center; }
+  .our-partners-image-container {
+    border-radius: 8px; }
+    .our-partners-image-container img.our-partners-selector-image {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 20px;
+      border-radius: 8px; }
+  .our-partners-logo-name-container .our-partners-logo {
+    width: 60px;
+    height: 60px;
+    background-color: white; }
+  .our-partners-logo-name-container .our-partners-name {
+    font-family: Din Next Medium;
+    font-size: 24px;
+    font-weight: 500;
+    color: #103363;
+    margin-top: 15px; }

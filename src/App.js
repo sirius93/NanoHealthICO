@@ -9,6 +9,8 @@ import ImageCard from './components/image-card/image-card';
 import RoadMap from './components/roadmap/roadmap';
 import OurTeam from './components/our-team/our-team';
 import ContactUs from './components/contact-us/contact-us';
+import OurPartners from './components/our-partners/our-partners';
+import TelegramButton from './components/telegram-button/telegram-button';
 
 class App extends Component {
   render() {
@@ -20,6 +22,14 @@ class App extends Component {
         <IcoSummary/>
         <IcoDistribution/>
         <ImageCard/>
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12 nomral-button-container">
+              <TelegramButton isNormalButton ={true} isTeleButton ={false} /> 
+            </div>
+          </div>
+        </div>
+        <OurPartners/>
         <RoadMap/>
         <OurTeam/>
         <ContactUs/>

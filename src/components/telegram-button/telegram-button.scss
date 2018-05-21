@@ -27,3 +27,32 @@
         color: #2c6cc5;
     }
 }
+.Normal-button{
+    &-link{
+        display: block;
+        font-family: Din Next Bold;
+        font-size: 20px;
+        font-weight: bold;
+        color: #4492fe;
+        border-radius: 30px;
+        border: solid 2px #4492fe;
+        line-height: 1.2;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center;
+        float: left;
+        min-width: 420px;
+        padding: 15px 0;
+        margin-top: 52px;
+        @media screen and (min-width:320px) and (max-width:767px){
+            min-width: 350px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            padding: 20px 0;
+        }
+    }
+    &-link:hover{
+        text-decoration: none;
+        color:#4492fe;
+    }
+}
