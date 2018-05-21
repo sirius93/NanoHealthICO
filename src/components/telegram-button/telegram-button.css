@@ -16,10 +16,11 @@
   background: #fff url("..//../assets/images/telegram.svg") scroll no-repeat 5px center; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .telegram-button-link {
-      min-width: 350px;
+      min-width: 340px;
       font-size: 15px;
       letter-spacing: 1px;
-      padding: 20px 0; } }
+      padding: 20px 0;
+      float: none; } }
 
 .telegram-button-link:hover {
   text-decoration: none;
@@ -43,10 +44,11 @@
   margin-top: 52px; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .Normal-button-link {
-      min-width: 350px;
+      min-width: 340px;
       font-size: 15px;
       letter-spacing: 1px;
-      padding: 20px 0; } }
+      padding: 20px 0;
+      float: none; } }
 
 .Normal-button-link:hover {
   text-decoration: none;

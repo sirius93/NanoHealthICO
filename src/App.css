@@ -26,4 +26,5 @@
   margin: 50px 30% 35px; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .nomral-button-container {
-      margin: 15px 0px; } }
+      margin: 0 auto;
+      text-align: center; } }
