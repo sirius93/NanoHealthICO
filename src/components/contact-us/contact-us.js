@@ -21,7 +21,7 @@ class ContactUs extends Component {
                 <div className="row">
                   <div className="col-xs-12">
                     <div className="telegram-content">
-                      <TelegramButton/>
+                      <TelegramButton isNormalButton ={false} isTeleButton ={true} />
                     </div>
                   </div>
                 </div>
