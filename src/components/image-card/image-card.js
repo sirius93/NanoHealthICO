@@ -76,7 +76,7 @@ class ImageCard extends Component {
                 <div className="row">
                   <div className="col-xs-12 col-sm-6 col-md-6 padding-right">
                   <div className="image-card-text-4">
-                      <h4>Successful pilots run with Telangana Govt (Pop. 35 million), ICICI Lombard, and other Corporates</h4>
+                      <h4>Successful pilots run with Telangana Govt (Pop. 35 million), Leading Insurance company, and other Corporates</h4>
                     </div>
                   </div>
                   <div className="col-xs-12 col-sm-6 col-md-6 padding-left">
