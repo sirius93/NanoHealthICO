@@ -7,7 +7,7 @@
     background-color: #4492fe;
     text-align: center;
     border-radius: 500px 500px 0 0;
-    padding-top: 100px; }
+    padding-top: 50px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .contact-us-container {
         border-radius: unset;
@@ -27,13 +27,15 @@
       color: #ffffff; }
     .contact-us-container .telegram-content {
       text-align: center;
-      padding: 0 25%; }
+      float: none;
+      display: inline-block; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .contact-us-container .telegram-content {
           padding: 0;
           margin: auto 10px; } }
     .contact-us-container .email-content {
-      padding: 0 25%; }
+      float: none;
+      display: inline-block; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .contact-us-container .email-content {
           padding: 0;
