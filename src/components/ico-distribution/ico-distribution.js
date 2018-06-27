@@ -19,7 +19,7 @@ class IcoDistribution extends Component {
             <div className="col-xs-12">
               <div className="ico-distribution-left-image">
                 <div className="row">
-                  <div className="col-xs-6 ico-distribution-image">
+                  <div className="col-xs-4 ico-distribution-image">
                   <picture>
                       <source media="(max-width: 767px)" srcset={ UseofProceeds + ' 1x' + ',' + UseofProceeds2x + ' 2x' } />
                       <source media="(max-width: 1025px)" srcset={ UseofProceeds + ' 1x' + ',' + UseofProceeds2x + ' 2x' } />
@@ -28,33 +28,61 @@ class IcoDistribution extends Component {
                   </picture>
                     {/* <img src={UseofProceeds} alt="Use of Proceeds"/> */}
                   </div>
-                  <div className="col-xs-6 ico-distribution-text">
-                    <p className="tech">Tech Dev and Deploy</p>
-                    <h5 className="tech-per">55%</h5>
-                    <p className="biz">Sales, Biz Dev and Mktg</p>
-                    <h5 className="biz-per">20%</h5>
-                    <p className="market">Market expansion</p>
-                    <h5 className="market-per">15%</h5>
-                    <p className="legal">Legal and Consulting</p>
-                    <h5 className="legal-per">10%</h5>
+                  <div className="col-xs-8 ico-distribution-text">
+                    <div className="col-xs-12">
+                      <h2 className="ico-distribution-text-heading">
+                        Use of Proceeds
+                      </h2>
+                    </div>
+                    <div className="col-xs-6">
+                      <p>Tech Dev and Deploy</p>
+                      <h5 className="tech-per">55%</h5>
+                    </div> 
+                    <div className="col-xs-6">
+                      <p>Sales, Biz Dev and Mktg</p>
+                      <h5 className="biz-per">20%</h5>
+                    </div>
+                    <div className="col-xs-6">
+                      <p>Market expansion</p>
+                      <h5 className="market-per">15%</h5>
+                    </div>
+                    <div className="col-xs-6">
+                      <p>Legal and Consulting</p>
+                      <h5 className="legal-per">10%</h5>
+                    </div> 
                   </div>
                 </div>
               </div>
               <div className="ico-distribution-right-image">
                 <div className="row">
-                <div className="col-xs-6 ico-distribution-text">
-                    <p className="tech">Crowd Sale</p>
-                    <h5 className="tech-per">35%</h5>
-                    <p className="biz">User rewards</p>
+                <div className="col-xs-8 ico-distribution-text">
+                    <div className="col-xs-12">
+                      <h2 className="ico-distribution-text-heading">
+                        NHCT Token Distribution
+                      </h2>
+                    </div>
+                    <div className="col-xs-4">
+                      <p>Crowd Sale</p>
+                      <h5 className="tech-per">35%</h5>
+                    </div>
+                      <div className="col-xs-4">
+                      <p className="biz">User rewards</p>
                     <h5 className="biz-per">30%</h5>
-                    <p className="market">ICO core team</p>
-                    <h5 className="market-per">15%</h5>
-                    <p className="legal">Ecosystem development</p>
-                    <h5 className="legal-per">18%</h5>
-                    <p className="legal">BOUNTY TOKENS</p>
-                    <h5 className="legal-per">2%</h5>
+                    </div>
+                    <div className="col-xs-4">
+                      <p className="market">ICO core team</p>
+                      <h5 className="market-per">15%</h5>
+                    </div>
+                    <div className="col-xs-4">
+                      <p className="legal">Ecosystem development</p>
+                      <h5 className="legal-per">18%</h5>
+                    </div>
+                    <div className="col-xs-4">
+                      <p className="legal">BOUNTY TOKENS</p>
+                      <h5 className="legal-per">2%</h5>
+                    </div>
                   </div>
-                  <div className="col-xs-6 ico-distribution-image">
+                  <div className="col-xs-4 ico-distribution-image">
                   <picture>
                       <source media="(max-width: 767px)" srcset={ NHTTokendis + ' 1x' + ',' + NHTTokendis2x + ' 2x' } />
                       <source media="(max-width: 1025px)" srcset={ NHTTokendis + ' 1x' + ',' + NHTTokendis2x + ' 2x' } />

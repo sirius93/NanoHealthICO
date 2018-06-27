@@ -39,6 +39,13 @@
     .ico-distribution-text .legal-per {
       color: #fdcf78;
       margin-bottom: 30px; }
+    .ico-distribution-text-heading {
+      opacity: 0.5;
+      font-family: Din Next medium;
+      font-size: 48px;
+      font-weight: 500;
+      color: #01126b;
+      margin-bottom: 40px; }
   .ico-distribution-right-image {
     padding: 40px;
     border: solid 10px #e1edfc;

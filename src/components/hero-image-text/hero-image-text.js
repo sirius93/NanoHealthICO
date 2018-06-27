@@ -12,8 +12,8 @@ class HeroImageText extends Component {
           <div className="row">
               <div className="col-xs-12">
                 <a href="/" className="Hero-image-text-logo"></a>
-                <h1 className="Hero-image-text-header">Transforming Global Health and Wellness using blockchain</h1>
-                <p className="Hero-image-text-subtext">NHCT makes it very easy and rewarding, to stay Healthy and Fit</p>
+                <h1 className="Hero-image-text-header">Creating a decentralized health and wellness ecosystem</h1>
+                <p className="Hero-image-text-subtext">NanoHealthCare Token (NHCT) ecosystem makes it really easy and rewarding for an individual to stay healthy and fit.</p>
               </div>
           </div>
           <div className="row">

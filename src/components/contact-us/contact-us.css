@@ -18,8 +18,7 @@
       font-size: 36px;
       font-weight: 900;
       text-align: center;
-      color: #ffffff;
-      padding-top: 85px; }
+      color: #ffffff; }
     .contact-us-container p.contact-sub-heading {
       font-family: Din Next;
       font-size: 24px;
@@ -41,7 +40,6 @@
           padding: 0;
           margin: auto 10px; } }
     .contact-us-container .social-share-links {
-      display: none;
       margin-top: 69px; }
     .contact-us-container .social-share-link {
       margin-right: 8px; }

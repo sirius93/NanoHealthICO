@@ -18,44 +18,48 @@
     color: #4492fe;
     margin-top: 11px;
     margin-bottom: 45px; }
+  .image-card-para {
+    font-family: Din Next;
+    font-size: 24px;
+    text-align: center;
+    color: #103363; }
   @media screen and (min-width: 768px) {
     .image-card-container .padding-right {
       padding-right: 0px; } }
   @media screen and (min-width: 768px) {
     .image-card-container .padding-left {
       padding-left: 0px; } }
-  .image-card-container .image-card-image-1 {
-    border-radius: 10px 0 0 0; }
-    @media screen and (min-width: 320px) and (max-width: 767px) {
-      .image-card-container .image-card-image-1 {
-        border-radius: unset;
-        width: 100%; } }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .image-card-container .image-card-image-1 {
+      border-radius: unset;
+      width: 100%; } }
   .image-card-container .image-card-image {
+    border-radius: 10px 10px 0 0;
+    margin-top: 30px;
     width: 100%;
     height: 350px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .image-card-container .image-card-image {
         width: 100%;
-        height: 100%;
-        margin-bottom: 10px; } }
+        height: 100%; } }
     @media screen and (min-width: 768px) and (max-width: 991px) {
       .image-card-container .image-card-image {
         width: 100%;
         height: 350px; } }
   .image-card-container .image-card-text-1 {
-    border-radius: 0 10px 0 0;
+    border-radius: 0 0 10px 10px;
     background-color: #fdcf78;
-    min-height: 350px;
+    max-height: 180px;
     width: 100%;
     float: left;
-    text-align: center; }
+    text-align: center;
+    padding: 10px 0; }
     .image-card-container .image-card-text-1 h4 {
       font-family: Din Next Bold;
-      font-size: 36px;
+      font-size: 32px;
       font-weight: bold;
       text-align: center;
-      color: #172436;
-      margin-top: 112px; }
+      color: #172436; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .image-card-container .image-card-text-1 h4 {
           margin-top: 30px; } }
@@ -78,16 +82,17 @@
         .image-card-container .image-card-text-1 a {
           padding-bottom: 30px; } }
   .image-card-container .image-card-text-2 {
-    min-height: 350px;
+    border-radius: 0 0 10px 10px;
+    max-height: 180px;
     width: 100%;
     background-color: #3bc37e;
-    color: #fff; }
+    color: #fff;
+    padding: 40px 0; }
     .image-card-container .image-card-text-2 h4 {
       font-family: Din Next Bold;
-      font-size: 36px;
+      font-size: 32px;
       font-weight: bold;
       text-align: center;
-      padding: 112px 20px 0 20px;
       margin-top: 0; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .image-card-container .image-card-text-2 h4 {
@@ -101,16 +106,17 @@
         .image-card-container .image-card-text-2 p {
           padding-bottom: 30px; } }
   .image-card-container .image-card-text-3 {
-    min-height: 350px;
+    border-radius: 0 0 10px 10px;
+    max-height: 180px;
     width: 100%;
     background-color: #4492fe;
-    color: #fff; }
+    color: #fff;
+    padding: 40px 0; }
     .image-card-container .image-card-text-3 h4 {
       font-family: Din Next Bold;
-      font-size: 36px;
+      font-size: 32px;
       font-weight: bold;
       text-align: center;
-      padding: 112px 20px 0 20px;
       margin-top: 0; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .image-card-container .image-card-text-3 h4 {
@@ -124,17 +130,17 @@
         .image-card-container .image-card-text-3 p {
           padding-bottom: 30px; } }
   .image-card-container .image-card-text-4 {
-    min-height: 350px;
+    border-radius: 0 0 10px 10px;
+    max-height: 180px;
     width: 100%;
-    border-radius: 0 0 0 10px;
     background-color: #635ce4;
-    color: #fff; }
+    color: #fff;
+    padding: 15px 0; }
     .image-card-container .image-card-text-4 h4 {
       font-family: Din Next Bold;
-      font-size: 36px;
+      font-size: 29px;
       font-weight: bold;
       text-align: center;
-      padding: 112px 20px 0 20px;
       margin-top: 0; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .image-card-container .image-card-text-4 h4 {

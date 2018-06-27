@@ -33,7 +33,7 @@
     font-weight: 500;
     color: #fff;
     text-align: left;
-    max-width: 570px;
+    max-width: 671px;
     margin-top: 17px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .Hero-image-text-subtext {
@@ -43,7 +43,7 @@
   .Hero-image-text {
     background: url("..//../assets/images/hero_section_bg@2x.png") no-repeat;
     background-size: 100%;
-    background-color: #4492fe; } }
+    height: 935px; } }
   @media only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 320px) and (max-width: 767px), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px) {
     .Hero-image-text {
       background: url("..//../assets/images/mobile_hero_bg@2x.png") no-repeat;

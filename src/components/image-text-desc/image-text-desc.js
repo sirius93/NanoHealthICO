@@ -15,15 +15,15 @@ class ImageTextDesc extends Component {
             <div className="col-xs-12 col-sm-12 col-md-12">
               <div className="col-xs-12 col-sm-8 col-md-8">
                 <h4 className="image-text-desc-heading">
-                  Your Health and Wellness is in your Hands
+                  The Health & Wellness cycle
                 </h4>
                 <p className="image-text-desc-text">
-                Being healthy means continuously working towards it via regular exercise, medical checkups and sometimes taking medicine when necessary. This involves coordination between various Health and Wellness providers and adherence to schedule.
+                Being healthy means continuously working towards it via regular exercise, medical checkups and sometimes taking medicine when necessary. This involves coordination between various Health and Wellness providers and disciplined lifestyle.
                 </p>
                 <div class="combined-text-box">
                   <div className="combined-text-box-container">
                     <img className="combined-text-image" src={Combinedtext} alt="Combinedtext" />
-                    <span className="combined-text-description">The NHCT platform makes the above process Frictionless and Rewarding</span>
+                    <span className="combined-text-description">The NHCT ecosystem makes the change to a Healthy lifestyle frictionless and rewarding.</span>
                   </div>
                 </div>
               </div>

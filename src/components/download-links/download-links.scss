@@ -31,9 +31,11 @@
                   }
             }
             .donwload-link-image-container{
+                padding-top: 125px;
                 @media screen and (min-width:320px) and (max-width:767px){
                     margin-bottom: 50px;
                     text-align: center;
+                    padding-top: unset;
                   }
             }
             img.donwload-link-image {
@@ -41,7 +43,7 @@
             }
             a.donwload-link-anchor {
                 position: absolute;
-                top: 200px;
+                top: 325px;
                 left: 65px;
                 font-family: Din Next Bold;
                 font-size: 16px;
@@ -51,6 +53,7 @@
                 text-transform: uppercase;
                 @media screen and (min-width:320px) and (max-width:767px){
                     left:100px;
+                    top: 200px;
                 }
             }
         } 

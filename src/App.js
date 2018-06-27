@@ -19,6 +19,7 @@ class App extends Component {
         <HeroImageText/>
         <ImageTextDesc/>
         <DownloadLinks/>
+        <OurPartners/>
         <IcoSummary/>
         <IcoDistribution/>
         <ImageCard/>
@@ -29,7 +30,6 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <OurPartners/>
         <RoadMap/>
         <OurTeam/>
         <ContactUs/>
