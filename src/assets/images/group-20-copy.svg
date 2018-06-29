@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="480px" viewBox="0 0 480 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>53FD8E02-9DCD-43B6-8468-27D157C917C1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01" transform="translate(-702.000000, -4167.000000)">
+            <g id="Group-20-Copy" transform="translate(702.000000, 4167.000000)">
+                <g id="meta-chart" transform="translate(240.000000, 240.000000) scale(-1, 1) translate(-240.000000, -240.000000) " fill-rule="nonzero">
+                    <g id="Group">
+                        <path d="M239.951285,0.816326516 C316.474888,0.800745684 388.38618,37.4012999 433.407805,99.27953 C478.42943,161.15776 491.125431,240.842427 467.562722,313.648064 L240,240 L239.951285,0.816326516 Z" id="Shape" fill="#635CE4"></path>
+                        <path d="M467.48896,313.87559 C443.853457,386.657628 386.819915,443.736605 314.056722,467.430059 L240,240 L467.48896,313.87559 Z" id="Shape" fill="#3BC37E"></path>
+                        <path d="M313.829255,467.504002 C225.781264,496.077203 129.151074,471.279532 65.7425834,403.838892 L240,240 L313.829255,467.504002 Z" id="Shape" fill="#F97352"></path>
+                        <path d="M65.5788316,403.664552 C58.8118623,396.452834 52.4986759,388.828371 46.6756276,380.835069 L240,240 L65.5788316,403.664552 Z" id="Shape" fill="#FDCF78"></path>
+                        <path d="M46.5348892,380.641674 C-6.32363998,307.930074 -13.9490151,211.720532 26.7955644,131.590138 C67.5401438,51.4597428 149.773478,0.941418756 239.667779,0.816557255 L240,240 L46.5348892,380.641674 Z" id="Shape" fill="#4492FE"></path>
+                    </g>
+                </g>
+                <circle id="Oval-7" fill="#FDFEFE" cx="239.6" cy="239.6" r="153.6"></circle>
+                <text id="NHCT-Token-Distribut" font-family="Din Next medium" font-size="36" font-weight="400" fill="#103363">
+                    <tspan x="196.098" y="213">NHCT</tspan>
+                    <tspan x="192.048" y="249">Token</tspan>
+                    <tspan x="147.804" y="285">Distribution</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

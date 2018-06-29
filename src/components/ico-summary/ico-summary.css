@@ -32,7 +32,10 @@
         background-color: #01126b;
         width: unset;
         margin: 0 -15px;
-        height: 860px; } }
+        height: 860px;
+        padding-left: unset;
+        border: none;
+        border-radius: unset; } }
     @media screen and (min-width: 768px) and (max-width: 991px) {
       .ico-summary-container {
         background-color: #01126b;

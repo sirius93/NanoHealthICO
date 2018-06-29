@@ -46,6 +46,9 @@
       font-weight: 500;
       color: #01126b;
       margin-bottom: 40px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-distribution-text-heading {
+          display: none; } }
   .ico-distribution-right-image {
     padding: 40px;
     border: solid 10px #e1edfc;
