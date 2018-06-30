@@ -11,6 +11,7 @@ import OurTeam from './components/our-team/our-team';
 import ContactUs from './components/contact-us/contact-us';
 import OurPartners from './components/our-partners/our-partners';
 import TelegramButton from './components/telegram-button/telegram-button';
+import IcoValuesTabs from './components/ico-values-tabs/ico-values-tabs';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <IcoValuesTabs/>
         <RoadMap/>
         <OurTeam/>
         <ContactUs/>

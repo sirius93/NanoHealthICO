@@ -1,0 +1,106 @@
+.ico-values-tabs{
+    .our-partners-heading {
+        margin-bottom: 90px;
+        margin-top: 90px;
+    }
+    display: block;
+    #ico-values-tabs{
+        .values-content-container{
+            .values-text-container{
+                padding: 10px;
+                float: left;
+                border-radius: 43px;
+                background-origin: border-box;
+                background-clip: content-box, border-box;
+                .para{
+                    margin-bottom: 40px;
+                }
+                h2.value-text-heading{
+                    font-family: Din Next Bold;
+                    font-size: 40px;
+                    font-weight: bold;
+                    margin-left: 10px;
+                }
+                p{
+                    display: inline-block;
+                    font-family: Din Next;
+                    font-size: 24px;
+                    line-height: 1.29;
+                    color: #103363;
+                    margin-left: 30px;
+                    width: 80%;
+                }
+                &.user{
+                    background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to right, #ffffff, #ecf4fe);
+                    h2.value-text-heading{
+                        color:#4492fe;
+                    }
+                }
+                &.service-provider{
+                    background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to left, #ffffff, #efeefc);
+                    h2.value-text-heading{
+                        color:#635ce4;
+                    }
+                }
+                &.insurance-company{
+                    background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to right, #ffffff, #fcf0d4);
+                    h2.value-text-heading{
+                        color:#f4c147;
+                    }
+                }
+                &.medical-researcher{
+                    background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to left, #ffffff, #ebf9f2);
+                    h2.value-text-heading{
+                        color:#3bc37e;
+                    }
+                }
+            }
+        }
+        ul.nav-tabs{
+            border: none;
+            margin-bottom: 75px;
+            li{
+                &.active,&:hover{
+                    a{
+                        border-radius: 30px;
+                        border: solid 2px;
+                    }
+                &.user{
+                    a{
+                        color: #4492fe;
+                    }
+                }
+                &.service-provider{
+                    a{
+                        color:#635ce4;
+                    }
+                }
+                &.insurance-company{
+                    a{
+                        color:#f4c147;
+                    }
+                }
+                &.medical-researchers{
+                    a{
+                        color:#3bc37e;
+                    }
+                }   
+                }
+                a{
+                    &:hover{
+                        background-color: #fff;
+                    }
+                    border: none;
+                    color: #103363;
+                }
+                width: 25%;
+                text-align: center;
+                font-family: Din Next Bold;
+                font-size: 16px;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+            
+        }
+    }
+}
