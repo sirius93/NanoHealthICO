@@ -1,4 +1,22 @@
 .image-text-desc{
+    height: 756px;
+    background: url('..//../assets/images/video-bg.png') no-repeat;
+    @media screen and (min-width:320px) and (max-width:767px){
+        background-image: none;
+        padding: 0;
+    }
+    @media only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2) {
+        background: url('..//../assets/images/video-bg@2x.png') no-repeat;
+        background-size: 38%;
+        background-position: right;
+        @media screen and (min-width:320px) and (max-width:767px){
+            background-image: none;
+            // padding: 0;
+        }
+    }
     margin-top: 69px;
     &-heading{
         font-family: Din Next Bold;

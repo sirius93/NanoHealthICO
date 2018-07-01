@@ -12,13 +12,14 @@ class HeroImageText extends Component {
           <div className="row">
               <div className="col-xs-12">
                 <a href="/" className="Hero-image-text-logo"></a>
+                <a href="/" className="Hero-image-text-investor">PRIVATE INVESTORS</a>
                 <h1 className="Hero-image-text-header">Creating a decentralized health and wellness ecosystem</h1>
                 <p className="Hero-image-text-subtext">NanoHealthCare Token (NHCT) ecosystem makes it really easy and rewarding for an individual to stay healthy and fit.</p>
               </div>
           </div>
           <div className="row">
             <div className="col-xs-12">
-              <TelegramButton isNormalButton ={false} isTeleButton ={true} />
+              <TelegramButton isNormalButton ={false} isTeleButton ={false} isSocialMediaButtons = {true} />
             </div>
           </div>
           <div className="row">

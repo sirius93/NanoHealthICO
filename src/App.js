@@ -21,9 +21,6 @@ class App extends Component {
         <HeroImageText/>
         <ImageTextDesc/>
         <DownloadLinks/>
-        <OurPartners/>
-        <IcoSummary/>
-        <IcoDistribution/>
         <ImageCard/>
         <div className="container">
           <div className="row">
@@ -33,7 +30,10 @@ class App extends Component {
           </div>
         </div>
         <IcoValuesTabs/>
-        <ProofOfHealth/>        
+        <ProofOfHealth/> 
+        <IcoSummary/>
+        <IcoDistribution/> 
+        <OurPartners/>      
         <RoadMap/>
         <OurTeam/>
         <ContactUs/>

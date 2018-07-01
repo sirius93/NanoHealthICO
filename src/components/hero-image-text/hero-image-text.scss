@@ -10,13 +10,25 @@
   &-logo{
     background-image: url('..//../assets/images/nht-logo.svg');
     padding:0;
-    float: none;
     display: block;
     width: 110px;
     height: 70px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left;
     margin-top: 41px;
+  }
+  &-investor {
+    position: absolute;
+    right: 0;
+    top: 11%;
+    border-radius: 20px;
+    padding: 13px 18px 10px;
+    background-color: #ffffff;
+    font-family: Din Next Bold;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #123565;
   }
   &-header{
     color: #fff;

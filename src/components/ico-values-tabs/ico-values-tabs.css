@@ -3,20 +3,26 @@
   .ico-values-tabs .our-partners-heading {
     margin-bottom: 90px;
     margin-top: 90px; }
-  .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container {
+  .ico-values-tabs .values-content-container .values-text-container {
     padding: 10px;
     float: left;
     border-radius: 43px;
     background-origin: border-box;
     background-clip: content-box, border-box; }
-    .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container .para {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .ico-values-tabs .values-content-container .values-text-container {
+        margin: 0 -60px; } }
+    .ico-values-tabs .values-content-container .values-text-container .para {
       margin-bottom: 40px; }
-    .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container h2.value-text-heading {
+    .ico-values-tabs .values-content-container .values-text-container h2.value-text-heading {
       font-family: Din Next Bold;
       font-size: 40px;
       font-weight: bold;
       margin-left: 10px; }
-    .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container p {
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-values-tabs .values-content-container .values-text-container h2.value-text-heading {
+          text-align: center; } }
+    .ico-values-tabs .values-content-container .values-text-container p {
       display: inline-block;
       font-family: Din Next;
       font-size: 24px;
@@ -24,45 +30,96 @@
       color: #103363;
       margin-left: 30px;
       width: 80%; }
-    .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container.user {
+    .ico-values-tabs .values-content-container .values-text-container.user {
       background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to right, #ffffff, #ecf4fe); }
-      .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container.user h2.value-text-heading {
+      .ico-values-tabs .values-content-container .values-text-container.user h2.value-text-heading {
         color: #4492fe; }
-    .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container.service-provider {
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-values-tabs .values-content-container .values-text-container.user {
+          background-image: none; } }
+    .ico-values-tabs .values-content-container .values-text-container.service-provider {
       background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to left, #ffffff, #efeefc); }
-      .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container.service-provider h2.value-text-heading {
+      .ico-values-tabs .values-content-container .values-text-container.service-provider h2.value-text-heading {
         color: #635ce4; }
-    .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container.insurance-company {
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-values-tabs .values-content-container .values-text-container.service-provider {
+          background-image: none; } }
+    .ico-values-tabs .values-content-container .values-text-container.insurance-company {
       background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to right, #ffffff, #fcf0d4); }
-      .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container.insurance-company h2.value-text-heading {
+      .ico-values-tabs .values-content-container .values-text-container.insurance-company h2.value-text-heading {
         color: #f4c147; }
-    .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container.medical-researcher {
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-values-tabs .values-content-container .values-text-container.insurance-company {
+          background-image: none; } }
+    .ico-values-tabs .values-content-container .values-text-container.medical-researcher {
       background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to left, #ffffff, #ebf9f2); }
-      .ico-values-tabs #ico-values-tabs .values-content-container .values-text-container.medical-researcher h2.value-text-heading {
+      .ico-values-tabs .values-content-container .values-text-container.medical-researcher h2.value-text-heading {
         color: #3bc37e; }
-  .ico-values-tabs #ico-values-tabs ul.nav-tabs {
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-values-tabs .values-content-container .values-text-container.medical-researcher {
+          background-image: none; } }
+  .ico-values-tabs ul.nav-tabs {
     border: none;
     margin-bottom: 75px; }
-    .ico-values-tabs #ico-values-tabs ul.nav-tabs li {
+    .ico-values-tabs ul.nav-tabs li {
       width: 25%;
       text-align: center;
       font-family: Din Next Bold;
       font-size: 16px;
       font-weight: bold;
       letter-spacing: 2px; }
-      .ico-values-tabs #ico-values-tabs ul.nav-tabs li.active a, .ico-values-tabs #ico-values-tabs ul.nav-tabs li:hover a {
+      .ico-values-tabs ul.nav-tabs li.active a, .ico-values-tabs ul.nav-tabs li:hover a {
         border-radius: 30px;
         border: solid 2px; }
-      .ico-values-tabs #ico-values-tabs ul.nav-tabs li.active.user a, .ico-values-tabs #ico-values-tabs ul.nav-tabs li:hover.user a {
+      .ico-values-tabs ul.nav-tabs li.active.user a, .ico-values-tabs ul.nav-tabs li:hover.user a {
         color: #4492fe; }
-      .ico-values-tabs #ico-values-tabs ul.nav-tabs li.active.service-provider a, .ico-values-tabs #ico-values-tabs ul.nav-tabs li:hover.service-provider a {
+      .ico-values-tabs ul.nav-tabs li.active.service-provider a, .ico-values-tabs ul.nav-tabs li:hover.service-provider a {
         color: #635ce4; }
-      .ico-values-tabs #ico-values-tabs ul.nav-tabs li.active.insurance-company a, .ico-values-tabs #ico-values-tabs ul.nav-tabs li:hover.insurance-company a {
+      .ico-values-tabs ul.nav-tabs li.active.insurance-company a, .ico-values-tabs ul.nav-tabs li:hover.insurance-company a {
         color: #f4c147; }
-      .ico-values-tabs #ico-values-tabs ul.nav-tabs li.active.medical-researchers a, .ico-values-tabs #ico-values-tabs ul.nav-tabs li:hover.medical-researchers a {
+      .ico-values-tabs ul.nav-tabs li.active.medical-researchers a, .ico-values-tabs ul.nav-tabs li:hover.medical-researchers a {
         color: #3bc37e; }
-      .ico-values-tabs #ico-values-tabs ul.nav-tabs li a {
+      .ico-values-tabs ul.nav-tabs li a {
         border: none;
         color: #103363; }
-        .ico-values-tabs #ico-values-tabs ul.nav-tabs li a:hover {
+        .ico-values-tabs ul.nav-tabs li a:hover {
           background-color: #fff; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-values-tabs ul.nav-tabs li {
+          width: 50%; } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  #ico-values-tabs {
+    display: none; } }
+
+@media screen and (min-width: 768px) {
+  #ico-values-tabs {
+    display: block; } }
+
+.mobile-only-container .values-content-container h2.value-text-heading {
+  font-family: Din Next Bold;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: 35px; }
+  .mobile-only-container .values-content-container h2.value-text-heading.user {
+    color: #4492fe; }
+  .mobile-only-container .values-content-container h2.value-text-heading.service {
+    color: #635ce4; }
+  .mobile-only-container .values-content-container h2.value-text-heading.insurance {
+    color: #f4c147; }
+  .mobile-only-container .values-content-container h2.value-text-heading.research {
+    color: #3bc37e; }
+
+.mobile-only-container .values-content-container .para {
+  margin-bottom: 40px;
+  margin-top: 40px; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .mobile-only-container {
+    display: block; } }
+
+@media screen and (min-width: 768px) {
+  .mobile-only-container {
+    display: none; } }

@@ -19,10 +19,10 @@ class ProofOfHealth extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
-              <h4 className="image-card-sub-header">Proof of Health</h4>
-              <p className="image-card-para">An innovative 3 coin incentive model, to ensure high quality health and wellness data</p>
+              <h4 className="image-card-sub-header">Proof of total Health</h4>
+              <p className="image-card-para">An innovative 3 token incentive model, to ensure high quality health and wellness data</p>
               <div className="proof-of-health-content">
-                <div className="col-xs-4">
+                <div className="col-xs-12 col-sm-4 col-md-4">
                   <h6 className="poh-heading">Wawa</h6>
                   <picture>
                     <source media="(max-width: 767px)" srcset={ wawa + ' 1x' + ',' + wawa2x + ' 2x' } />
@@ -32,10 +32,10 @@ class ProofOfHealth extends Component {
                   </picture>
                   <p className="poh-para">Self Verified Fitness Data - Fitbit</p>
                   <p className="poh-para">Least Authentic</p>
-                  <p className="poh-para">Incentivised Using Wawa Coin</p>
+                  <p className="poh-para">Incentivised Using Wawa Token</p>
                 </div>
-                <div className="col-xs-4 dotted-line">
-                  <h6 className="poh-heading">Wawa</h6>
+                <div className="col-xs-12 col-sm-4 col-md-4 dotted-line">
+                  <h6 className="poh-heading">Warma</h6>
                   <picture>
                     <source media="(max-width: 767px)" srcset={ warma + ' 1x' + ',' + warma2x + ' 2x' } />
                     <source media="(max-width: 1025px)" srcset={ warma + ' 1x' + ',' + warma2x + ' 2x' } />
@@ -44,10 +44,10 @@ class ProofOfHealth extends Component {
                   </picture>
                   <p className="poh-para">Community Verified Wellness Data</p>
                   <p className="poh-para">Authentic but does not capture complete health</p>
-                  <p className="poh-para">Incentivised Using Warma Coin</p>
+                  <p className="poh-para">Incentivised Using Warma Token</p>
                 </div>
-                <div className="col-xs-4 dotted-line">
-                  <h6 className="poh-heading">Wawa</h6>
+                <div className="col-xs-12 col-sm-4 col-md-4 dotted-line">
+                  <h6 className="poh-heading">NHCT</h6>
                   <picture>
                     <source media="(max-width: 767px)" srcset={ nhct + ' 1x' + ',' + nhct2x + ' 2x' } />
                     <source media="(max-width: 1025px)" srcset={ nhct + ' 1x' + ',' + nhct2x + ' 2x' } />
@@ -56,7 +56,7 @@ class ProofOfHealth extends Component {
                   </picture>
                   <p className="poh-para">Medical Tests/Checkups Verified Medical Data</p>
                   <p className="poh-para">Highest Degree of Authenticity</p>
-                  <p className="poh-para">Incentivised Using NHCT Coin</p>
+                  <p className="poh-para">Incentivised Using NHCT Token</p>
                 </div>
               </div>
               <div  className="col-xs-12">

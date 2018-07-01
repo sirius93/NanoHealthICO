@@ -3,6 +3,10 @@
   padding-top: 40px;
   padding-bottom: 40px;
   background: url('..//../assets/images/rectangle-22-copy-3.png') no-repeat;
+  @media screen and (min-width:320px) and (max-width:767px){
+    background-image: none;
+    padding: 0;
+  }
   @media only screen and (min--moz-device-pixel-ratio: 2),
   only screen and (-o-min-device-pixel-ratio: 2/1),
   only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -10,9 +14,8 @@
       background: url('..//../assets/images/rectangle-22-copy-3@2x.png') no-repeat;
       background-size: 100% 100%;
       @media screen and (min-width:320px) and (max-width:767px){
-        // background: url('..//../assets/images/mobile_hero_bg@2x.png') no-repeat;
-        // background-size: 100%;
-        // background-color: #4492fe;
+        background-image: none;
+        padding: 0;
       }
   }
   .proof-of-health{
@@ -20,6 +23,9 @@
     padding-bottom: 50px;
     background-color: #f5f9fe;
     border-radius: 80px;
+    @media screen and (min-width:320px) and (max-width:767px){
+      border-radius: unset;
+    }
     .image-card-sub-header{
       margin-bottom: 6px;
       margin-top: 118px;
@@ -50,12 +56,24 @@
         color: #103363;
         margin-bottom: 70px;
         height: 72px;
+        @media screen and (min-width:320px) and (max-width:767px){
+          margin-bottom: 35px;
+        }
       }
       .dotted-line::before{
         position: absolute;
         content: url('..//../assets/images/dotted-line.png');
         left: 0;
         top: 40%;
+        @media screen and (min-width:320px) and (max-width:767px){
+          content: '';
+        }
+      }
+      .dotted-line{
+        @media screen and (min-width:320px) and (max-width:767px){
+          border-top: 5px dotted #3bc37e;
+          padding-top: 30px;
+        }
       }
     }
     .token-flow-image-container{
@@ -64,6 +82,12 @@
       border: solid 1px #c5dcfb;
       padding: 30px;
       margin-top: 100px;
+      @media screen and (min-width:320px) and (max-width:767px){
+        margin-left: -30px;
+        margin-right: -30px;
+        border-radius: unset;
+        margin-top: unset;
+      }
       .token-flow-header{
         border-radius: 24px;
         background-color: #e5f0ff;
@@ -79,7 +103,12 @@
         padding: 15px 0;
         position: absolute;
         top: 9%;
-        left: 35%;
+        left: 38%;
+        @media screen and (min-width:320px) and (max-width:767px){
+          letter-spacing: 1px;
+          top: -10%;
+          left: 18%;
+        }
       }
       img.token-flow-image {
         margin-top: 50px;
@@ -97,6 +126,9 @@
   .uth-diagram-container{
     background-color: #01126b;
     border-radius: 0 0 80px 80px;
+    @media screen and (min-width:320px) and (max-width:767px){
+      border-radius: unset;
+    }
     .heading{
       font-family: Din Next Bold;
       font-size: 64px;
@@ -135,6 +167,9 @@
         width: 80%;
         text-align: left;
         margin-left: 35px;
+        @media screen and (min-width:320px) and (max-width:767px){
+          margin-bottom: 40px;
+        }
       }
     }
   }

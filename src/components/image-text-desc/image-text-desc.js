@@ -29,12 +29,12 @@ class ImageTextDesc extends Component {
               </div>
               <div className="col-xs-12 col-sm-4 col-md-4">
                 {/* <img width="100%" src={HealthWellness}/> */}
-                <picture>
+                {/* <picture>
                   <source media="(max-width: 767px)" srcset={ HealthWellnessMobile + ' 1x' + ',' + HealthWellnessMobile2x + ' 2x' } />
                   <source media="(max-width: 1025px)" srcset={ HealthWellness + ' 1x' + ',' + HealthWellness2x + ' 2x' } />
                   <source srcset={ HealthWellness + ' 1x' + ',' + HealthWellness2x + ' 2x' }  />
                   <img width="100%" src={HealthWellness} alt="Learn" />
-                </picture>
+                </picture> */}
               </div>
             </div>
           </div>

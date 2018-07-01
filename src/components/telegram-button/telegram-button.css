@@ -53,3 +53,8 @@
 .Normal-button-link:hover {
   text-decoration: none;
   color: #4492fe; }
+
+.social-media-buttons .social-share-link {
+  float: left;
+  margin-top: 20px;
+  margin-bottom: -5px; }
