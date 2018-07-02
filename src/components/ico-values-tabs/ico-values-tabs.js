@@ -89,7 +89,7 @@ class IcoValuesTabs extends Component {
               </div>
             </div>
             <div className="values-content-container">
-                    <h2 className="value-text-heading service">
+                    <h2 className="value-text-heading service-provider">
                       Value to a Service Provider
                     </h2>
                 <div className="col-xs-12 col-sm-4 col-md-4">
@@ -132,7 +132,7 @@ class IcoValuesTabs extends Component {
                 </div>
               </div>
               <div className="values-content-container">
-                    <h2 className="value-text-heading insurance">
+                    <h2 className="value-text-heading insurance-company">
                       Value to a Insurance Company
                     </h2>
                 <div className="col-xs-12 col-sm-4 col-md-4">
@@ -175,7 +175,7 @@ class IcoValuesTabs extends Component {
                 </div>
               </div>
               <div className="values-content-container">
-                       <h2 className="value-text-heading research">
+                       <h2 className="value-text-heading medical-researchers">
                         Value to a Medical Researcher
                         </h2>
                 <div className="col-xs-12 col-sm-4 col-md-4">

@@ -3,6 +3,10 @@
   .ico-values-tabs .our-partners-heading {
     margin-bottom: 90px;
     margin-top: 90px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .ico-values-tabs .our-partners-heading {
+        font-size: 36px;
+        margin-bottom: 50px; } }
   .ico-values-tabs .values-content-container .values-text-container {
     padding: 10px;
     float: left;
@@ -11,7 +15,8 @@
     background-clip: content-box, border-box; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .ico-values-tabs .values-content-container .values-text-container {
-        margin: 0 -60px; } }
+        margin: 0 -60px;
+        margin-bottom: 40px; } }
     .ico-values-tabs .values-content-container .values-text-container .para {
       margin-bottom: 40px; }
     .ico-values-tabs .values-content-container .values-text-container h2.value-text-heading {
@@ -98,23 +103,33 @@
 
 .mobile-only-container .values-content-container h2.value-text-heading {
   font-family: Din Next Bold;
-  font-size: 40px;
   font-weight: bold;
   margin-left: 10px;
   text-align: center;
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  font-size: 30px; }
   .mobile-only-container .values-content-container h2.value-text-heading.user {
     color: #4492fe; }
-  .mobile-only-container .values-content-container h2.value-text-heading.service {
+  .mobile-only-container .values-content-container h2.value-text-heading.service-provider {
     color: #635ce4; }
-  .mobile-only-container .values-content-container h2.value-text-heading.insurance {
+  .mobile-only-container .values-content-container h2.value-text-heading.insurance-company {
     color: #f4c147; }
-  .mobile-only-container .values-content-container h2.value-text-heading.research {
+  .mobile-only-container .values-content-container h2.value-text-heading.medical-researchers {
     color: #3bc37e; }
 
 .mobile-only-container .values-content-container .para {
-  margin-bottom: 40px;
-  margin-top: 40px; }
+  margin-bottom: unset !important; }
+  .mobile-only-container .values-content-container .para p {
+    text-align: center; }
+
+.mobile-only-container .values-content-container .values-image-container .image-card-image {
+  width: 80%;
+  margin-left: 30px; }
+
+.mobile-only-container .values-content-container .values-text-container .image-card-image {
+  width: 35%;
+  display: block;
+  margin: 20px auto; }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .mobile-only-container {

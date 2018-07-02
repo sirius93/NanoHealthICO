@@ -34,7 +34,7 @@ class TelegramButton extends Component {
       <div className="social-media-buttons">
           <div className="social-share-links">
             <span className="social-share-link">
-              <a href="www.instagram.com">
+              <a href="https://t.me/Nanohealth" target="_blank">
               <picture>
                   <source media="(max-width: 767px)" srcset={ telegram + ' 1x' + ',' + telegram2x + ' 2x' } />
                   <source media="(max-width: 1025px)" srcset={ telegram + ' 1x' + ',' + telegram2x + ' 2x' } />
@@ -44,7 +44,7 @@ class TelegramButton extends Component {
               </a>
             </span>
             <span className="social-share-link">
-              <a href="www.google.com">
+              <a href="www.google.com" target="_blank">
                 <picture>
                   <source media="(max-width: 767px)" srcset={ facebook + ' 1x' + ',' + facebook2x + ' 2x' } />
                   <source media="(max-width: 1025px)" srcset={ facebook + ' 1x' + ',' + facebook2x + ' 2x' } />
@@ -54,7 +54,7 @@ class TelegramButton extends Component {
               </a>
             </span>
             <span className="social-share-link">
-              <a href="www.facebook.com">
+              <a href="www.facebook.com" target="_blank">
               <picture>
                 <source media="(max-width: 767px)" srcset={ twitter + ' 1x' + ',' + twitter2x + ' 2x' } />
                 <source media="(max-width: 1025px)" srcset={ twitter + ' 1x' + ',' + twitter2x + ' 2x' } />

@@ -1,3 +1,32 @@
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+.press-coverage-container{
+    .press-coverage-heading{
+        font-family: Din Next Bold;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #4492fe;
+        text-transform: uppercase;
+        margin-top: 70px;
+        margin-left: 15px;
+        @media screen and (min-width:320px) and (max-width:767px){
+         text-align: center;
+        } 
+    }
+    .press-coverage-links{
+        margin-top: 40px;
+        .press-coverage-link{
+            margin-right: 45px;
+            img{
+                @media screen and (min-width:320px) and (max-width:767px){
+                    width: 100%;
+                    display: block;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
 .image-text-desc{
     height: 756px;
     background: url('..//../assets/images/video-bg.png') no-repeat;
@@ -36,6 +65,21 @@
         margin-top: 19px;
         max-width: 459px;
         word-break: keep-all;
+    }
+    .youtube-paceholder-image-container{
+        position: absolute;
+        top: 255px;
+        right: 0;
+        cursor: pointer;
+        @media screen and (min-width:320px) and (max-width:767px){
+            position: unset;
+            top: unset;
+            // margin-top: -30px;
+            // margin-bottom: -30px;
+        }
+        .youtube-paceholder-image{
+            border-radius: 25px;
+        }
     }
     .combined-text-box {
         margin-top: 45px;
