@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './telegram-button.css';
-import telegram from '../../assets/images/telegram-copy.png'
-import telegram2x from '../../assets/images/telegram-copy@2x.png'
-import facebook from '../../assets/images/telegram-copy-2.png'
-import facebook2x from '../../assets/images/telegram-copy-2@2x.png'
-import twitter from '../../assets/images/telegram-copy-3.png'
-import twitter2x from '../../assets/images/telegram-copy-3@2x.png'
+import medium from '../../assets/images/medium.png';
+import medium2x from '../../assets/images/medium@2x.png';
+import telegram from '../../assets/images/telegram-copy.png';
+import telegram2x from '../../assets/images/telegram-copy@2x.png';
+import facebook from '../../assets/images/telegram-copy-2.png';
+import facebook2x from '../../assets/images/telegram-copy-2@2x.png';
+import twitter from '../../assets/images/telegram-copy-3.png';
+import twitter2x from '../../assets/images/telegram-copy-3@2x.png';
 
 class TelegramButton extends Component { 
   constructor(props) {
@@ -43,7 +45,17 @@ class TelegramButton extends Component {
                 </picture>
               </a>
             </span>
-            <span className="social-share-link">
+            <span className="social-share-link medium-logo">
+              <a href="www.google.com" target="_blank">
+                <picture>
+                  <source media="(max-width: 767px)" srcset={ medium + ' 1x' + ',' + medium2x + ' 2x' } />
+                  <source media="(max-width: 1025px)" srcset={ medium + ' 1x' + ',' + medium2x + ' 2x' } />
+                  <source srcset={ medium + ' 1x' + ',' + medium2x + ' 2x' }  />
+                  <img width="100%" src={medium} alt="medium" />
+                </picture>
+              </a>
+            </span>
+            {/* <span className="social-share-link">
               <a href="www.google.com" target="_blank">
                 <picture>
                   <source media="(max-width: 767px)" srcset={ facebook + ' 1x' + ',' + facebook2x + ' 2x' } />
@@ -52,7 +64,7 @@ class TelegramButton extends Component {
                   <img width="100%" src={facebook} alt="facebook" />
                 </picture>
               </a>
-            </span>
+            </span> */}
             <span className="social-share-link">
               <a href="www.facebook.com" target="_blank">
               <picture>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import ModalVideo from 'react-modal-video';
 import './image-text-desc.css';
-import HealthWellness from '../../assets/images/youtube.jpg';
+import HealthWellness from '../../assets/images/Youtube.png';
 import fundamatics from '../../assets/images/fundamatics.svg';
 import businessline from '../../assets/images/businessline.png';
 import financialexpress from '../../assets/images/financialexpress.svg';
@@ -77,12 +77,7 @@ class ImageTextDesc extends Component {
                   <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='WXfglyRAvqc' onClose={() => this.setState({isOpen: false})} />
                 </div>
                 <div className="youtube-paceholder-image-container">
-                  <picture>
-                    <source media="(max-width: 767px)" srcset={ HealthWellness + ' 1x' + ',' + HealthWellness + ' 2x' } />
-                    <source media="(max-width: 1025px)" srcset={ HealthWellness + ' 1x' + ',' + HealthWellness + ' 2x' } />
-                    <source srcset={ HealthWellness + ' 1x' + ',' + HealthWellness+ ' 2x' }  />
-                    <img className="youtube-paceholder-image" onClick={this.openModal} width="100%" src={HealthWellness} alt="Learn" />
-                  </picture>
+                    <img className="youtube-paceholder-image" onClick={this.openModal} width="300%" src={HealthWellness} alt="Learn" />
                 </div>  
                 </div>
               </div>

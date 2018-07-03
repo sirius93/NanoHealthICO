@@ -6,7 +6,7 @@
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .Hero-image-text {
       background-color: #4492fe;
-      height: 675px; } }
+      height: 750px; } }
   .Hero-image-text-logo {
     background-image: url("..//../assets/images/nht-logo.svg");
     padding: 0;
@@ -28,6 +28,9 @@
     font-weight: bold;
     letter-spacing: 2px;
     color: #123565; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .Hero-image-text-investor {
+        right: 10px; } }
   .Hero-image-text-header {
     color: #fff;
     font-family: Din Next Heavy;
@@ -59,4 +62,5 @@
     .Hero-image-text {
       background: url("..//../assets/images/mobile_hero_bg@2x.png") no-repeat;
       background-size: 100%;
-      background-color: #4492fe; } }
+      background-color: #4492fe;
+      height: 750px; } }

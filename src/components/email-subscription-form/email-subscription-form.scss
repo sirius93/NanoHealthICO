@@ -11,6 +11,7 @@
     letter-spacing: 1px;
     padding: 10px 0;
     float: none;
+    margin-top: 30px;
   }
   
   &-wrapper{
@@ -26,8 +27,7 @@
       color: #ffffff;
       @media screen and (min-width:320px) and (max-width:767px){
         width: 275px;
-        padding: 5px 0;
-        font-size: 20px;
+        font-size: 17px;
       }
     }
     input::-webkit-input-placeholder {
@@ -36,7 +36,7 @@
       font-weight: 500;
       color: #ffffff;
       @media screen and (min-width:320px) and (max-width:767px){
-        font-size: 20px;
+        font-size: 17px;
         padding: 0px;
       }
     }
@@ -46,7 +46,7 @@
       font-weight: 500;
       color: #ffffff;
       @media screen and (min-width:320px) and (max-width:767px){
-        font-size: 20px;
+        font-size: 17px;
       }
     }
      
