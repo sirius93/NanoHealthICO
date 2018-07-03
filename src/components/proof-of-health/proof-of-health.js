@@ -19,7 +19,7 @@ class ProofOfHealth extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
-              <h4 className="image-card-sub-header">Proof of total Health</h4>
+              <h4 className="image-card-sub-header">Proof of Total Health</h4>
               <p className="image-card-para">An innovative 3 token incentive model, to ensure high quality health and wellness data</p>
               <div className="proof-of-health-content">
                 <div className="col-xs-12 col-sm-4 col-md-4">

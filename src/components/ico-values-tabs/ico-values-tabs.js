@@ -36,7 +36,7 @@ class IcoValuesTabs extends Component {
             <div className="mobile-only-container">
             <div className="values-content-container">
                 <h2 className="value-text-heading user">
-                    Value to a User
+                    A User
                   </h2>
               <div className="col-xs-12 col-sm-4 col-md-4">
                 <div className="values-image-container">
@@ -90,7 +90,7 @@ class IcoValuesTabs extends Component {
             </div>
             <div className="values-content-container">
                     <h2 className="value-text-heading service-provider">
-                      Value to a Service Provider
+                    A medical or wellness Service Provider
                     </h2>
                 <div className="col-xs-12 col-sm-4 col-md-4">
                   <div className="values-image-container">
@@ -133,7 +133,7 @@ class IcoValuesTabs extends Component {
               </div>
               <div className="values-content-container">
                     <h2 className="value-text-heading insurance-company">
-                      Value to a Insurance Company
+                      An Insurance Company
                     </h2>
                 <div className="col-xs-12 col-sm-4 col-md-4">
                   <div className="values-image-container">
@@ -176,7 +176,7 @@ class IcoValuesTabs extends Component {
               </div>
               <div className="values-content-container">
                        <h2 className="value-text-heading medical-researchers">
-                        Value to a Medical Researcher
+                        A Medical Researcher
                         </h2>
                 <div className="col-xs-12 col-sm-4 col-md-4">
                     <div className="values-image-container">
@@ -225,7 +225,7 @@ class IcoValuesTabs extends Component {
                         <div className="values-text-container user">
                           <div className="col-xs-12">
                             <h2 className="value-text-heading">
-                              Value to a User
+                              A User
                             </h2>
                             <div className="col-xs-12 para">
                               <span>
@@ -273,7 +273,7 @@ class IcoValuesTabs extends Component {
                         <div className="values-text-container service-provider">
                           <div className="col-xs-12">
                             <h2 className="value-text-heading">
-                            Value to a Service Provider
+                            A medical or wellness Service Provider
                             </h2>
                             <div className="col-xs-12 para">
                               <span>
@@ -330,7 +330,7 @@ class IcoValuesTabs extends Component {
                         <div className="values-text-container insurance-company">
                           <div className="col-xs-12">
                             <h2 className="value-text-heading">
-                            Value to a Insurance Company
+                            An Insurance Company
                             </h2>
                             <div className="col-xs-12 para">
                               <span>
@@ -367,7 +367,7 @@ class IcoValuesTabs extends Component {
                         <div className="values-text-container medical-researcher">
                           <div className="col-xs-12">
                             <h2 className="value-text-heading">
-                            Value to a Medical Researcher
+                            A Medical Researcher
                             </h2>
                             <div className="col-xs-12 para">
                               <span>

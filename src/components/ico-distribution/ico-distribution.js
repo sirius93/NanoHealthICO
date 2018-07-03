@@ -23,7 +23,7 @@ class IcoDistribution extends Component {
                 <div className="row">
                   <div className="col-xs-6 col-sm-4 col-md-4 ico-distribution-image">
                   <picture>
-                      <source media="(max-width: 767px)" srcset={ UseofProceedsmobile + ' 1x' + ',' + UseofProceedsmobile + ' 2x'} />
+                      <source media="(max-width: 767px)" srcset={ UseofProceeds + ' 1x' + ',' + UseofProceeds + ' 2x'} />
                       <source media="(max-width: 1025px)" srcset={ UseofProceeds + ' 1x' + ',' + UseofProceeds2x + ' 2x' } />
                       <source srcset={ UseofProceeds + ' 1x' + ',' + UseofProceeds2x + ' 2x' }  />
                       <img  src={UseofProceeds} alt="Use of Proceeds" />
@@ -44,13 +44,13 @@ class IcoDistribution extends Component {
                       <p>Sales, Biz Dev and Mktg</p>
                       <h5 className="biz-per">20%</h5>
                     </div>
-                    <div className="col-xs-12 col-sm-6 col-md-6">
+                    {/* <div className="col-xs-12 col-sm-6 col-md-6">
                       <p>Market expansion</p>
                       <h5 className="market-per">15%</h5>
-                    </div>
+                    </div> */}
                     <div className="col-xs-12 col-sm-6 col-md-6">
                       <p>Legal and Consulting</p>
-                      <h5 className="legal-per">10%</h5>
+                      <h5 className="legal-per">20%</h5>
                     </div> 
                   </div>
                 </div>
@@ -86,7 +86,7 @@ class IcoDistribution extends Component {
                   </div>
                   <div className="col-xs-6 col-sm-4 col-md-4 ico-distribution-image">
                   <picture>
-                      <source media="(max-width: 767px)" srcset={ NHTTokendisMobile + ' 1x' + ',' + NHTTokendisMobile + ' 2x' } />
+                      <source media="(max-width: 767px)" srcset={ NHTTokendis + ' 1x' + ',' + NHTTokendis + ' 2x' } />
                       <source media="(max-width: 1025px)" srcset={ NHTTokendis + ' 1x' + ',' + NHTTokendis2x + ' 2x' } />
                       <source srcset={ NHTTokendis + ' 1x' + ',' + NHTTokendis2x + ' 2x' }  />
                       <img  src={NHTTokendis} alt="NHT token distribution" />
