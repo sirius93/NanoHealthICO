@@ -129,7 +129,8 @@
 
 .image-text-desc {
   height: 756px;
-  background: url("..//../assets/images/video-bg.png") no-repeat; }
+  background: url("..//../assets/images/video-bg.png") no-repeat;
+  background-position: right; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .image-text-desc {
       background-image: none;

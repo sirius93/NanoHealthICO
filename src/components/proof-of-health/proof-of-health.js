@@ -30,7 +30,7 @@ class ProofOfHealth extends Component {
                     <source srcset={ wawa + ' 1x' + ',' + wawa2x + ' 2x' }  />
                     <img width="50%" className="poh-image" src={wawa} alt="image2"/>
                   </picture>
-                  <p className="poh-para">Self Verified Fitness Data - Fitbit</p>
+                  <p className="poh-para">Self Verified Fitness Data</p>
                   <p className="poh-para">Least Authentic</p>
                   <p className="poh-para">Incentivised Using Wawa Token</p>
                 </div>
