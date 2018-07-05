@@ -70,7 +70,7 @@ class ImageCard extends Component {
                       <img width="100%" className="image-card-image" src={Image4} alt="image1"/>
                     </picture>
                     <div className="image-card-text-4">
-                      <h4>Successful pilots run with Telangana Govt (Pop. 35 million), Leading Insurance company, and other Corporates</h4>
+                      <h4>Successful pilots run with Telangana Govt (Pop. 35 million), leading insurance company, and other Corporates</h4>
                     </div>
                   </div>
               </div>                           
