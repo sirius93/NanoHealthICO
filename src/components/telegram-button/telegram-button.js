@@ -46,7 +46,7 @@ class TelegramButton extends Component {
               </a>
             </span>
             <span className="social-share-link medium-logo">
-              <a href="www.google.com" target="_blank">
+              <a href="https://medium.com/nhct-nanohealth-care-token" target="_blank">
                 <picture>
                   <source media="(max-width: 767px)" srcset={ medium + ' 1x' + ',' + medium2x + ' 2x' } />
                   <source media="(max-width: 1025px)" srcset={ medium + ' 1x' + ',' + medium2x + ' 2x' } />
