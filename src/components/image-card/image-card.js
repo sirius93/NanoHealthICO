@@ -18,7 +18,7 @@ class ImageCard extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12">
-              <h5 className="image-card-header">We are not a one day old company</h5>
+              {/* <h5 className="image-card-header">We are not a one day old company</h5> */}
               <h4 className="image-card-sub-header">NHCT is backed by NanoHealth</h4>
               <p className="image-card-para">NanoHealth leverages a unique combination of community health workers called “Health Coaches” and a proprietary technology platform to facilitate early diagnosis and continuous management of chronic NCDs such as Diabetes and Hypertension.</p>
               <div className="image-card-container">
@@ -56,8 +56,8 @@ class ImageCard extends Component {
                       <img width="100%" className="image-card-image" src={Image3} alt="image3"/>
                     </picture>
                     <div className="image-card-text-3">
-                      <h4>Touched 75,000 lives up till now</h4>
-                      <p>With many more to go.</p>
+                      <h4>Already touched 75,000 lives</h4>
+                      <p>and growing.</p>
                     </div>
                   </div>
               </div>
@@ -70,7 +70,7 @@ class ImageCard extends Component {
                       <img width="100%" className="image-card-image" src={Image4} alt="image1"/>
                     </picture>
                     <div className="image-card-text-4">
-                      <h4>Successful pilots run with Telangana Govt (Pop. 35 million), Leading Insurance company, and other Corporates</h4>
+                      <h4>Successful projects run with Telangana Govt (Pop. 35 million), Leading Insurance company, and other Corporates</h4>
                     </div>
                   </div>
               </div>                           

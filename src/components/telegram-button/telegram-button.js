@@ -28,7 +28,7 @@ class TelegramButton extends Component {
 
     const NormalButton = this.props.isNormalButton ? (
       <div className="Normal-button">
-        <a className="Normal-button-link" target="_blank" href="http://nanohealth.in">EXPLORE NANO HEALTH</a>
+        <a className="Normal-button-link" target="_blank" href="http://nanohealth.in">EXPLORE NANOHEALTH</a>
       </div>
     ) : null
 
@@ -66,7 +66,7 @@ class TelegramButton extends Component {
               </a>
             </span> */}
             <span className="social-share-link">
-              <a href="www.facebook.com" target="_blank">
+              <a href="https://twitter.com/NanoHealth1" target="_blank">
               <picture>
                 <source media="(max-width: 767px)" srcset={ twitter + ' 1x' + ',' + twitter2x + ' 2x' } />
                 <source media="(max-width: 1025px)" srcset={ twitter + ' 1x' + ',' + twitter2x + ' 2x' } />

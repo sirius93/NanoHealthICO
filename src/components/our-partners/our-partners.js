@@ -16,7 +16,7 @@ class OurTeam extends Component {
           <div className="row">
             <div className="col-xs-12">
             <h4 className="our-partners-heading">Our partners</h4>
-            <p className="our-partners-subheading">The NHCT ecosystem partners today, have more than 0.5 million touchpoints and growing</p>
+            <p className="our-partners-subheading">The NHCT ecosystem partners today have more than 0.5 million touchpoints and growing</p>
             {/* <div className="col-xs-12 col-sm-4 col-md-4">
               <div class="our-partners-section-container">
                 <div class="our-partners-image-container" href="/content/lcbo/en.html" target="_self">

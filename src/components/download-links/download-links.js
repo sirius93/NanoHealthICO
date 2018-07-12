@@ -28,7 +28,7 @@ class DownloadLinks extends Component {
                       <source srcset={ WhitePaper + ' 1x' + ',' + WhitePaper2x + ' 2x' }  />
                       <img className="donwload-link-image" src={WhitePaper} alt="Learn" />
                     </picture>
-                    <a href="javascript:void(0)" target="_blank" className="donwload-link-anchor" title="White Paper">Download <span class="glyphicon glyphicon-arrow-down"></span></a>
+                    <a href="https://drive.google.com/open?id=1lreLhhz-MjBzFHpVH_NhcFVum0QRIxt9" target="_blank" className="donwload-link-anchor" title="White Paper">Download <span class="glyphicon glyphicon-arrow-down"></span></a>
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 col-md-3">
@@ -39,7 +39,7 @@ class DownloadLinks extends Component {
                       <source srcset={ Deck + ' 1x' + ',' + Deck2x + ' 2x' }  />
                       <img className="donwload-link-image" src={Deck} alt="Learn" />
                     </picture>
-                    <a href="https://docsend.com/view/5sikgjv" target="_blank" className="donwload-link-anchor" title="Investor Deck">download <span class="glyphicon glyphicon-arrow-down"></span></a>                    
+                    <a href="https://drive.google.com/open?id=1o4eohkwXJVwRtmFn2faWZ9_o0-VgYMst" target="_blank" className="donwload-link-anchor" title="Investor Deck">download <span class="glyphicon glyphicon-arrow-down"></span></a>                    
                   </div>
                 </div>
                 

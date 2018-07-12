@@ -32,7 +32,7 @@ class ProofOfHealth extends Component {
                   </picture>
                   <p className="poh-para">Self Verified Fitness Data</p>
                   <p className="poh-para">Least Authentic</p>
-                  <p className="poh-para">Incentivised Using Wawa Token</p>
+                  <p className="poh-para">Incentivised using Wawa Token</p>
                 </div>
                 <div className="col-xs-12 col-sm-4 col-md-4 dotted-line">
                   <h6 className="poh-heading">Warma</h6>
@@ -56,7 +56,7 @@ class ProofOfHealth extends Component {
                   </picture>
                   <p className="poh-para">Medical Tests/Checkups Verified Medical Data</p>
                   <p className="poh-para">Highest Degree of Authenticity</p>
-                  <p className="poh-para">Incentivised Using NHCT Token</p>
+                  <p className="poh-para">Incentivised using NHCT Token</p>
                 </div>
               </div>
               <div  className="col-xs-12">

@@ -60,7 +60,7 @@ class IcoValuesTabs extends Component {
                           <img width="10%" className="image-card-image" src={medicalLogo} alt="image2"/>
                         </picture>
                       </span>
-                      <p className="value-text-para">Safely and securely store medical data</p>
+                      <p className="value-text-para">Safely and securely stores medical data</p>
                     </div>
                     <div className="col-xs-12 para">
                       <span>
@@ -71,7 +71,7 @@ class IcoValuesTabs extends Component {
                           <img width="10%" className="image-card-image" src={symptomLogo} alt="image2"/>
                         </picture>
                       </span>
-                      <p className="value-text-para">Get personalized Health and Wellness services</p>
+                      <p className="value-text-para">Gets personalized health and wellness services</p>
                     </div>
                     <div className="col-xs-12 para">
                       <span>
@@ -236,7 +236,7 @@ class IcoValuesTabs extends Component {
                                   <img width="10%" className="image-card-image" src={medicalLogo} alt="image2"/>
                                 </picture>
                               </span>
-                              <p className="value-text-para">Safely and securely store medical data</p>
+                              <p className="value-text-para">Safely and securely stores medical data</p>
                             </div>
                             <div className="col-xs-12 para">
                               <span>
@@ -247,7 +247,7 @@ class IcoValuesTabs extends Component {
                                   <img width="10%" className="image-card-image" src={symptomLogo} alt="image2"/>
                                 </picture>
                               </span>
-                              <p className="value-text-para">Get personalized Health and Wellness services</p>
+                              <p className="value-text-para">Gets personalized health and wellness services</p>
                             </div>
                             <div className="col-xs-12 para">
                               <span>

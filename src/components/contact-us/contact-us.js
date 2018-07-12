@@ -35,7 +35,7 @@ class ContactUs extends Component {
                 <div className="row">
                   <div className="col-xs-12">
                   <div className="social-share-links">
-                    <span className="social-share-link">
+                    {/* <span className="social-share-link">
                       <a href="www.instagram.com"><img src={instagram} alt="instagram"/></a>
                     </span>
                     <span className="social-share-link">
@@ -46,7 +46,7 @@ class ContactUs extends Component {
                     </span>
                     <span className="social-share-link">
                       <a href="www.twitter.com"><img src={twitter} alt="twitter"/></a>
-                    </span>
+                    </span> */}
                   </div>
                   <br/>
                   <p className="copyright-text">© 2018 NanoHealth. All Rights Reserved.</p>  

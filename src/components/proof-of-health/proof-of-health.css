@@ -19,8 +19,7 @@
   .parent-container .proof-of-health {
     text-align: center;
     padding-bottom: 50px;
-    background-color: #f5f9fe;
-    border-radius: 80px; }
+    background-color: #f5f9fe; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .parent-container .proof-of-health {
         border-radius: unset;
