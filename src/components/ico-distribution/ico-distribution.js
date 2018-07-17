@@ -77,7 +77,7 @@ class IcoDistribution extends Component {
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-4">
                       <p className="legal">Ecosystem development</p>
-                      <h5 className="legal-per">18%</h5>
+                      <h5 className="eco-per">18%</h5>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-4">
                       <p className="legal">BOUNTY TOKENS</p>
