@@ -20,30 +20,42 @@
     padding: 5px 10px 10px 10px;
     width: 430px;
     font-family: Din Next Medium;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     color: #ffffff; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .email-subscription-form-wrapper input[type="email"] {
         width: 275px;
         font-size: 17px; } }
+    @media screen and (max-width: 320px) {
+      .email-subscription-form-wrapper input[type="email"] {
+        font-size: 10px;
+        width: 200px; } }
   .email-subscription-form-wrapper input::-webkit-input-placeholder {
     font-family: Din Next Medium;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     color: #ffffff; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .email-subscription-form-wrapper input::-webkit-input-placeholder {
         font-size: 17px;
         padding: 0px; } }
+    @media screen and (max-width: 320px) {
+      .email-subscription-form-wrapper input::-webkit-input-placeholder {
+        font-size: 10px;
+        width: 200px; } }
   .email-subscription-form-wrapper input::-moz-placeholderr {
     font-family: Din Next Medium;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     color: #ffffff; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .email-subscription-form-wrapper input::-moz-placeholderr {
         font-size: 17px; } }
+    @media screen and (max-width: 320px) {
+      .email-subscription-form-wrapper input::-moz-placeholderr {
+        width: 200px;
+        font-size: 10px; } }
   .email-subscription-form-wrapper button {
     outline: none;
     background-color: #fff;
@@ -56,3 +68,6 @@
       .email-subscription-form-wrapper button {
         float: right;
         margin: -6px 6px 15px 0; } }
+    @media screen and (max-width: 320px) {
+      .email-subscription-form-wrapper button {
+        float: unset; } }

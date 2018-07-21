@@ -6,6 +6,7 @@ import business from '../../assets/images/praveen.png';
 import teamimage from '../../assets/images/team-image.jpg';
 import david from '../../assets/images/david.jpg';
 import siddalingesh from '../../assets/images/siddalingesh.jpg';
+import adam from '../../assets/images/adam.jpg';
 
 class OurTeam extends Component {
   render() {
@@ -18,7 +19,7 @@ class OurTeam extends Component {
       letterSpacing: 'unset'
     }
     return (
-      <div className="our-team">
+      <div className="our-team" id="our-team">
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
@@ -63,36 +64,47 @@ class OurTeam extends Component {
                 </div>
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/praveen-dwarakanath-0bb7505/">Praveen Dwarkanath</a></h6>
-                  <p>Business and Partnerships</p>
+                  <p>nhct Ecosystem growth</p>
                 </div>
               </div>
             </div>
-            <div className="col-xs-12">
+            {/* <div className="col-xs-12">
               <div className="team-image">
                 <img width="100%" src={teamimage} alt="team-image" />
               </div>
-            </div>
+            </div> */}
             <div className="col-xs-12">
               <h4 style={marginStyle} className="our-team-heading">Our Advisors</h4>
             </div>
-            <div className="col-xs-12 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={siddalingesh} alt="teammate"/>
                 </div>
                 <div className="text-container">
-                  <h6><a target="_blank" href="#">Siddalingesh</a></h6>
+                  <h6><a target="_blank" href="https://www.linkedin.com/in/sidduzalaki/">Siddalingesh</a></h6>
                   <p style={paraStyle}>Certified Bitcoin professional and an ICO advisor, comes in with over 10 years of experience in building products for the BFSI sector.</p>
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-2">
+            <div className="col-xs-12 col-sm-4 col-md-4">
+              <div className="image-text-container">
+                <div className="image-container">
+                  <img width="100%" src={adam} alt="teammate"/>
+                </div>
+                <div className="text-container">
+                  <h6><a target="_blank" href="https://www.linkedin.com/in/adamcpowell/">Adam Powell</a></h6>
+                  <p style={paraStyle}>Dr. Powell is a health care economist and President of Payer+Provider Syndicate Measuring &amp; Improving the Quality of Care.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={david} alt="teammate"/>
                 </div>
                 <div className="text-container">
-                  <h6><a target="_blank" href="#">David</a></h6>
+                  <h6><a target="_blank" href="https://www.linkedin.com/in/wrightdr/">David</a></h6>
                   <p style={paraStyle}>McKinsey alum, with 15 years of leading strategic growth and M&A across 5 continents has helped create $70Bn in opportunities in technology and finance sectors</p>
                 </div>
               </div>

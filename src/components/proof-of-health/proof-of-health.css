@@ -2,7 +2,7 @@
   margin-top: 190px;
   padding-top: 40px;
   padding-bottom: 40px;
-  background: url("..//../assets/images/rectangle-22-copy-3.png") no-repeat; }
+  background-size: 100% 100%; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .parent-container {
       background-image: none;
@@ -10,7 +10,6 @@
       margin-top: unset; } }
   @media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
     .parent-container {
-      background: url("..//../assets/images/rectangle-22-copy-3@2x.png") no-repeat;
       background-size: 100% 100%; } }
   @media only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 320px) and (max-width: 767px), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px) {
     .parent-container {
@@ -27,7 +26,7 @@
         padding-bottom: unset; } }
     .parent-container .proof-of-health .image-card-sub-header {
       margin-bottom: 6px;
-      margin-top: 118px; }
+      margin-top: 80px; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .parent-container .proof-of-health .image-card-sub-header {
           margin-top: 50px;
@@ -104,6 +103,10 @@
             letter-spacing: 1px;
             top: 4%;
             left: 18%; } }
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+          .parent-container .proof-of-health .token-flow-image-container .token-flow-header {
+            top: 11%;
+            left: 33%; } }
       .parent-container .proof-of-health .token-flow-image-container img.token-flow-image {
         margin-top: 50px; }
       .parent-container .proof-of-health .token-flow-image-container .token-flow-para {
@@ -121,18 +124,21 @@
         border-radius: unset; } }
     .parent-container .uth-diagram-container .heading {
       font-family: Din Next Bold;
-      font-size: 64px;
+      font-size: 48px;
       font-weight: bold;
       text-align: center;
       color: #ffffff;
-      margin-top: 138px; }
+      margin-top: 30px;
+      margin-bottom: 30px; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .parent-container .uth-diagram-container .heading {
           font-size: 36px;
           margin-top: 30px;
           margin-bottom: 30px; } }
+    .parent-container .uth-diagram-container .uth-diagram-image {
+      text-align: center; }
     .parent-container .uth-diagram-container .uth-para-container {
-      margin: 124px auto;
+      margin: 50px auto;
       display: block;
       float: left; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -142,7 +148,7 @@
         width: 32px;
         height: 32px;
         font-family: Din Next Heavy Italic;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 900;
         font-style: italic;
         color: #01126b;
@@ -156,12 +162,12 @@
         padding-top: 4px; }
       .parent-container .uth-diagram-container .uth-para-container .text-para {
         font-family: Din Next Medium;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
         line-height: 1.3;
         color: #ffffff;
         display: inline-block;
-        width: 80%;
+        width: 70%;
         text-align: left;
         margin-left: 35px; }
         @media screen and (min-width: 320px) and (max-width: 767px) {

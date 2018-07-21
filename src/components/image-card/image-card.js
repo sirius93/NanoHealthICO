@@ -10,6 +10,7 @@ import Image4 from '../../assets/images/rectangle-16-copy-6.png';
 import Image42x from '../../assets/images/rectangle-16-copy-6@2x.png';
 import Play from '../../assets/images/play.png';
 import Play2x from '../../assets/images/play@2x.png';
+import TelegramButton from '../../components/telegram-button/telegram-button';
 
 class ImageCard extends Component {
   render() {
@@ -73,6 +74,13 @@ class ImageCard extends Component {
                       <h4>Successful projects run with Telangana Govt (Pop. 35 million), Leading Insurance company, and other Corporates</h4>
                     </div>
                   </div>
+              </div>
+              <div className="container">
+                <div className="row">
+                  <div className="col-xs-12 nomral-button-container">
+                    <TelegramButton isNormalButton ={true} isTeleButton ={false} /> 
+                  </div>
+                </div>
               </div>                           
             </div>
           </div>

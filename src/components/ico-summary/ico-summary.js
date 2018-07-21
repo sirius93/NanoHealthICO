@@ -4,7 +4,7 @@ import UseofProceeds from '../../assets/images/group-20.png';
 class IcoSummary extends Component {
   render() {
     return (
-      <div className="ico-summary">
+      <div className="ico-summary" id="ico-summary">
         <div className="container">
           <div className="row">
             <div className="col-xs-12">

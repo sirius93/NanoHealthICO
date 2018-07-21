@@ -3,10 +3,6 @@ import ReactDOM from 'react-dom';
 import ModalVideo from 'react-modal-video';
 import './image-text-desc.css';
 import HealthWellness from '../../assets/images/Youtube.png';
-import fundamatics from '../../assets/images/fundamatics.svg';
-import businessline from '../../assets/images/businessline.png';
-import financialexpress from '../../assets/images/financialexpress.svg';
-import pharmabiz from '../../assets/images/pharmabiz.jpg';
 import Combinedtext from '../../assets/images/combined-shape.png';
 
 class ImageTextDesc extends Component {
@@ -22,38 +18,7 @@ class ImageTextDesc extends Component {
   }
   render() {
     return (
-      <div>
-        <div className="press-coverage-container">
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12">
-                <h6 className="press-coverage-heading">Press coverage </h6>
-                  <div className="press-coverage-links">
-                    <span className="press-coverage-link">
-                      <a href="http://www.fundamatics.net/the-nanohealth-story-a-new-way-to-look-at-your-health/" target="_blank">
-                          <img width="20%" src={fundamatics} alt="telegram" />
-                      </a>
-                    </span>
-                    <span className="press-coverage-link">
-                      <a href="https://www.thehindubusinessline.com/news/national/nanohealth-gvk-bio-to-take-healthcare-to-slum-dwellers/article23111584.ece" target="_blank">
-                          <img width="20%" src={businessline} alt="facebook" />
-                      </a>
-                    </span>
-                    <span className="press-coverage-link">
-                      <a href="https://www.financialexpress.com/industry/nanohealths-doc-in-a-bag-breaks-economic-barriers/108240/" target="_blank">
-                        <img width="20%" src={financialexpress} alt="twitter" />
-                      </a>
-                    </span>
-                    <span className="press-coverage-link">
-                      <a href="http://www.pharmabiz.com/NewsDetails.aspx?aid=84336&sid=1" target="_blank">
-                        <img width="20%" src={pharmabiz} alt="twitter" />
-                      </a>
-                    </span>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>      
+      <div>     
         <div className="image-text-desc">
           <div className="container">
             <div className="row">

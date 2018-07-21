@@ -1,5 +1,9 @@
 .image-card{
     text-align: center;  
+    margin-top: 75px;
+    background-color: #f5f9fe;
+    padding-top: 75px;
+    padding-bottom: 75px;
     @media screen and (min-width:320px) and (max-width:767px){
         margin: 0 -10px;
     }  
@@ -53,7 +57,7 @@
             } 
             @media screen and (min-width:768px) and (max-width:991px){
                 width: 100%;
-                height: 350px;
+                height: 250px;
             }
             width: 100%;
             height: 350px;
@@ -69,7 +73,7 @@
                 padding: 10px 0;
                 h4{
                     font-family: Din Next Bold;
-                    font-size: 32px;
+                    font-size: 24px;
                     font-weight: bold;
                     text-align: center;
                     color: #172436;
@@ -79,14 +83,14 @@
                 }
                 p{
                     font-family: Din Next;
-                    font-size: 24px;
+                    font-size: 16px;
                     line-height: 1.33;
                     text-align: center;
                     color: #172436;
                 }
                 a{
                     font-family: Din Next Bold Italic;
-                    font-size: 16px;
+                    font-size: 12px;
                     font-weight: bold;
                     font-style: italic;
                     line-height: 2;
@@ -105,9 +109,12 @@
                 background-color: #3bc37e;
                 color: #fff;
                 padding: 40px 0;
+                @media screen and (min-width:768px) and (max-width:991px){
+                    padding: 50px 0;
+                }
                 h4{
                     font-family: Din Next Bold;
-                    font-size: 32px;
+                    font-size: 24px;
                     font-weight: bold;
                     text-align: center;
                     margin-top: 0;
@@ -117,7 +124,7 @@
                 }
                 p{
                     font-family: Din Next;
-                    font-size: 24px;
+                    font-size: 16px;
                     line-height: 1.33;
                     text-align: center;
                     @media screen and (min-width:320px) and (max-width:767px){
@@ -135,7 +142,7 @@
                 padding: 40px 0;
                 h4{
                     font-family: Din Next Bold;
-                    font-size: 32px;
+                    font-size: 24px;
                     font-weight: bold;
                     text-align: center;
                     margin-top: 0;
@@ -145,7 +152,7 @@
                 }
                 p{
                     font-family: Din Next;
-                    font-size: 24px;
+                    font-size: 16px;
                     line-height: 1.33;
                     text-align: center;
                     @media screen and (min-width:320px) and (max-width:767px){
@@ -160,10 +167,10 @@
                 width: 100%;
                 background-color: #635ce4;
                 color: #fff;
-                padding: 15px 0;
+                padding: 30px 0;
                 h4{
                     font-family: Din Next Bold;
-                    font-size: 29px;
+                    font-size: 24px;
                     font-weight: bold;
                     text-align: center;
                     margin-top: 0;

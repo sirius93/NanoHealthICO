@@ -28,3 +28,16 @@
     .nomral-button-container {
       margin: 0 auto;
       text-align: center; } }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .nomral-button-container {
+      margin: 50px 20% 35px; } }
+
+@media screen and (max-width: 320px) {
+  .Hero-image-text-investor {
+    font-size: 12px !important;
+    margin-top: 10px !important; }
+  .Normal-button-link, .telegram-button-link, .email-subscription-form {
+    min-width: 286px !important;
+    font-size: 10px !important; }
+  .token-flow-header {
+    left: 13% !important; } }

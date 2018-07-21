@@ -1,12 +1,13 @@
 .contact-us{
+  background-color: #01126b;
   margin-top: 170px;
   @media screen and (min-width:320px) and (max-width:767px){
     margin-top: 100px;
   }
   &-container{
-    background-color: #4492fe;
+    // background-color: #4492fe;
     text-align: center;
-    border-radius: 500px 500px 0 0;
+    // border-radius: 500px 500px 0 0;
     padding-top: 50px;
     @media screen and (min-width:320px) and (max-width:767px){
       border-radius: unset;

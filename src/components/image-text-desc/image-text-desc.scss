@@ -1,36 +1,7 @@
 @import 'node_modules/react-modal-video/scss/modal-video.scss';
-.press-coverage-container{
-    .press-coverage-heading{
-        font-family: Din Next Bold;
-        font-size: 24px;
-        font-weight: bold;
-        letter-spacing: 5px;
-        color: #4492fe;
-        text-transform: uppercase;
-        margin-top: 70px;
-        margin-left: 15px;
-        @media screen and (min-width:320px) and (max-width:767px){
-         text-align: center;
-        } 
-    }
-    .press-coverage-links{
-        margin-top: 40px;
-        .press-coverage-link{
-            margin-right: 45px;
-            img{
-                @media screen and (min-width:320px) and (max-width:767px){
-                    width: 65%;
-                    display: block;
-                    // margin-bottom: 20px;
-                    margin: 10px auto;
-                }
-            }
-        }
-    }
-}
 .image-text-desc{
     height: 756px;
-    background: url('..//../assets/images/video-bg.png') no-repeat;
+    // background: url('..//../assets/images/video-bg.png') no-repeat;
     background-position: right;
     @media screen and (min-width:320px) and (max-width:767px){
         background-image: none;
@@ -41,9 +12,9 @@
     only screen and (-o-min-device-pixel-ratio: 2/1),
     only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min-device-pixel-ratio: 2) {
-        background: url('..//../assets/images/video-bg@2x.png') no-repeat;
-        background-size: 38%;
-        background-position: right;
+        // background: url('..//../assets/images/video-bg@2x.png') no-repeat;
+        // background-size: 38%;
+        // background-position: right;
         @media screen and (min-width:320px) and (max-width:767px){
             background-image: none;
             // padding: 0;
@@ -74,6 +45,9 @@
         top: 255px;
         right: 200px;
         cursor: pointer;
+        @media screen and (min-width:768px) and (max-width:991px){
+            right: 160px;
+        }  
         @media screen and (min-width:320px) and (max-width:767px){
             position: unset;
             top: unset;
@@ -86,6 +60,9 @@
         }
         .youtube-paceholder-image{
             border-radius: 30px;
+            @media screen and (min-width:768px) and (max-width:991px){
+                border-radius: 10px;
+            }
         }
     }
     .combined-text-box {

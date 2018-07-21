@@ -91,11 +91,11 @@ class ProofOfHealth extends Component {
                     <source media="(max-width: 767px)" srcset={ uthDiagram + ' 1x' + ',' + uthDiagram2x + ' 2x' } />
                     <source media="(max-width: 1025px)" srcset={ uthDiagram + ' 1x' + ',' + uthDiagram2x + ' 2x' } />
                     <source srcset={ uthDiagram + ' 1x' + ',' + uthDiagram2x + ' 2x' }  />
-                    <img width="100%" className="poh-image" src={uthDiagram} alt="image2"/>
+                    <img width="80%" className="poh-image" src={uthDiagram} alt="image2"/>
                   </picture>
                 </div>
                 <div className="uth-para-container">
-                  <div className="col-xs-12 col-sm-4 col-md-4">
+                  <div className="col-xs-12 col-sm-4 col-md-4 col-md-offset-1">
                     <span className="number">
                       1
                     </span>
@@ -103,7 +103,7 @@ class ProofOfHealth extends Component {
                     Hyperledger manages all healthcare data users and roles, proprietary algorithms for healthcare management and prediction
                     </span>
                   </div>
-                  <div className="col-xs-12 col-sm-4 col-md-4">
+                  <div className="col-xs-12 col-sm-4 col-md-3">
                     <span className="number">
                       2
                     </span>

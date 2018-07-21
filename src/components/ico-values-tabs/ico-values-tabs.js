@@ -28,7 +28,7 @@ import microscopeLogo2x from '../../assets/images/microscope@2x.png';
 class IcoValuesTabs extends Component {
   render() {
     return (
-      <div className="ico-values-tabs">
+      <div className="ico-values-tabs" id="nhct-ecosystem">
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
@@ -207,7 +207,7 @@ class IcoValuesTabs extends Component {
                   </div>
                 </div>
             </div>
-              <Tabs defaultActiveKey={1} id="ico-values-tabs" className="hidden-sm">
+              <Tabs defaultActiveKey={1} id="ico-values-tabs" className="hidden-xs">
                 <Tab tabClassName="user" eventKey={1} title="User">
                   <div className="col-xs-12">
                     <div className="values-content-container">

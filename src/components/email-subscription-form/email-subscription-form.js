@@ -54,7 +54,7 @@ class EmailSubscriptioForm extends Component {
       color: 'white',
       padding: '20px',
       fontFamily: 'Din Next Medium',
-      fontSize: '2rem'
+      fontSize: '1.5rem'
     };
 
     const successMessage = this.state.successMessage ? (

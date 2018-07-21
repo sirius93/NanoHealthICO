@@ -10,17 +10,17 @@ import LitePaper2x from '../../assets/images/litepaper@2x.png'
 class DownloadLinks extends Component {
   render() {
     return (
-      <div className="download-link-container">
+      <div className="download-link-container" id="download-link">
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
               <div className="download-links-container">
-                <div className="col-xs-12 col-sm-4 col-md-3">
+                <div className="col-xs-12 col-sm-12 col-md-3">
                     <div className="donwload-links-heading">
                       Learn more about us
                     </div>
                 </div>
-                <div className="col-xs-12 col-sm-4 col-md-3">
+                <div className="col-xs-12 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-0">
                   <div className="donwload-link-image-container">
                   <picture>
                       <source media="(max-width: 767px)" srcset={ WhitePaper + ' 1x' + ',' + WhitePaper2x + ' 2x' } />
@@ -31,7 +31,7 @@ class DownloadLinks extends Component {
                     <a href="https://drive.google.com/open?id=1lreLhhz-MjBzFHpVH_NhcFVum0QRIxt9" target="_blank" className="donwload-link-anchor" title="White Paper">Download <span class="glyphicon glyphicon-arrow-down"></span></a>
                   </div>
                 </div>
-                <div className="col-xs-12 col-sm-4 col-md-3">
+                <div className="col-xs-12 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-0">
                   <div className="donwload-link-image-container">
                     <picture>
                       <source media="(max-width: 767px)" srcset={ Deck + ' 1x' + ',' + Deck2x + ' 2x' } />

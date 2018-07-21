@@ -1,36 +1,71 @@
-.our-partners {
-  margin-top: 130px; }
+.press-coverage-container {
+  margin-top: 50px;
+  margin-bottom: 50px; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
-    .our-partners {
-      margin-top: 50px; } }
-  .our-partners-heading {
+    .press-coverage-container {
+      background-color: white;
+      margin-left: -15px;
+      margin-right: -15px;
+      margin-bottom: -1px; } }
+  .press-coverage-container .press-coverage-heading {
     font-family: Din Next Bold;
     font-size: 48px;
     font-weight: bold;
     text-align: center;
-    color: #4492fe; }
-  .our-partners-subheading {
-    font-family: Din Next Medium;
-    font-size: 24px;
-    color: #103363;
-    text-align: center;
-    margin-bottom: 60px; }
-  .our-partners-section-container {
-    text-align: center; }
-  .our-partners-image-container {
+    color: #4492fe;
+    margin-left: 15px; }
+  .press-coverage-container .press-coverage-links {
+    margin-top: 40px; }
+    .press-coverage-container .press-coverage-links .press-coverage-link {
+      margin-right: 45px; }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .press-coverage-container .press-coverage-links .press-coverage-link {
+          margin-right: 35px; } }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .press-coverage-container .press-coverage-links .press-coverage-link img {
+          width: 65%;
+          display: block;
+          margin: 10px auto; } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .our-partners {
+    margin-top: 50px; } }
+
+.our-partners-heading {
+  font-family: Din Next Bold;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #4492fe;
+  margin-bottom: 30px;
+  margin-top: 80px; }
+
+.our-partners-subheading {
+  font-family: Din Next Medium;
+  font-size: 24px;
+  color: #103363;
+  text-align: center;
+  margin-bottom: 80px; }
+
+.our-partners-section-container {
+  text-align: center; }
+
+.our-partners-image-container {
+  border-radius: 8px; }
+  .our-partners-image-container img.our-partners-selector-image {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
     border-radius: 8px; }
-    .our-partners-image-container img.our-partners-selector-image {
-      width: 100%;
-      height: 300px;
-      margin-bottom: 20px;
-      border-radius: 8px; }
-  .our-partners-logo-name-container .our-partners-logo {
-    width: 60px;
-    height: 60px;
-    background-color: white; }
-  .our-partners-logo-name-container .our-partners-name {
-    font-family: Din Next Medium;
-    font-size: 24px;
-    font-weight: 500;
-    color: #103363;
-    margin-top: 15px; }
+
+.our-partners-logo-name-container .our-partners-logo {
+  width: 60px;
+  height: 60px;
+  background-color: white; }
+
+.our-partners-logo-name-container .our-partners-name {
+  font-family: Din Next Medium;
+  font-size: 24px;
+  font-weight: 500;
+  color: #103363;
+  margin-top: 15px; }

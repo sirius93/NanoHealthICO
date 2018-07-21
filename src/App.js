@@ -22,13 +22,6 @@ class App extends Component {
         <ImageTextDesc/>
         <DownloadLinks/>
         <ImageCard/>
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12 nomral-button-container">
-              <TelegramButton isNormalButton ={true} isTeleButton ={false} /> 
-            </div>
-          </div>
-        </div>
         <IcoValuesTabs/>
         <ProofOfHealth/> 
         <IcoSummary/>

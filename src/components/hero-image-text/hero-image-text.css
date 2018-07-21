@@ -1,11 +1,23 @@
 .Hero-image-text {
   text-align: center;
-  background-image: url("..//../assets/images/hero_section_bg.png");
+  background-color: #01126b;
   height: 800px;
   width: 100%; }
+  .Hero-image-text .particle-js div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  .Hero-image-text .social-media-buttons {
+    margin-top: 80px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .Hero-image-text .social-media-buttons {
+        margin-top: 50px; } }
+  .Hero-image-text .screen-image {
+    margin-top: 125px; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .Hero-image-text {
-      background-color: #4492fe;
+      background-color: #01126b;
       height: 750px; } }
   .Hero-image-text-logo {
     background-image: url("..//../assets/images/nht-logo.svg");
@@ -16,34 +28,67 @@
     background-repeat: no-repeat;
     background-position: left;
     margin-top: 41px; }
-  .Hero-image-text-investor {
+  .Hero-image-text .navbar-container {
     position: absolute;
     right: 0;
-    top: 11%;
-    border-radius: 20px;
-    padding: 13px 18px 10px;
-    background-color: #ffffff;
+    top: 65px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .Hero-image-text .navbar-container {
+        display: none; } }
+    .Hero-image-text .navbar-container .pipe-style {
+      font-family: Din Next Bold;
+      font-size: 15px;
+      font-weight: bold;
+      color: white; }
+  .Hero-image-text-navigator {
     font-family: Din Next Bold;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
     letter-spacing: 2px;
-    color: #123565; }
+    text-transform: uppercase; }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .Hero-image-text-navigator {
+        margin-right: 5px;
+        margin-left: 5px; } }
+  .Hero-image-text-navigator:hover {
+    color: white;
+    text-decoration: none; }
+  .Hero-image-text-investor:hover {
+    color: black;
+    text-decoration: none; }
+  .Hero-image-text-investor {
+    border-radius: 25px;
+    padding: 13px 18px 10px;
+    background-color: #fdcf78;
+    font-family: Din Next Bold;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+    float: left;
+    margin-top: 30px;
+    text-transform: uppercase; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .Hero-image-text-investor {
-        right: 10px; } }
+        font-size: 15px; } }
   .Hero-image-text-header {
     color: #fff;
     font-family: Din Next Heavy;
     font-weight: 900;
     text-align: left;
-    font-size: 64px;
-    margin-top: 71px; }
+    font-size: 48px;
+    margin-top: 150px;
+    max-width: 800px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .Hero-image-text-header {
+        margin-top: 80px;
         font-size: 35px; } }
   .Hero-image-text-subtext {
     font-family: Din Next Medium;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
     color: #fff;
     text-align: left;
@@ -55,12 +100,11 @@
 
 @media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   .Hero-image-text {
-    background: url("..//../assets/images/hero_section_bg@2x.png") no-repeat;
+    background-color: #01126b;
     background-size: 100%;
-    height: 935px; } }
+    height: 900px; } }
   @media only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 320px) and (max-width: 767px), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px) {
     .Hero-image-text {
-      background: url("..//../assets/images/mobile_hero_bg@2x.png") no-repeat;
       background-size: 100%;
-      background-color: #4492fe;
+      background-color: #01126b;
       height: 750px; } }
