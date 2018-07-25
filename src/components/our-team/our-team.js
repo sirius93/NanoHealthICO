@@ -8,6 +8,8 @@ import david from '../../assets/images/david.jpg';
 import siddalingesh from '../../assets/images/siddalingesh.jpg';
 import adam from '../../assets/images/adam.jpg';
 import Stephen from '../../assets/images/Stephen.jpeg';
+import Jason_Hung from '../../assets/images/Jason_Hung.jpeg';
+import Sydney_Ifergan from '../../assets/images/Sydney_Ifergan.jpeg';
 
 class OurTeam extends Component {
   render() {
@@ -24,7 +26,8 @@ class OurTeam extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
-            <h4 className="our-team-heading">Our Team</h4>
+            <h4 className="our-team-heading">Our Leadership Team</h4>
+            <h5 className="our-team-heading">Our team of 25+ employees is lead by</h5>
             {/* <div className="col-xs-3">
               <div className="image-text-container">
                 <div className="image-container">
@@ -77,7 +80,7 @@ class OurTeam extends Component {
             <div className="col-xs-12">
               <h4 style={marginStyle} className="our-team-heading">Our Advisors</h4>
             </div>
-            <div className="col-xs-12 col-sm-3 col-md-3">
+            <div className="col-xs-12 col-sm-3 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={siddalingesh} alt="teammate"/>
@@ -88,7 +91,7 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-3 col-md-3">
+            <div className="col-xs-12 col-sm-3 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={adam} alt="teammate"/>
@@ -99,7 +102,7 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-3 col-md-3">
+            <div className="col-xs-12 col-sm-3 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={david} alt="teammate"/>
@@ -110,7 +113,7 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-3 col-md-3">
+            <div className="col-xs-12 col-sm-3 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={Stephen} alt="teammate"/>
@@ -118,6 +121,27 @@ class OurTeam extends Component {
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/stephen-sammut-96864653/">Stephen Sammut</a></h6>
                   <p style={paraStyle}>Steve has founded, managed or financed over 40 companies in life sciences and IT globally</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-3 col-md-4">
+              <div className="image-text-container">
+                <div className="image-container">
+                  <img width="100%" src={Jason_Hung} alt="teammate"/>
+                </div>
+                <div className="text-container">
+                  <h6><a target="_blank" href="https://www.linkedin.com/in/jasonhung-earth/">Jason Hung</a></h6>
+                  <p style={paraStyle}>Jason is a serial entrepreneur and inventor in mobile business, blockchain ecosystem, digital marketing, AI and ERP related business. He has more than 20 years of proven track record on managing RD, IT, sales, consulting service with 9 technology related patents which are used in more than 2000 Apps</p>
+                </div>
+              </div>
+            </div><div className="col-xs-12 col-sm-3 col-md-4">
+              <div className="image-text-container">
+                <div className="image-container">
+                  <img width="100%" src={Sydney_Ifergan} alt="teammate"/>
+                </div>
+                <div className="text-container">
+                  <h6><a target="_blank" href="https://www.linkedin.com/in/sydneyifergan/">Sydney Ifergan</a></h6>
+                  <p style={paraStyle}>Sydney has 20+ years commercial experience and has spent the last 10 years working in the online marketing arena and was the CMO for a large brokerage</p>
                 </div>
               </div>
             </div>
