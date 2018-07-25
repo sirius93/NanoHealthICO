@@ -7,6 +7,7 @@ import teamimage from '../../assets/images/team-image.jpg';
 import david from '../../assets/images/david.jpg';
 import siddalingesh from '../../assets/images/siddalingesh.jpg';
 import adam from '../../assets/images/adam.jpg';
+import Stephen from '../../assets/images/Stephen.jpeg';
 
 class OurTeam extends Component {
   render() {
@@ -76,7 +77,7 @@ class OurTeam extends Component {
             <div className="col-xs-12">
               <h4 style={marginStyle} className="our-team-heading">Our Advisors</h4>
             </div>
-            <div className="col-xs-12 col-sm-4 col-md-4">
+            <div className="col-xs-12 col-sm-3 col-md-3">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={siddalingesh} alt="teammate"/>
@@ -87,7 +88,7 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-4 col-md-4">
+            <div className="col-xs-12 col-sm-3 col-md-3">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={adam} alt="teammate"/>
@@ -98,14 +99,25 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-4 col-md-4">
+            <div className="col-xs-12 col-sm-3 col-md-3">
               <div className="image-text-container">
                 <div className="image-container">
                   <img width="100%" src={david} alt="teammate"/>
                 </div>
                 <div className="text-container">
-                  <h6><a target="_blank" href="https://www.linkedin.com/in/wrightdr/">David</a></h6>
+                  <h6><a target="_blank" href="https://www.linkedin.com/in/wrightdr/">David Wright</a></h6>
                   <p style={paraStyle}>McKinsey alum, with 15 years of leading strategic growth and M&A across 5 continents has helped create $70Bn in opportunities in technology and finance sectors</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-3 col-md-3">
+              <div className="image-text-container">
+                <div className="image-container">
+                  <img width="100%" src={Stephen} alt="teammate"/>
+                </div>
+                <div className="text-container">
+                  <h6><a target="_blank" href="https://www.linkedin.com/in/stephen-sammut-96864653/">Stephen Sammut</a></h6>
+                  <p style={paraStyle}>Steve has founded, managed or financed over 40 companies in life sciences and IT globally</p>
                 </div>
               </div>
             </div>
