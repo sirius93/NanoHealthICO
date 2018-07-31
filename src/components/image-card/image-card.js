@@ -19,13 +19,12 @@ class ImageCard extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12">
-              {/* <h5 className="image-card-header">We are not a one day old company</h5> */}
+              
               <h4 className="image-card-sub-header">NHCT is backed by NanoHealth</h4>
               <p className="image-card-para">NanoHealth leverages a unique combination of community health workers called “Health Coaches” and a proprietary technology platform to facilitate early diagnosis and continuous management of chronic NCDs such as Diabetes and Hypertension.</p>
               <div className="image-card-container">
                   <div className="col-xs-12 col-sm-6 col-md-6">
                     <img className="image-card-image image-card-image-1" src={Image1} alt="image1"/>
-                    {/* <iframe className="image-card-image image-card-image-1" width="100%" height="350" src="https://www.youtube.com/embed/8K1mQs1NYok" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> */}
                     <div className="image-card-text-1">
                       <h4>HULT prize winners 2014</h4>
                       <p>Only team from India to win it.</p>
@@ -41,7 +40,7 @@ class ImageCard extends Component {
                       <source srcset={ Image2 + ' 1x' + ',' + Image22x + ' 2x' }  />
                       <img width="100%" className="image-card-image" src={Image2} alt="image2"/>
                     </picture>
-                    {/* <img className="image-card-image" src={Image2} alt="image2"/> */}
+                    
                     <div className="image-card-text-2">
                       <h4>Raised $1 million</h4>
                       <p>From HULT Prize in 2014.</p>
@@ -83,6 +82,79 @@ class ImageCard extends Component {
                 </div>
               </div>                           
             </div>
+
+
+            {/*<div className="col-xs-12 col-sm-12 col-md-12">
+              <div className="col-xs-12 col-sm-12 col-md-6">
+                <h4 className="image-card-sub-header">NHCT is backed by NanoHealth</h4>
+                <p className="image-card-para">NanoHealth leverages a unique combination of community health workers called “Health Coaches” and a proprietary technology platform to facilitate early diagnosis and continuous management of chronic NCDs such as Diabetes and Hypertension.</p>
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6">
+                <div className="row">
+                  
+                    <div className="image-card-container">
+                        <div className="col-xs-12 col-sm-6 col-md-6">
+                          <img className="image-card-image image-card-image-1" src={Image1} alt="image1"/>
+                          <div className="image-card-text-1">
+                            <h4>HULT prize winners 2014</h4>
+                            <p>Only team from India to win it.</p>
+                            <a href="https://www.youtube.com/watch?v=8K1mQs1NYok"><img width="46px" src={Play}/> Watch the video</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div className="image-card-container">
+                        <div className="col-xs-12 col-sm-6 col-md-6">
+                          <picture>
+                            <source media="(max-width: 767px)" srcset={ Image2 + ' 1x' + ',' + Image22x + ' 2x' } />
+                            <source media="(max-width: 1025px)" srcset={ Image2 + ' 1x' + ',' + Image22x + ' 2x' } />
+                            <source srcset={ Image2 + ' 1x' + ',' + Image22x + ' 2x' }  />
+                            <img width="100%" className="image-card-image" src={Image2} alt="image2"/>
+                          </picture>
+                          
+                          <div className="image-card-text-2">
+                            <h4>Raised $1 million</h4>
+                            <p>From HULT Prize in 2014.</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div className="image-card-container">
+                        <div className="col-xs-12 col-sm-6 col-md-6">
+                          <picture>
+                            <source media="(max-width: 767px)" srcset={ Image3 + ' 1x' + ',' + Image32x + ' 2x' } />
+                            <source media="(max-width: 1025px)" srcset={ Image3 + ' 1x' + ',' + Image32x + ' 2x' } />
+                            <source srcset={ Image3 + ' 1x' + ',' + Image32x + ' 2x' }  />
+                            <img width="100%" className="image-card-image" src={Image3} alt="image3"/>
+                          </picture>
+                          <div className="image-card-text-3">
+                            <h4>Already touched 75,000 lives</h4>
+                            <p>and growing.</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div className="image-card-container">
+                      <div className="col-xs-12 col-sm-6 col-md-6">
+                        <picture>
+                          <source media="(max-width: 767px)" srcset={ Image4 + ' 1x' + ',' + Image42x + ' 2x' } />
+                          <source media="(max-width: 1025px)" srcset={ Image4 + ' 1x' + ',' + Image42x + ' 2x' } />
+                          <source srcset={ Image4 + ' 1x' + ',' + Image42x + ' 2x' }  />
+                          <img width="100%" className="image-card-image" src={Image4} alt="image1"/>
+                        </picture>
+                        <div className="image-card-text-4">
+                          <h4>Successful projects run with Telangana Govt (Pop. 35 million), Leading Insurance company, and other Corporates</h4>
+                        </div>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+              <div className="container">
+                <div className="row">
+                  <div className="col-xs-12 nomral-button-container">
+                    <TelegramButton isNormalButton ={true} isTeleButton ={false} /> 
+                  </div>
+                </div>
+              </div>                           
+            </div>*/}
           </div>
         </div>      
       </div>

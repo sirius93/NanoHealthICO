@@ -1,6 +1,7 @@
 @import 'node_modules/react-modal-video/scss/modal-video.scss';
 .image-text-desc{
-    min-height: 756px;
+    //min-height: 756px;
+     min-height: 480px;
     // background: url('..//../assets/images/video-bg.png') no-repeat;
     background-position: right;
     @media screen and (min-width:320px) and (max-width:767px){
@@ -23,9 +24,9 @@
     // margin-top: 69px;
     &-heading{
         font-family: Din Next Bold;
-        font-size: 48px;
+        font-size: 34px;
         font-weight: bold;
-        color: #4492fe;
+        color: #1c5bb3;
         margin-top: 90px;
         @media screen and (min-width:320px) and (max-width:767px){
             margin-top: 0px;
@@ -40,11 +41,55 @@
         max-width: 459px;
         word-break: keep-all;
     }
+    &-learn{
+        img{
+            width:100%;
+        }
+        font-family: Din Next Bold;
+    }
+    &-pager{
+        img{
+            width:60%;
+        }
+        span {
+          position: absolute;
+          top: 94px;
+          left: 17px;
+        }
+        font-family: Din Next Bold;
+    }
+    &-investor-desk{
+        img{
+            width:60%;
+        }
+        span {
+          position: absolute;
+          top: 94px;
+          left: 17px;
+        }
+        font-family: Din Next Bold;
+    }
+    &-white-paper{
+        img{
+            width:60%;
+        }
+        span {
+          position: absolute;
+          top: 94px;
+          left: 17px;
+        }
+        font-family: Din Next Bold;
+    }
+    &-white-paper-container{
+          margin-top: 70px;
+    }
+
     .youtube-paceholder-image-container{
-        position: absolute;
-        top: 255px;
-        right: 200px;
+        //position: absolute;
+        //top: 255px;
+        //right: 200px;
         cursor: pointer;
+        margin-top: 90px;
         @media screen and (min-width:768px) and (max-width:991px){
             right: 160px;
         }  
@@ -59,7 +104,7 @@
             }
         }
         .youtube-paceholder-image{
-            border-radius: 30px;
+            //border-radius: 30px;
             @media screen and (min-width:768px) and (max-width:991px){
                 border-radius: 10px;
             }

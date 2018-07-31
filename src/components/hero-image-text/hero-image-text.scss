@@ -7,6 +7,15 @@
       overflow: hidden;
     }
   }
+  .ReactStickyHeader_fixed{
+    background-image: url('..//../assets/images/Header.png');
+    background-size: cover;
+    @media screen and (min-width:320px) and (max-width:767px){
+      background-image: url('..//../assets/images/Mobile_Header.png');
+      background-size: 100vw;
+      background-repeat: no-repeat;
+    }
+  }
   .social-media-buttons{
     margin-top: 80px;
     @media screen and (min-width:320px) and (max-width:767px){
@@ -14,7 +23,7 @@
     }
   }
   .screen-image{
-    margin-top: 125px;
+    margin-top: 168px;
   }
   @media screen and (min-width:320px) and (max-width:767px){
     // background-color: #4492fe;
@@ -24,31 +33,50 @@
   text-align: center;
   // background-image: url('..//../assets/images/hero_section_bg.png');
   // background-color: #4492fe;
-  background-color: #01126b;
+  background-color: #1c5bb3;
   height: 800px;
   width: 100%;
   &-logo{
-    background-image: url('..//../assets/images/nht-logo.svg');
+    //background-image: url('..//../assets/images/nht-logo.svg');
+    background-image: url('..//../assets/images/NHCT_logo_small.svg');
     padding:0;
     display: block;
     width: 110px;
     height: 70px;
     background-repeat: no-repeat;
     background-position: left;
-    margin-top: 41px;
+    margin-top: 1px;
+    margin-bottom: 34px;
+    margin-left: 60px;
+    
+    @media screen and (min-width:320px) and (max-width:767px){
+      background-image: url('..//../assets/images/NHCT_logo_small.svg');
+      margin-left: 33px;
+      margin-top: -8px;
+    }
+    @media screen and (min-width:768px) and (max-width:991px){
+      background-image: url('..//../assets/images/NHCT_logo_small.svg');
+      margin-top: -11px;
+
+    }
+    
   }
   .navbar-container{
     @media screen and (min-width:320px) and (max-width:767px){
       display: none;
     }
     position: absolute;
-    right: 0;
-    top: 65px;
+    right: 85px;
+    top: 72px;
     .pipe-style{
       font-family: Din Next Bold;
       font-size: 15px;
       font-weight: bold;
       color: white;
+    }
+    .Header_link{
+      list-style: none;
+      display: inline;
     }
   }
   &-navigator {
@@ -61,7 +89,7 @@
     margin-right: 10px;
     margin-left: 10px;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     @media screen and (min-width:768px) and (max-width:991px){
       margin-right: 5px;
       margin-left: 5px;
@@ -82,33 +110,33 @@
     border-radius: 25px;
     padding: 13px 18px 10px;
     background-color: #fdcf78;
-    font-family: Din Next Bold;
+    font-family: Din Next light;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
     color: black;
     float: left;
     margin-top: 30px;
-    text-transform: uppercase;
+    
     @media screen and (min-width:320px) and (max-width:767px){
       font-size: 15px;
     }
   }
   &-header{
     color: #fff;
-    font-family: Din Next Heavy;
+    font-family: Din Next Medium;
     font-weight: 900;
     text-align: left;
-    font-size: 48px;
-    margin-top: 150px;
+    font-size: 34px;
+    margin-top: 192px;
     max-width: 800px;
     @media screen and (min-width:320px) and (max-width:767px){
-      margin-top: 80px;
+      margin-top: 125px;
       font-size: 35px
     }
   }
   &-subtext{
-    font-family: Din Next Medium;
+    font-family: Din Next light;
     font-size: 24px;
     font-weight: 500;
     color: #fff;
@@ -127,14 +155,14 @@ only screen and (min-device-pixel-ratio: 2) {
 .Hero-image-text {
     // background: url('..//../assets/images/hero_section_bg@2x.png') no-repeat;
     // background-color: #4492fe;
-    background-color: #01126b;
+    background-color: #1c5bb3;
     background-size: 100%;
     height: 900px;
     @media screen and (min-width:320px) and (max-width:767px){
       // background: url('..//../assets/images/mobile_hero_bg@2x.png') no-repeat;
       background-size: 100%;
       // background-color: #4492fe;
-      background-color: #01126b;
+      background-color: #1c5bb3;
       height: 750px;
     }
   }

@@ -105,7 +105,7 @@
     margin-top: -6px; }
 
 .image-text-desc {
-  min-height: 756px;
+  min-height: 480px;
   background-position: right; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .image-text-desc {
@@ -118,9 +118,9 @@
     background-image: none; } }
   .image-text-desc-heading {
     font-family: Din Next Bold;
-    font-size: 48px;
+    font-size: 34px;
     font-weight: bold;
-    color: #4492fe;
+    color: #1c5bb3;
     margin-top: 90px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .image-text-desc-heading {
@@ -133,11 +133,39 @@
     margin-top: 19px;
     max-width: 459px;
     word-break: keep-all; }
+  .image-text-desc-learn {
+    font-family: Din Next Bold; }
+    .image-text-desc-learn img {
+      width: 100%; }
+  .image-text-desc-pager {
+    font-family: Din Next Bold; }
+    .image-text-desc-pager img {
+      width: 60%; }
+    .image-text-desc-pager span {
+      position: absolute;
+      top: 94px;
+      left: 17px; }
+  .image-text-desc-investor-desk {
+    font-family: Din Next Bold; }
+    .image-text-desc-investor-desk img {
+      width: 60%; }
+    .image-text-desc-investor-desk span {
+      position: absolute;
+      top: 94px;
+      left: 17px; }
+  .image-text-desc-white-paper {
+    font-family: Din Next Bold; }
+    .image-text-desc-white-paper img {
+      width: 60%; }
+    .image-text-desc-white-paper span {
+      position: absolute;
+      top: 94px;
+      left: 17px; }
+  .image-text-desc-white-paper-container {
+    margin-top: 70px; }
   .image-text-desc .youtube-paceholder-image-container {
-    position: absolute;
-    top: 255px;
-    right: 200px;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-top: 90px; }
     @media screen and (min-width: 768px) and (max-width: 991px) {
       .image-text-desc .youtube-paceholder-image-container {
         right: 160px; } }
@@ -148,11 +176,9 @@
         right: unset; }
         .image-text-desc .youtube-paceholder-image-container .youtube-paceholder-image {
           width: 100%; } }
-    .image-text-desc .youtube-paceholder-image-container .youtube-paceholder-image {
-      border-radius: 30px; }
-      @media screen and (min-width: 768px) and (max-width: 991px) {
-        .image-text-desc .youtube-paceholder-image-container .youtube-paceholder-image {
-          border-radius: 10px; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .image-text-desc .youtube-paceholder-image-container .youtube-paceholder-image {
+        border-radius: 10px; } }
   .image-text-desc .combined-text-box {
     margin-top: 45px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {

@@ -1,6 +1,6 @@
 .Hero-image-text {
   text-align: center;
-  background-color: #01126b;
+  background-color: #1c5bb3;
   height: 800px;
   width: 100%; }
   .Hero-image-text .particle-js div {
@@ -8,30 +8,49 @@
     width: 100%;
     height: 100%;
     overflow: hidden; }
+  .Hero-image-text .ReactStickyHeader_fixed {
+    background-image: url("..//../assets/images/Header.png");
+    background-size: cover; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .Hero-image-text .ReactStickyHeader_fixed {
+        background-image: url("..//../assets/images/Mobile_Header.png");
+        background-size: 100vw;
+        background-repeat: no-repeat; } }
   .Hero-image-text .social-media-buttons {
     margin-top: 80px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .Hero-image-text .social-media-buttons {
         margin-top: 50px; } }
   .Hero-image-text .screen-image {
-    margin-top: 125px; }
+    margin-top: 168px; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .Hero-image-text {
       background-color: #01126b;
       height: 750px; } }
   .Hero-image-text-logo {
-    background-image: url("..//../assets/images/nht-logo.svg");
+    background-image: url("..//../assets/images/NHCT_logo_small.svg");
     padding: 0;
     display: block;
     width: 110px;
     height: 70px;
     background-repeat: no-repeat;
     background-position: left;
-    margin-top: 41px; }
+    margin-top: 1px;
+    margin-bottom: 34px;
+    margin-left: 60px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .Hero-image-text-logo {
+        background-image: url("..//../assets/images/NHCT_logo_small.svg");
+        margin-left: 33px;
+        margin-top: -8px; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .Hero-image-text-logo {
+        background-image: url("..//../assets/images/NHCT_logo_small.svg");
+        margin-top: -11px; } }
   .Hero-image-text .navbar-container {
     position: absolute;
-    right: 0;
-    top: 65px; }
+    right: 85px;
+    top: 72px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .Hero-image-text .navbar-container {
         display: none; } }
@@ -40,6 +59,9 @@
       font-size: 15px;
       font-weight: bold;
       color: white; }
+    .Hero-image-text .navbar-container .Header_link {
+      list-style: none;
+      display: inline; }
   .Hero-image-text-navigator {
     font-family: Din Next Bold;
     font-size: 15px;
@@ -47,8 +69,7 @@
     color: white;
     margin-right: 10px;
     margin-left: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase; }
+    letter-spacing: 2px; }
     @media screen and (min-width: 768px) and (max-width: 991px) {
       .Hero-image-text-navigator {
         margin-right: 5px;
@@ -63,31 +84,30 @@
     border-radius: 25px;
     padding: 13px 18px 10px;
     background-color: #fdcf78;
-    font-family: Din Next Bold;
+    font-family: Din Next light;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
     color: black;
     float: left;
-    margin-top: 30px;
-    text-transform: uppercase; }
+    margin-top: 30px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .Hero-image-text-investor {
         font-size: 15px; } }
   .Hero-image-text-header {
     color: #fff;
-    font-family: Din Next Heavy;
+    font-family: Din Next Medium;
     font-weight: 900;
     text-align: left;
-    font-size: 48px;
-    margin-top: 150px;
+    font-size: 34px;
+    margin-top: 192px;
     max-width: 800px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .Hero-image-text-header {
-        margin-top: 80px;
+        margin-top: 125px;
         font-size: 35px; } }
   .Hero-image-text-subtext {
-    font-family: Din Next Medium;
+    font-family: Din Next light;
     font-size: 24px;
     font-weight: 500;
     color: #fff;
@@ -100,11 +120,11 @@
 
 @media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   .Hero-image-text {
-    background-color: #01126b;
+    background-color: #1c5bb3;
     background-size: 100%;
     height: 900px; } }
   @media only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 320px) and (max-width: 767px), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px) {
     .Hero-image-text {
       background-size: 100%;
-      background-color: #01126b;
+      background-color: #1c5bb3;
       height: 750px; } }
