@@ -121,7 +121,7 @@
     font-size: 34px;
     font-weight: bold;
     color: #1c5bb3;
-    margin-top: 90px; }
+    margin-top: 64px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .image-text-desc-heading {
         margin-top: 0px; } }
@@ -134,11 +134,14 @@
     max-width: 459px;
     word-break: keep-all; }
   .image-text-desc-learn {
-    font-family: Din Next Bold; }
+    font-family: Din Next Bold;
+    text-align: left;
+    color: #337ab7; }
     .image-text-desc-learn img {
       width: 100%; }
   .image-text-desc-pager {
-    font-family: Din Next Bold; }
+    font-family: Din Next Bold;
+    text-align: center; }
     .image-text-desc-pager img {
       width: 60%; }
     .image-text-desc-pager span {
@@ -146,7 +149,8 @@
       top: 94px;
       left: 17px; }
   .image-text-desc-investor-desk {
-    font-family: Din Next Bold; }
+    font-family: Din Next Bold;
+    text-align: center; }
     .image-text-desc-investor-desk img {
       width: 60%; }
     .image-text-desc-investor-desk span {
@@ -154,7 +158,8 @@
       top: 94px;
       left: 17px; }
   .image-text-desc-white-paper {
-    font-family: Din Next Bold; }
+    font-family: Din Next Bold;
+    text-align: center; }
     .image-text-desc-white-paper img {
       width: 60%; }
     .image-text-desc-white-paper span {
@@ -163,9 +168,24 @@
       left: 17px; }
   .image-text-desc-white-paper-container {
     margin-top: 70px; }
+    .image-text-desc-white-paper-container p {
+      margin-top: 14px;
+      font-size: 14px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .image-text-desc-white-paper-container {
+        margin-top: 70px; }
+        .image-text-desc-white-paper-container p {
+          margin-top: 14px;
+          font-size: 21px; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .image-text-desc-white-paper-container {
+        margin-top: 70px; }
+        .image-text-desc-white-paper-container p {
+          margin-top: 14px;
+          font-size: 9px; } }
   .image-text-desc .youtube-paceholder-image-container {
     cursor: pointer;
-    margin-top: 90px; }
+    margin-top: 70px; }
     @media screen and (min-width: 768px) and (max-width: 991px) {
       .image-text-desc .youtube-paceholder-image-container {
         right: 160px; } }

@@ -27,7 +27,7 @@
         font-size: 34px;
         font-weight: bold;
         color: #1c5bb3;
-        margin-top: 90px;
+        margin-top: 64px;
         @media screen and (min-width:320px) and (max-width:767px){
             margin-top: 0px;
         }    
@@ -46,6 +46,8 @@
             width:100%;
         }
         font-family: Din Next Bold;
+        text-align: left;
+        color: #337ab7;
     }
     &-pager{
         img{
@@ -57,6 +59,7 @@
           left: 17px;
         }
         font-family: Din Next Bold;
+        text-align: center;
     }
     &-investor-desk{
         img{
@@ -68,6 +71,7 @@
           left: 17px;
         }
         font-family: Din Next Bold;
+        text-align: center;
     }
     &-white-paper{
         img{
@@ -79,9 +83,28 @@
           left: 17px;
         }
         font-family: Din Next Bold;
+        text-align: center;
     }
     &-white-paper-container{
-          margin-top: 70px;
+      margin-top: 70px;
+      p{
+        margin-top: 14px;
+        font-size: 14px;
+      }
+      @media screen and (min-width:320px) and (max-width:767px){
+        margin-top: 70px;
+        p{
+          margin-top: 14px;
+          font-size: 21px;
+        }
+      }
+      @media screen and (min-width:768px) and (max-width:991px){
+        margin-top: 70px;
+        p{
+          margin-top: 14px;
+          font-size: 9px;
+        }
+      }
     }
 
     .youtube-paceholder-image-container{
@@ -89,7 +112,7 @@
         //top: 255px;
         //right: 200px;
         cursor: pointer;
-        margin-top: 90px;
+        margin-top: 70px;
         @media screen and (min-width:768px) and (max-width:991px){
             right: 160px;
         }  

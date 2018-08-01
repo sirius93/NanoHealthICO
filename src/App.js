@@ -20,7 +20,7 @@ class App extends Component {
       <div className="App">
         <HeroImageText/>
         <ImageTextDesc/>
-        <DownloadLinks/>
+        {/*<DownloadLinks/>*/}
         <ImageCard/>
         <IcoValuesTabs/>
         <ProofOfHealth/> 

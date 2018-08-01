@@ -65,21 +65,21 @@ class ImageTextDesc extends Component {
                       <span className="combined-text-description">The NHCT ecosystem makes the change to a Healthy lifestyle frictionless and rewarding.</span>
                     </div>
                   </div>*/}
-                  {/*<div className="image-text-desc-white-paper-container">
+                  <div className="image-text-desc-white-paper-container hidden-xs">
                     <div className="row">
                       <div className="col-xs-12 col-sm-3 col-md-3">
                         <div className="image-text-desc-learn">
-                          <a>
+                          
                             <img src={Learn} />
-                            Learn more about us
-                          </a>
+                            <p>Learn more about us</p>
+                          
                         </div>
                       </div>
                       <div className="col-xs-12 col-sm-3 col-md-3">
                         <div className="image-text-desc-pager">
-                          <a href="" >
+                          <a href="https://drive.google.com/open?id=16sUK1vHiesTYtPgp3SYq6W2MCw7Y0YqH" target="_blank" title="One Pager">
                             <img src={One_pager} />
-                            <span>One Pager</span>
+                            <p>One Pager</p>
                           </a>
                         </div>
                       </div>
@@ -87,7 +87,7 @@ class ImageTextDesc extends Component {
                         <div className="image-text-desc-investor-desk">
                           <a href="https://drive.google.com/open?id=1o4eohkwXJVwRtmFn2faWZ9_o0-VgYMst" target="_blank" title="Investor Deck">
                             <img src={Investor_deck} />
-                            <span>Investor Desk</span>
+                            <p>Investor Desk</p>
                           </a>
                         </div>
                       </div>
@@ -95,21 +95,58 @@ class ImageTextDesc extends Component {
                         <div className="image-text-desc-white-paper">
                           <a href="https://drive.google.com/open?id=1lreLhhz-MjBzFHpVH_NhcFVum0QRIxt9" target="_blank" title="White Paper">
                             <img src={White_paper} />
-                            <span>White Paper</span>
+                            <p>White Paper</p>
                           </a>
                         </div>
                       </div>
                     </div>
-                  </div>*/}
+                  </div>
                 </div>
                 <div className="col-xs-12 col-sm-6 col-md-6">
                 <div>
                   <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='HobxKh8xtjc' onClose={() => this.setState({isOpen: false})} />
                 </div>
                 <div className="youtube-paceholder-image-container">
-                    <img className="youtube-paceholder-image" onClick={this.openModal} width="80%" src={HealthWellness} alt="Learn" />
+                    <img className="youtube-paceholder-image" onClick={this.openModal} width="95%" src={HealthWellness} alt="Learn" />
                 </div>  
                 </div>
+              {/*------------*/}
+                <div className="image-text-desc-white-paper-container visible-xs">
+                    <div className="row">
+                      <div className="col-xs-12 col-sm-3 col-md-3">
+                        <div className="image-text-desc-learn">
+                          
+                            <img src={Learn} />
+                            <p>Learn more about us</p>
+                          
+                        </div>
+                      </div>
+                      <div className="col-xs-12 col-sm-3 col-md-3">
+                        <div className="image-text-desc-pager">
+                          <a href="https://drive.google.com/open?id=16sUK1vHiesTYtPgp3SYq6W2MCw7Y0YqH" target="_blank" title="One Pager">
+                            <img src={One_pager} />
+                            <p>One Pager</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div className="col-xs-12 col-sm-3 col-md-3">
+                        <div className="image-text-desc-investor-desk">
+                          <a href="https://drive.google.com/open?id=1o4eohkwXJVwRtmFn2faWZ9_o0-VgYMst" target="_blank" title="Investor Deck">
+                            <img src={Investor_deck} />
+                            <p>Investor Deck</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div className="col-xs-12 col-sm-3 col-md-3">
+                        <div className="image-text-desc-white-paper">
+                          <a href="https://drive.google.com/open?id=1lreLhhz-MjBzFHpVH_NhcFVum0QRIxt9" target="_blank" title="White Paper">
+                            <img src={White_paper} />
+                            <p>White Paper</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>

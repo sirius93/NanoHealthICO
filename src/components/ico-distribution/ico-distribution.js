@@ -37,12 +37,12 @@ class IcoDistribution extends Component {
                       </h2>
                     </div>
                     <div className="col-xs-12 col-sm-6 col-md-6">
-                      <p>Tech Dev and Deploy</p>
-                      <h5 className="tech-per">50%</h5>
+                      <p>Technology Development</p>
+                      <h5 className="tech-per">35%</h5>
                     </div> 
                     <div className="col-xs-12 col-sm-6 col-md-6">
-                      <p>Sales, Biz Dev and Mktg</p>
-                      <h5 className="market-per">45%</h5>
+                      <p>Sales and Marketing</p>
+                      <h5 className="market-per">35%</h5>
                     </div>
                     {/* <div className="col-xs-12 col-sm-6 col-md-6">
                       <p>Market expansion</p>
@@ -50,7 +50,11 @@ class IcoDistribution extends Component {
                     </div> */}
                     <div className="col-xs-12 col-sm-6 col-md-6">
                       <p>Legal and Consulting</p>
-                      <h5 className="legal-per">5%</h5>
+                      <h5 className="legal-con">10%</h5>
+                    </div>
+                    <div className="col-xs-12 col-sm-6 col-md-6">
+                      <p>Ecosystem Development</p>
+                      <h5 className="eco-dev">20%</h5>
                     </div> 
                   </div>
                 </div>

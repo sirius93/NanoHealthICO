@@ -22,7 +22,7 @@ class IcoSummary extends Component {
                   <p>Hard Cap</p>
                 </div>
                 <div className="col-xs-12 col-sm-4 col-md-4 ico-summary-token-count">
-                  <h4>$1.5 million</h4>
+                  <h4>$1 million</h4>
                   <p>Soft Cap</p>
                 </div>
                 <div className="col-xs-12 col-sm-5 col-md-5 ico-summary-token-circulation">
