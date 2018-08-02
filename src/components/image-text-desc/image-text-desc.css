@@ -117,8 +117,8 @@
   .image-text-desc {
     background-image: none; } }
   .image-text-desc-heading {
-    font-family: Din Next Bold;
-    font-size: 34px;
+    font-family: Din Next Medium;
+    font-size: 36px;
     font-weight: bold;
     color: #1c5bb3;
     margin-top: 64px; }
@@ -126,7 +126,7 @@
       .image-text-desc-heading {
         margin-top: 0px; } }
   .image-text-desc-text {
-    font-family: Din Next;
+    font-family: Din Next light;
     font-size: 24px;
     line-height: 1.33;
     color: #103363;
@@ -139,6 +139,9 @@
     color: #337ab7; }
     .image-text-desc-learn img {
       width: 100%; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .image-text-desc-learn {
+        margin: 40px 0px; } }
   .image-text-desc-pager {
     font-family: Din Next Bold;
     text-align: center; }
@@ -196,9 +199,6 @@
         right: unset; }
         .image-text-desc .youtube-paceholder-image-container .youtube-paceholder-image {
           width: 100%; } }
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-      .image-text-desc .youtube-paceholder-image-container .youtube-paceholder-image {
-        border-radius: 10px; } }
   .image-text-desc .combined-text-box {
     margin-top: 45px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {

@@ -71,7 +71,7 @@ class ImageTextDesc extends Component {
                         <div className="image-text-desc-learn">
                           
                             <img src={Learn} />
-                            <p>Learn more about us</p>
+                            <p>Learn more</p>
                           
                         </div>
                       </div>
@@ -95,7 +95,7 @@ class ImageTextDesc extends Component {
                         <div className="image-text-desc-white-paper">
                           <a href="https://drive.google.com/open?id=1lreLhhz-MjBzFHpVH_NhcFVum0QRIxt9" target="_blank" title="White Paper">
                             <img src={White_paper} />
-                            <p>White Paper</p>
+                            <p>Whitepaper</p>
                           </a>
                         </div>
                       </div>
@@ -107,7 +107,7 @@ class ImageTextDesc extends Component {
                   <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='HobxKh8xtjc' onClose={() => this.setState({isOpen: false})} />
                 </div>
                 <div className="youtube-paceholder-image-container">
-                    <img className="youtube-paceholder-image" onClick={this.openModal} width="95%" src={HealthWellness} alt="Learn" />
+                    <img className="youtube-paceholder-image" onClick={this.openModal} width="70%" src={HealthWellness} alt="Learn" />
                 </div>  
                 </div>
               {/*------------*/}
@@ -117,7 +117,7 @@ class ImageTextDesc extends Component {
                         <div className="image-text-desc-learn">
                           
                             <img src={Learn} />
-                            <p>Learn more about us</p>
+                            <p>Learn more</p>
                           
                         </div>
                       </div>
@@ -141,7 +141,7 @@ class ImageTextDesc extends Component {
                         <div className="image-text-desc-white-paper">
                           <a href="https://drive.google.com/open?id=1lreLhhz-MjBzFHpVH_NhcFVum0QRIxt9" target="_blank" title="White Paper">
                             <img src={White_paper} />
-                            <p>White Paper</p>
+                            <p>Whitepaper</p>
                           </a>
                         </div>
                       </div>

@@ -1,8 +1,8 @@
 .ico-values-tabs {
   display: block; }
   .ico-values-tabs .our-partners-heading {
-    margin-bottom: 90px;
-    margin-top: 90px; }
+    margin-bottom: 45px;
+    margin-top: 50px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .ico-values-tabs .our-partners-heading {
         font-size: 36px;

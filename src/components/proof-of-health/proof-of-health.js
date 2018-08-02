@@ -82,7 +82,7 @@ class ProofOfHealth extends Component {
         <div className="uth-diagram-container">
           <div className="container">
             <div className="row">
-              <div className="col-xs-12">
+              {/*<div className="col-xs-12">
                 <h2 className="heading">
                   Under the hood
                 </h2>
@@ -118,6 +118,50 @@ class ProofOfHealth extends Component {
                     <span className="text-para">
                     Hybrid storage management architecture based on data partitioning with IPFS, DDMS and Blockchain native stores
                     </span>
+                  </div>
+                </div>
+              </div>*/}
+
+              <div className="col-xs-12">
+                <h2 className="heading">
+                  Under the hood
+                </h2>
+                <div className="col-xs-12 col-sm-8 col-md-8">
+                  <div className="uth-diagram-image">
+                    <picture>
+                      <source media="(max-width: 767px)" srcset={ uthDiagram + ' 1x' + ',' + uthDiagram2x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ uthDiagram + ' 1x' + ',' + uthDiagram2x + ' 2x' } />
+                      <source srcset={ uthDiagram + ' 1x' + ',' + uthDiagram2x + ' 2x' }  />
+                      <img width="85%" className="poh-image" src={uthDiagram} alt="image2"/>
+                    </picture>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-4 col-md-4">
+                  <div className="uth-para-container">
+                    <div className="col-xs-12 col-sm-12 col-md-12">
+                      <span className="number">
+                        1
+                      </span>
+                      <span className="text-para">
+                      Hyperledger manages all healthcare data users and roles, proprietary algorithms for healthcare management and prediction
+                      </span>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-12">
+                      <span className="number">
+                        2
+                      </span>
+                      <span className="text-para">
+                      Public Ethereum blockchain for managing NHCT utility tokens
+                      </span>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-12">
+                      <span className="number">
+                        3
+                      </span>
+                      <span className="text-para">
+                      Hybrid storage management architecture based on data partitioning with IPFS, DDMS and Blockchain native stores
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -1,12 +1,12 @@
 .roadmap {
-  margin-top: 130px;
+  margin-top: 45px;
   background-color: #ecf4fe; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .roadmap {
       margin-top: 55px; } }
   .roadmap-heading {
-    font-family: Din Next Bold;
-    font-size: 48px;
+    font-family: Din Next medium;
+    font-size: 36px;
     font-weight: bold;
     text-align: center;
     color: #4492fe;
@@ -15,7 +15,7 @@
       .roadmap-heading {
         font-size: 36px; } }
   .roadmap #progress {
-    margin: 75px 43%; }
+    margin: 45px 43%; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .roadmap #progress {
         margin: 50px 30%; } }

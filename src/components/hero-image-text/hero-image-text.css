@@ -1,7 +1,7 @@
 .Hero-image-text {
   text-align: center;
   background-color: #1c5bb3;
-  height: 800px;
+  min-height: 680px;
   width: 100%; }
   .Hero-image-text .particle-js div {
     position: absolute;
@@ -17,7 +17,7 @@
         background-size: 100vw;
         background-repeat: no-repeat; } }
   .Hero-image-text .social-media-buttons {
-    margin-top: 80px; }
+    margin-top: 50px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .Hero-image-text .social-media-buttons {
         margin-top: 50px; } }
@@ -26,7 +26,7 @@
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .Hero-image-text {
       background-color: #01126b;
-      height: 750px; } }
+      min-height: 680px; } }
   .Hero-image-text-logo {
     background-image: url("..//../assets/images/nht-logo.svg");
     padding: 0;
@@ -122,9 +122,9 @@
   .Hero-image-text {
     background-color: #1c5bb3;
     background-size: 100%;
-    height: 900px; } }
+    min-height: 735px; } }
   @media only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 320px) and (max-width: 767px), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px) {
     .Hero-image-text {
       background-size: 100%;
       background-color: #1c5bb3;
-      height: 750px; } }
+      min-height: 680px; } }

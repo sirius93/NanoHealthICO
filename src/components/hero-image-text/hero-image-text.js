@@ -48,7 +48,7 @@ class HeroImageText extends Component {
                       
                       <a href="/" className="Hero-image-text-logo Header_title"></a>
                       <ul className="navbar-container Header_links">
-                        <li className="Header_link"><a href="#download-link" className="Hero-image-text-navigator">WhitePaper</a></li>
+                        <li className="Header_link"><a href="#download-link" className="Hero-image-text-navigator">Whitepaper</a></li>
                         <span class="pipe-style">&nbsp;|&nbsp;</span>
                         <li className="Header_link"><a href="#nhct-ecosystem" className="Hero-image-text-navigator">NHCT Ecosystem</a></li>
                         <span class="pipe-style">&nbsp;|&nbsp;</span>

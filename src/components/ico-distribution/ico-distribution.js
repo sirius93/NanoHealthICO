@@ -19,7 +19,7 @@ class IcoDistribution extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
-              <div className="ico-distribution-left-image">
+              {/*<div className="ico-distribution-left-image">
                 <div className="row">
                   <div className="col-xs-6 col-sm-4 col-md-4 ico-distribution-image">
                   <picture>
@@ -28,7 +28,7 @@ class IcoDistribution extends Component {
                       <source srcset={ UseofProceeds + ' 1x' + ',' + UseofProceeds2x + ' 2x' }  />
                       <img  src={UseofProceeds} alt="Use of Proceeds" />
                   </picture>
-                    {/* <img src={UseofProceeds} alt="Use of Proceeds"/> */}
+                    
                   </div>
                   <div className="col-xs-6 col-sm-8 col-md-8 ico-distribution-text">
                     <div className="col-xs-12">
@@ -44,10 +44,6 @@ class IcoDistribution extends Component {
                       <p>Sales and Marketing</p>
                       <h5 className="market-per">35%</h5>
                     </div>
-                    {/* <div className="col-xs-12 col-sm-6 col-md-6">
-                      <p>Market expansion</p>
-                      <h5 className="market-per">15%</h5>
-                    </div> */}
                     <div className="col-xs-12 col-sm-6 col-md-6">
                       <p>Legal and Consulting</p>
                       <h5 className="legal-con">10%</h5>
@@ -58,7 +54,7 @@ class IcoDistribution extends Component {
                     </div> 
                   </div>
                 </div>
-              </div>
+              </div>*/}
               <div className="ico-distribution-right-image">
                 <div className="row">
                 <div className="col-xs-6 col-sm-8 col-md-8  ico-distribution-text">
@@ -110,7 +106,7 @@ class IcoDistribution extends Component {
                           <source srcset={ Wawa + ' 1x' + ',' + Wawa2x + ' 2x' }  />
                           <img width="100%" src={Wawa} alt="wawa"/>
                         </picture>
-                        <p className="wawa100">100%</p>
+                        {/*<p className="wawa100">100%</p>*/}
                       </div>
                       <div className="col-xs-12 col-sm-4 col-md-4 ico-distribution-double-text">
                         <p className="ico-distribution-double-text-1">Ecosystem development</p>
@@ -123,7 +119,7 @@ class IcoDistribution extends Component {
                           <source srcset={ Warma + ' 1x' + ',' + Warma2x + ' 2x' }  />
                           <img width="100%" src={Warma} alt="wawa"/>
                         </picture>
-                      <p className="warma100">100%</p>
+                      {/*<p className="warma100">100%</p>*/}
                       </div>
                     </div>
                   </div>

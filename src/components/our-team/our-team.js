@@ -42,7 +42,7 @@ class OurTeam extends Component {
             <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
-                  <img width="100%" src={ceo} alt="teammate"/>
+                  <img width="75%" src={ceo} alt="teammate"/>
                 </div>
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/manishranjan2/">Manish Ranjan</a></h6>
@@ -53,7 +53,7 @@ class OurTeam extends Component {
             <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
-                  <img width="100%" src={cto} alt="teammate"/>
+                  <img width="75%" src={cto} alt="teammate"/>
                 </div>
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/nagav/">Nagarjuna Vangala</a></h6>
@@ -64,7 +64,7 @@ class OurTeam extends Component {
             <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
-                  <img width="100%" src={business} alt="teammate"/>
+                  <img width="75%" src={business} alt="teammate"/>
                 </div>
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/praveen-dwarakanath-0bb7505/">Praveen Dwarkanath</a></h6>
@@ -80,10 +80,10 @@ class OurTeam extends Component {
             <div className="col-xs-12">
               <h4 style={marginStyle} className="our-team-heading">Our Advisors</h4>
             </div>
-            <div className="col-xs-12 col-sm-3 col-md-4">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
-                  <img width="100%" src={siddalingesh} alt="teammate"/>
+                  <img width="50%" src={siddalingesh} alt="teammate"/>
                 </div>
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/sidduzalaki/">Siddalingesh</a></h6>
@@ -91,10 +91,10 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-3 col-md-4">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
-                  <img width="100%" src={adam} alt="teammate"/>
+                  <img width="50%" src={adam} alt="teammate"/>
                 </div>
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/adamcpowell/">Adam Powell</a></h6>
@@ -102,10 +102,10 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-3 col-md-4">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
-                  <img width="100%" src={david} alt="teammate"/>
+                  <img width="50%" src={david} alt="teammate"/>
                 </div>
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/wrightdr/">David Wright</a></h6>
@@ -113,10 +113,10 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-3 col-md-4">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
-                  <img width="100%" src={Stephen} alt="teammate"/>
+                  <img width="50%" src={Stephen} alt="teammate"/>
                 </div>
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/stephen-sammut-96864653/">Stephen Sammut</a></h6>
@@ -124,20 +124,20 @@ class OurTeam extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-3 col-md-4">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
-                  <img width="100%" src={Jason_Hung} alt="teammate"/>
+                  <img width="50%" src={Jason_Hung} alt="teammate"/>
                 </div>
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/jasonhung-earth/">Jason Hung</a></h6>
-                  <p style={paraStyle}>Jason is a serial entrepreneur and inventor in mobile business, blockchain ecosystem, digital marketing, AI and ERP related business. He has more than 20 years of proven track record on managing RD, IT, sales, consulting service with 9 technology related patents which are used in more than 2000 Apps</p>
+                  <p style={paraStyle}>Jason is a serial entrepreneur and inventor in mobile business, blockchain ecosystem, digital marketing, AI and ERP related business</p>
                 </div>
               </div>
-            </div><div className="col-xs-12 col-sm-3 col-md-4">
+            </div><div className="col-xs-12 col-sm-4 col-md-4">
               <div className="image-text-container">
                 <div className="image-container">
-                  <img width="100%" src={Sydney_Ifergan} alt="teammate"/>
+                  <img width="50%" src={Sydney_Ifergan} alt="teammate"/>
                 </div>
                 <div className="text-container">
                   <h6><a target="_blank" href="https://www.linkedin.com/in/sydneyifergan/">Sydney Ifergan</a></h6>

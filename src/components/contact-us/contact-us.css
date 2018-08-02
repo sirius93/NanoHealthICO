@@ -1,25 +1,25 @@
 .contact-us {
   background-color: #01126b;
-  margin-top: 170px; }
+  margin-top: 40px; }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .contact-us {
-      margin-top: 100px; } }
+      margin-top: 40px; } }
   .contact-us-container {
     text-align: center;
-    padding-top: 50px; }
+    padding-top: 40px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .contact-us-container {
         border-radius: unset;
         margin: 0 -15px;
         padding-top: 30px; } }
     .contact-us-container h4.contact-heading {
-      font-family: Din Next Heavy;
+      font-family: Din Next Medium;
       font-size: 36px;
       font-weight: 900;
       text-align: center;
       color: #ffffff; }
     .contact-us-container p.contact-sub-heading {
-      font-family: Din Next;
+      font-family: Din Next light;
       font-size: 24px;
       text-align: center;
       color: #ffffff; }
@@ -39,7 +39,7 @@
           padding: 0;
           margin: auto 10px; } }
     .contact-us-container .social-share-links {
-      margin-top: 69px; }
+      margin-top: 0px; }
     .contact-us-container .social-share-link {
       margin-right: 8px; }
     .contact-us-container .copyright-text {

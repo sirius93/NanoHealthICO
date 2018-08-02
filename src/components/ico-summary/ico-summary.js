@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './ico-summary.css';
 import UseofProceeds from '../../assets/images/group-20.png';
+import icosummary from '../../assets/images/ico-summary.png';
+import icosummary2x from '../../assets/images/ico-summary@2x.png';
+
 class IcoSummary extends Component {
   render() {
     return (
@@ -8,7 +11,7 @@ class IcoSummary extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
-              <div className="ico-summary-container">
+              {/*<div className="ico-summary-container">
                 <div className="col-xs-12 ico-summary-heading">
                     <h4>ICO Summary</h4>
                     <p></p>
@@ -32,6 +35,20 @@ class IcoSummary extends Component {
                 <div className="col-xs-12 col-sm-7 col-md-7 ico-summary-token-price">
                   <h4>$0.032</h4>
                   <p>BASE PRICE</p>
+                </div>
+              </div>*/}
+
+              <div className="ico-summary-container">
+                <div className="col-xs-12 col-sm-12 col-md-12">
+                  <h4 className="ico-summary-sub-header">ICO Summary</h4>
+                  <div className="ico-summary-diagram-image">
+                    <picture>
+                      <source media="(max-width: 767px)" srcset={ icosummary + ' 1x' + ',' + icosummary2x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ icosummary + ' 1x' + ',' + icosummary2x + ' 2x' } />
+                      <source srcset={ icosummary + ' 1x' + ',' + icosummary2x + ' 2x' }  />
+                      <img width="85%" className="poh-image" src={icosummary} alt="image2"/>
+                    </picture>
+                  </div>
                 </div>
               </div>
             </div>

@@ -14,6 +14,7 @@ import TelegramButton from './components/telegram-button/telegram-button';
 import IcoValuesTabs from './components/ico-values-tabs/ico-values-tabs';
 import ProofOfHealth from './components/proof-of-health/proof-of-health';
 
+
 class App extends Component {
   render() {
     return (

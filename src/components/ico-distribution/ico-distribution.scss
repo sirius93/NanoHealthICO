@@ -53,8 +53,12 @@
             margin-bottom: 30px;
         }
         .legal-per{
-            color: #fdcf78;
+            color: #ed7461;
             margin-bottom: 30px;
+            padding-top: 18px;
+            @media screen and (min-width:992px) and (max-width:1024px){
+               padding-top: 0px;
+            }
         }
         .legal-con{
             color: #3f98fd;
@@ -67,7 +71,7 @@
         &-heading{
             opacity: 0.5;
             font-family: Din Next medium;
-            font-size: 48px;
+            font-size: 36px;
             font-weight: 500;
             color: #01126b;
             margin-bottom: 40px;
@@ -115,20 +119,20 @@
             }
         
             .tech-per{
-                color: #635ce4;
+                color: #68ca79;
                 margin-bottom: 30px;
             }
             
             .biz-per{
-                color: #4492fe;
+                color: #6f6bed;
                 margin-bottom: 30px;
             }
             .market-per{
-                color:#3bc37e;
+                color:#4195fd;
                 margin-bottom: 30px;
             }
             .eco-sys{
-                color: #f97352;
+                color: #fcd870;
                 margin-bottom: 30px;
             }
         }

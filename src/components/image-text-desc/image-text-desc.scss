@@ -23,8 +23,8 @@
     }
     // margin-top: 69px;
     &-heading{
-        font-family: Din Next Bold;
-        font-size: 34px;
+        font-family: Din Next Medium;
+        font-size: 36px;
         font-weight: bold;
         color: #1c5bb3;
         margin-top: 64px;
@@ -33,7 +33,7 @@
         }    
     }
     &-text{
-        font-family: Din Next;
+        font-family: Din Next light;
         font-size: 24px;
         line-height: 1.33;
         color: #103363;
@@ -48,6 +48,9 @@
         font-family: Din Next Bold;
         text-align: left;
         color: #337ab7;
+        @media screen and (min-width:320px) and (max-width:767px){
+          margin: 40px 0px;
+        }
     }
     &-pager{
         img{
@@ -129,7 +132,7 @@
         .youtube-paceholder-image{
             //border-radius: 30px;
             @media screen and (min-width:768px) and (max-width:991px){
-                border-radius: 10px;
+                //border-radius: 10px;
             }
         }
     }

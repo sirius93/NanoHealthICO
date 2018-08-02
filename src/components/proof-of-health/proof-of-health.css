@@ -1,5 +1,5 @@
 .parent-container {
-  margin-top: 190px;
+  margin-top: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
   background-size: 100% 100%; }
@@ -26,13 +26,13 @@
         padding-bottom: unset; } }
     .parent-container .proof-of-health .image-card-sub-header {
       margin-bottom: 6px;
-      margin-top: 80px; }
+      margin-top: 50px; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .parent-container .proof-of-health .image-card-sub-header {
           margin-top: 50px;
           font-size: 36px; } }
     .parent-container .proof-of-health .image-card-para {
-      margin-bottom: 70px; }
+      margin-bottom: 25px; }
     .parent-container .proof-of-health .proof-of-health-content .poh-heading {
       opacity: 0.5;
       font-family: Din Next Bold;
@@ -51,7 +51,7 @@
       font-weight: 500;
       line-height: 1.5;
       color: #103363;
-      margin-bottom: 70px;
+      margin-bottom: 25px;
       height: 72px; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .parent-container .proof-of-health .proof-of-health-content .poh-para {
@@ -60,7 +60,7 @@
       position: absolute;
       content: url("..//../assets/images/dotted-line.png");
       left: 0;
-      top: 40%; }
+      top: 50%; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .parent-container .proof-of-health .proof-of-health-content .dotted-line::before {
           content: ''; } }
@@ -73,7 +73,7 @@
       background-color: #ffffff;
       border: solid 1px #c5dcfb;
       padding: 30px;
-      margin-top: 100px; }
+      margin-top: 40px; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .parent-container .proof-of-health .token-flow-image-container {
           margin-left: -45px;
@@ -96,7 +96,7 @@
         min-width: 233px;
         padding: 15px 0;
         position: absolute;
-        top: 9%;
+        top: 0%;
         left: 38%; }
         @media screen and (min-width: 320px) and (max-width: 767px) {
           .parent-container .proof-of-health .token-flow-image-container .token-flow-header {
@@ -105,7 +105,7 @@
             left: 18%; } }
         @media screen and (min-width: 768px) and (max-width: 991px) {
           .parent-container .proof-of-health .token-flow-image-container .token-flow-header {
-            top: 11%;
+            top: 0%;
             left: 33%; } }
       .parent-container .proof-of-health .token-flow-image-container img.token-flow-image {
         margin-top: 50px; }
@@ -123,8 +123,8 @@
       .parent-container .uth-diagram-container {
         border-radius: unset; } }
     .parent-container .uth-diagram-container .heading {
-      font-family: Din Next Bold;
-      font-size: 48px;
+      font-family: Din Next Medium;
+      font-size: 36px;
       font-weight: bold;
       text-align: center;
       color: #ffffff;
@@ -137,6 +137,9 @@
           margin-bottom: 30px; } }
     .parent-container .uth-diagram-container .uth-diagram-image {
       text-align: center; }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .parent-container .uth-diagram-container .uth-diagram-image img {
+          width: 100%; } }
     .parent-container .uth-diagram-container .uth-para-container {
       margin: 50px auto;
       display: block;
@@ -144,6 +147,12 @@
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .parent-container .uth-diagram-container .uth-para-container {
           margin: 50px auto; } }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .parent-container .uth-diagram-container .uth-para-container {
+          margin: 0px auto; } }
+      @media screen and (min-width: 992px) {
+        .parent-container .uth-diagram-container .uth-para-container {
+          margin: 75px auto; } }
       .parent-container .uth-diagram-container .uth-para-container .number {
         width: 32px;
         height: 32px;
@@ -175,3 +184,12 @@
             margin-bottom: 40px;
             width: 100%;
             margin-left: 30px; } }
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+          .parent-container .uth-diagram-container .uth-para-container .text-para {
+            margin-bottom: 40px;
+            width: 100%;
+            margin-left: 30px;
+            width: 100%; } }
+        @media screen and (min-width: 992px) {
+          .parent-container .uth-diagram-container .uth-para-container .text-para {
+            margin-bottom: 60px; } }

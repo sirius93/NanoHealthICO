@@ -1,14 +1,15 @@
 .our-team{
-    margin-top: 80px;
+    margin-top: 45px;
     &-heading{
-        font-family: Din Next Bold;
-        font-size: 48px;
+        font-family: Din Next medium;
+        font-size: 36px;
         font-weight: bold;
         text-align: center;
         color: #4492fe;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .image-container{
+      text-align: center;
       img{
         border: 10px solid rgba(68, 146, 254, 0.2);
         border-radius: 50%;

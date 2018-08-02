@@ -17,21 +17,23 @@
         }
     }
     &-sub-header{
-        font-family: Din Next Bold;
-        font-size: 35px;
+        font-family: Din Next Medium;
+        font-size: 36px;
         font-weight: bold;
         color: #4492fe;
         margin-top: 100px;
         margin-bottom: 10px;
-        text-align: left;
+        text-align: center;
     }
     &-para{
-        font-family: Din Next;
+        font-family: Din Next light;
         font-size: 24px;
-        text-align: left;
+        text-align: center;
         color: #103363;
       }
-    
+    .Normal-button-link{
+        text-transform: none;
+    }
     &-container{
         width: 96%;
         .padding-right{
