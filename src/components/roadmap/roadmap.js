@@ -9,7 +9,7 @@ class RoadMap extends Component {
           <div className="row">
             <div className="col-xs-12">
             <h4 className="roadmap-heading">Our Roadmap</h4>
-            <ul id="progress">
+            {/*<ul id="progress">
               <li><div class="node year-2014"></div><p></p></li>
               <li><div class="divider div-1"></div></li>
               <li><div class="node round"></div><p>NanoHealth: Wins HULT Prize</p></li>
@@ -43,6 +43,53 @@ class RoadMap extends Component {
               <li><div class="node round right"></div><p className="para-right">Developer ecosystem availability</p></li>
               <li><div class="divider div-6"></div></li>
               <li><div class="node year-2020"></div><p></p></li>
+            </ul>*/}
+
+            <ul id="progress">
+              <li><div class="node year-2014"></div><p></p></li>
+              <li><div class="divider div-1"></div></li>
+              <li><div class="node-quarter round-quarter"></div><p>NanoHealth-Wins HULT Prize</p></li>
+              {/*<li><div class="divider div-2"></div></li>*/}
+              {/*<li><div class="node round right"></div><p className="para-right">Awarded US $1M</p></li>*/}
+              <li><div class="divider div-2"></div></li>
+              <li><div class="node year-2016"></div><p></p></li>
+              <li><div class="divider div-1"></div></li>
+              <li><div class="node-quarter round-quarter right-quarter"></div><p className="para-right">First 10,000 registered members</p></li>
+              <li><div class="divider div-2"></div></li>
+              <li><div class="node year-2017"></div><p></p></li>
+              <li><div class="divider div-1"></div></li>
+              <li><div class="node-quarter round-quarter"></div><p> Partnership with Govt. of Telangana (Population-35M)</p></li>
+              <li><div class="divider div-2"></div></li>
+              <li><div class="node year-2018"></div><p></p></li>
+              <li><div class="divider div-1"></div></li>
+              {/*<li><div class="node round"></div><p>Partnership with Telangana State(pop. 35 M)</p></li>*/}
+              {/*<li><div class="divider div-1"></div></li>*/}
+              <li><div class="node-quarter round-quarter right-quarter">Q1</div><p className="para-right">Active users crosses 75,000</p></li>
+              <li><div class="divider div-2"></div></li>
+              <li><div class="node-quarter round-quarter right-quarter">Q3</div><p>NHCT ICO Launch + Fitness Services</p></li>
+              {/*<li><div class="divider div-1"></div></li>
+              <li><div class="node round right"></div><p className="para-right">Internal exchange of Wawa, Warma and NHCT</p></li>*/}
+              <li><div class="divider div-1"></div></li>  
+              <li><div class="node year-2019"></div><p></p></li> 
+              <li><div class="divider div-1"></div></li>  
+              <li><div class="node-quarter round-quarter right-quarter">Q1</div><p className="para-right">Launch Diet services</p></li>
+              <li><div class="divider div-2"></div></li>
+              <li><div class="node-quarter round-quarter">Q3</div><p>Total Health on Blockchain</p></li>
+              <li><div class="divider div-1"></div></li>
+              {/*<li><div class="node round right"></div><p className="para-right">Developer ecosystem availability</p></li>
+              <li><div class="divider div-6"></div></li>*/}
+              <li><div class="node year-2020"></div><p></p></li>
+              {/*<li><div class="divider div-1"></div></li>
+              <li><div class="node round right"></div><p className="para-right">EHR on Blockchain</p></li>
+              <li><div class="divider div-2"></div></li>
+              <li><div class="node round"></div><p>Target 1 MN users</p></li>
+              <li><div class="divider div-1"></div></li>*/}
+              <li><div class="divider div-1"></div></li>
+              <li><div class="node-quarter round-quarter right-quarter">Q1</div><p className="para-right">EHR on Blockchain</p></li>
+              <li><div class="divider div-1"></div></li>
+              <li><div class="node-quarter round-quarter">Q2</div><p>Target 1 MN users</p></li>
+              <li><div class="divider div-2"></div></li>
+              <li><div class="node year-2021"></div><p></p></li>
             </ul>
             </div>
           </div>
