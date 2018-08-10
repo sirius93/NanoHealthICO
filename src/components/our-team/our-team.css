@@ -3,9 +3,16 @@
   .our-team-heading {
     font-family: Din Next medium;
     font-size: 36px;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-align: center;
     color: #4492fe;
+    margin-bottom: 30px; }
+  .our-team-employees {
+    font-family: Din Next medium;
+    font-size: 27px;
+    /* font-weight: bold; */
+    text-align: center;
+    color: #969ba0;
     margin-bottom: 30px; }
   .our-team .image-container {
     text-align: center; }
@@ -22,10 +29,13 @@
     .our-team .text-container p {
       opacity: 0.5;
       font-family: Din Next Bold;
-      font-size: 16px;
+      font-size: 15px;
       font-weight: bold;
       letter-spacing: 4px;
       color: #103363;
-      text-transform: uppercase; }
+      /* text-transform: uppercase; */ }
+      @media screen and (max-width: 1200px) {
+        .our-team .text-container p {
+          font-size: 16px; } }
   .our-team .team-image {
     border: 10px solid rgba(68, 146, 254, 0.2); }

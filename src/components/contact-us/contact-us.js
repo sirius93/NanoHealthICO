@@ -18,13 +18,13 @@ class ContactUs extends Component {
               <div className="contact-us-container">
                 <h4 className="contact-heading">Stay In Touch</h4>
                 <p className="contact-sub-heading">Be the first to hear of new developments</p>
-                <div className="row">
+                {/*<div className="row">
                   <div className="col-xs-12">
                     <div className="telegram-content">
                       <TelegramButton isNormalButton ={false} isTeleButton ={true} />
                     </div>
                   </div>
-                </div>
+                </div>*/}
                 <div className="row">
                   <div className="col-xs-12">
                   <div className="email-content">

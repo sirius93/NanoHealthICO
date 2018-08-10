@@ -119,12 +119,15 @@
   .image-text-desc-heading {
     font-family: Din Next Medium;
     font-size: 36px;
-    font-weight: bold;
-    color: #1c5bb3;
+    /* font-weight: bold; */
+    color: #4492fe;
     margin-top: 64px; }
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .image-text-desc-heading {
         margin-top: 0px; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .image-text-desc-heading {
+        font-size: 24px; } }
   .image-text-desc-text {
     font-family: Din Next light;
     font-size: 24px;
@@ -133,6 +136,9 @@
     margin-top: 19px;
     max-width: 459px;
     word-break: keep-all; }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .image-text-desc-text {
+        font-size: 16px; } }
   .image-text-desc-learn {
     font-family: Din Next Bold;
     text-align: left;
@@ -146,29 +152,38 @@
     font-family: Din Next Bold;
     text-align: center; }
     .image-text-desc-pager img {
-      width: 60%; }
+      width: 80%; }
     .image-text-desc-pager span {
       position: absolute;
       top: 94px;
       left: 17px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .image-text-desc-pager img {
+        width: 30%; } }
   .image-text-desc-investor-desk {
     font-family: Din Next Bold;
     text-align: center; }
     .image-text-desc-investor-desk img {
-      width: 60%; }
+      width: 80%; }
     .image-text-desc-investor-desk span {
       position: absolute;
       top: 94px;
       left: 17px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .image-text-desc-investor-desk img {
+        width: 30%; } }
   .image-text-desc-white-paper {
     font-family: Din Next Bold;
     text-align: center; }
     .image-text-desc-white-paper img {
-      width: 60%; }
+      width: 80%; }
     .image-text-desc-white-paper span {
       position: absolute;
       top: 94px;
       left: 17px; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .image-text-desc-white-paper img {
+        width: 30%; } }
   .image-text-desc-white-paper-container {
     margin-top: 70px; }
     .image-text-desc-white-paper-container p {

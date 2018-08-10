@@ -11,7 +11,7 @@ import fundamatics from '../../assets/images/fundamatics.svg';
 import businessline from '../../assets/images/businessline.png';
 import financialexpress from '../../assets/images/financialexpress.svg';
 import pharmabiz from '../../assets/images/pharmabiz.jpg';
-
+import telangana_today from '../../assets/images/telangana-today.png';
 class OurTeam extends Component {
   render() {
     return (
@@ -20,7 +20,7 @@ class OurTeam extends Component {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12">
-                <h6 className="press-coverage-heading">Press coverage </h6>
+                <h6 className="press-coverage-heading">Press Coverage </h6>
                   <div className="press-coverage-links">
                     <span className="press-coverage-link">
                       <a href="http://www.fundamatics.net/the-nanohealth-story-a-new-way-to-look-at-your-health/" target="_blank">
@@ -42,6 +42,11 @@ class OurTeam extends Component {
                         <img width="20%" src={pharmabiz} alt="twitter" />
                       </a>
                     </span>
+                    {/*<span className="press-coverage-link">
+                      <a href="https://telanganatoday.com/nanocare-to-focus-on-preventive-care" target="_blank">
+                        <img width="20%" src={telangana_today} alt="twitter" />
+                      </a>
+                    </span>*/}
                   </div>
               </div>
             </div>
@@ -51,7 +56,7 @@ class OurTeam extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
-            <h4 className="our-partners-heading">Our partners</h4>
+            <h4 className="our-partners-heading">Our Partners</h4>
             <p className="our-partners-subheading">The NHCT ecosystem partners today have more than 0.5 million touchpoints and growing</p>
             {/* <div className="col-xs-12 col-sm-4 col-md-4">
               <div class="our-partners-section-container">

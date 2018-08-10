@@ -16,69 +16,69 @@ class ProofOfHealth extends Component {
     return (
       <div className="parent-container">
         <div className="proof-of-health">
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12">
-              <h4 className="image-card-sub-header">Proof of Total Health</h4>
-              <p className="image-card-para">An innovative 3 token incentive model, to ensure high quality health and wellness data</p>
-              <div className="proof-of-health-content">
-                <div className="col-xs-12 col-sm-4 col-md-4">
-                  <h6 className="poh-heading">Wawa</h6>
-                  <picture>
-                    <source media="(max-width: 767px)" srcset={ wawa + ' 1x' + ',' + wawa2x + ' 2x' } />
-                    <source media="(max-width: 1025px)" srcset={ wawa + ' 1x' + ',' + wawa2x + ' 2x' } />
-                    <source srcset={ wawa + ' 1x' + ',' + wawa2x + ' 2x' }  />
-                    <img width="50%" className="poh-image" src={wawa} alt="image2"/>
-                  </picture>
-                  <p className="poh-para">Self Verified Fitness Data</p>
-                  <p className="poh-para">Least Authentic</p>
-                  <p className="poh-para">Incentivised using Wawa Token</p>
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12">
+                <h4 className="image-card-sub-header">Proof of Total Health</h4>
+                <p className="image-card-para">An innovative 3 token incentive model, to ensure high quality health and wellness data</p>
+                <div className="proof-of-health-content">
+                  <div className="col-xs-12 col-sm-4 col-md-4">
+                    <h6 className="poh-heading">Wawa</h6>
+                    <picture>
+                      <source media="(max-width: 767px)" srcset={ wawa + ' 1x' + ',' + wawa2x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ wawa + ' 1x' + ',' + wawa2x + ' 2x' } />
+                      <source srcset={ wawa + ' 1x' + ',' + wawa2x + ' 2x' }  />
+                      <img width="50%" className="poh-image" src={wawa} alt="image2"/>
+                    </picture>
+                    <p className="poh-para">Self Verified Fitness Data</p>
+                    <p className="poh-para">Least Authentic</p>
+                    <p className="poh-para">Incentivised using Wawa Token</p>
+                  </div>
+                  <div className="col-xs-12 col-sm-4 col-md-4 dotted-line">
+                    <h6 className="poh-heading">Warma</h6>
+                    <picture>
+                      <source media="(max-width: 767px)" srcset={ warma + ' 1x' + ',' + warma2x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ warma + ' 1x' + ',' + warma2x + ' 2x' } />
+                      <source srcset={ warma + ' 1x' + ',' + warma2x + ' 2x' }  />
+                      <img width="50%" className="poh-image" src={warma} alt="image2"/>
+                    </picture>
+                    <p className="poh-para">Community Verified Wellness Data</p>
+                    <p className="poh-para">Authentic but does not capture complete health</p>
+                    <p className="poh-para">Incentivised Using Warma Token</p>
+                  </div>
+                  <div className="col-xs-12 col-sm-4 col-md-4 dotted-line">
+                    <h6 className="poh-heading">NHCT</h6>
+                    <picture>
+                      <source media="(max-width: 767px)" srcset={ nhct + ' 1x' + ',' + nhct2x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ nhct + ' 1x' + ',' + nhct2x + ' 2x' } />
+                      <source srcset={ nhct + ' 1x' + ',' + nhct2x + ' 2x' }  />
+                      <img width="50%" className="poh-image" src={nhct} alt="image2"/>
+                    </picture>
+                    <p className="poh-para">Medical Tests/Checkups Verified Medical Data</p>
+                    <p className="poh-para">Highest Degree of Authenticity</p>
+                    <p className="poh-para">Incentivised using NHCT Token</p>
+                  </div>
                 </div>
-                <div className="col-xs-12 col-sm-4 col-md-4 dotted-line">
-                  <h6 className="poh-heading">Warma</h6>
-                  <picture>
-                    <source media="(max-width: 767px)" srcset={ warma + ' 1x' + ',' + warma2x + ' 2x' } />
-                    <source media="(max-width: 1025px)" srcset={ warma + ' 1x' + ',' + warma2x + ' 2x' } />
-                    <source srcset={ warma + ' 1x' + ',' + warma2x + ' 2x' }  />
-                    <img width="50%" className="poh-image" src={warma} alt="image2"/>
-                  </picture>
-                  <p className="poh-para">Community Verified Wellness Data</p>
-                  <p className="poh-para">Authentic but does not capture complete health</p>
-                  <p className="poh-para">Incentivised Using Warma Token</p>
-                </div>
-                <div className="col-xs-12 col-sm-4 col-md-4 dotted-line">
-                  <h6 className="poh-heading">NHCT</h6>
-                  <picture>
-                    <source media="(max-width: 767px)" srcset={ nhct + ' 1x' + ',' + nhct2x + ' 2x' } />
-                    <source media="(max-width: 1025px)" srcset={ nhct + ' 1x' + ',' + nhct2x + ' 2x' } />
-                    <source srcset={ nhct + ' 1x' + ',' + nhct2x + ' 2x' }  />
-                    <img width="50%" className="poh-image" src={nhct} alt="image2"/>
-                  </picture>
-                  <p className="poh-para">Medical Tests/Checkups Verified Medical Data</p>
-                  <p className="poh-para">Highest Degree of Authenticity</p>
-                  <p className="poh-para">Incentivised using NHCT Token</p>
-                </div>
-              </div>
-              <div  className="col-xs-12">
-                <div className="token-flow-image-container">
-                    <h4 className="token-flow-header">
-                      Token Flow
-                    </h4>
-                    <div className="token-flow-image">
-                      <picture>
-                        <source media="(max-width: 767px)" srcset={ tokenflow + ' 1x' + ',' + tokenflow2x + ' 2x' } />
-                        <source media="(max-width: 1025px)" srcset={ tokenflow + ' 1x' + ',' + tokenflow2x + ' 2x' } />
-                        <source srcset={ tokenflow + ' 1x' + ',' + tokenflow2x + ' 2x' }  />
-                        <img width="100%" className="token-flow-image" src={tokenflow} alt="image2"/>
-                      </picture>
-                    </div>
-                    <p className="token-flow-para">You can only convert Wawa & Warma into NHCT by providing via updated medical records, improvement in health and maintaining good health</p>
+                <div  className="col-xs-12">
+                  <div className="token-flow-image-container">
+                      <h4 className="token-flow-header">
+                        Token Flow
+                      </h4>
+                      <div className="token-flow-image">
+                        <picture>
+                          <source media="(max-width: 767px)" srcset={ tokenflow + ' 1x' + ',' + tokenflow2x + ' 2x' } />
+                          <source media="(max-width: 1025px)" srcset={ tokenflow + ' 1x' + ',' + tokenflow2x + ' 2x' } />
+                          <source srcset={ tokenflow + ' 1x' + ',' + tokenflow2x + ' 2x' }  />
+                          <img width="100%" className="token-flow-image" src={tokenflow} alt="image2"/>
+                        </picture>
+                      </div>
+                      <p className="token-flow-para">You can only convert Wawa & Warma into NHCT by providing via updated medical records, improvement in health and maintaining good health</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>    
-      </div>
+          </div>    
+        </div>
         <div className="uth-diagram-container">
           <div className="container">
             <div className="row">
@@ -124,7 +124,7 @@ class ProofOfHealth extends Component {
 
               <div className="col-xs-12">
                 <h2 className="heading">
-                  Under the hood
+                  Technical Architecture
                 </h2>
                 <div className="col-xs-12 col-sm-8 col-md-8">
                   <div className="uth-diagram-image">
@@ -132,7 +132,7 @@ class ProofOfHealth extends Component {
                       <source media="(max-width: 767px)" srcset={ uthDiagram + ' 1x' + ',' + uthDiagram2x + ' 2x' } />
                       <source media="(max-width: 1025px)" srcset={ uthDiagram + ' 1x' + ',' + uthDiagram2x + ' 2x' } />
                       <source srcset={ uthDiagram + ' 1x' + ',' + uthDiagram2x + ' 2x' }  />
-                      <img width="85%" className="poh-image" src={uthDiagram} alt="image2"/>
+                      <img width="100%" className="poh-image" src={uthDiagram} alt="image2"/>
                     </picture>
                   </div>
                 </div>
@@ -167,7 +167,9 @@ class ProofOfHealth extends Component {
               </div>
             </div>
           </div>
-        </div>      
+          <div id="ico-summary"></div> 
+        </div> 
+
       </div>
     );
   }

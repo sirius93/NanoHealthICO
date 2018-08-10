@@ -131,6 +131,9 @@
   src: url('./assets/fonts/din-next-lt/DIN Next LT Pro UltraLight Cond.otf');
 }
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 body {
   margin: 0;
   padding: 0;
@@ -149,4 +152,5 @@ body {
       max-width: 991px;
     }
   }
+  
 }

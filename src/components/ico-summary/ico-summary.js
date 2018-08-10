@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
 import './ico-summary.css';
 import UseofProceeds from '../../assets/images/group-20.png';
-import icosummary from '../../assets/images/ico-summary.png';
-import icosummary2x from '../../assets/images/ico-summary@2x.png';
+import icosummary from '../../assets/images/ICO_Summary.svg';
+import icosummary2x from '../../assets/images/ICO_Summary@2x.png';
+import Token_Distribution from '../../assets/images/Token_Distribution.png';
+import Token_Distribution2x from '../../assets/images/Token_Distribution@2x.svg';
+/*import icosummary from '../../assets/images/ICO_Summary.svg';
+import icosummary2x from '../../assets/images/ICO_Summary@2x.svg';
+import Token_Distribution from '../../assets/images/Token_Distribution.svg';
+import Token_Distribution2x from '../../assets/images/Token_Distribution@2x.svg';*/
+/*import icosummary from '../../assets/images/ico-summary.svg';
+import icosummary2x from '../../assets/images/ico-summary@2x.svg';*/
 
 class IcoSummary extends Component {
   render() {
     return (
-      <div className="ico-summary" id="ico-summary">
+      <div className="ico-summary-div">
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
@@ -37,8 +45,8 @@ class IcoSummary extends Component {
                   <p>BASE PRICE</p>
                 </div>
               </div>*/}
-
-              <div className="ico-summary-container">
+            {/*2nd version*/}
+              {/*<div className="ico-summary-container">
                 <div className="col-xs-12 col-sm-12 col-md-12">
                   <h4 className="ico-summary-sub-header">ICO Summary</h4>
                   <div className="ico-summary-diagram-image">
@@ -47,6 +55,31 @@ class IcoSummary extends Component {
                       <source media="(max-width: 1025px)" srcset={ icosummary + ' 1x' + ',' + icosummary2x + ' 2x' } />
                       <source srcset={ icosummary + ' 1x' + ',' + icosummary2x + ' 2x' }  />
                       <img width="85%" className="poh-image" src={icosummary} alt="image2"/>
+                    </picture>
+                  </div>
+                </div>
+              </div>*/}
+
+              <div className="ico-summary-container-div">
+                <div className="col-xs-12 col-sm-6 col-md-6">
+                  <h4 className="ico-summary-sub-header">ICO Summary</h4>
+                  <div className="ico-summary-diagram-image">
+                    <picture>
+                      <source media="(max-width: 767px)" srcset={ icosummary + ' 1x' + ',' + icosummary2x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ icosummary + ' 1x' + ',' + icosummary2x + ' 2x' } />
+                      <source srcset={ icosummary + ' 1x' + ',' + icosummary2x + ' 2x' }  />
+                      <img width="100%" className="poh-image" src={icosummary} alt="image2"/>
+                    </picture>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-6 col-md-6 ico-dotted-line">
+                  <h4 className="ico-summary-sub-header">NHCT Token Distribution</h4>
+                  <div className="ico-summary-diagram-image">
+                    <picture>
+                      <source media="(max-width: 767px)" srcset={ Token_Distribution + ' 1x' + ',' + Token_Distribution2x + ' 2x' } />
+                      <source media="(max-width: 1025px)" srcset={ Token_Distribution + ' 1x' + ',' + Token_Distribution2x + ' 2x' } />
+                      <source srcset={ Token_Distribution + ' 1x' + ',' + Token_Distribution2x + ' 2x' }  />
+                      <img width="100%" className="poh-image" src={Token_Distribution} alt="image2"/>
                     </picture>
                   </div>
                 </div>

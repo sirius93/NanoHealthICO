@@ -1,0 +1,11 @@
+.testimonial-container .testimonial {
+  width: 80%;
+  margin: auto; }
+
+.testimonial-container-header {
+  font-family: Din Next medium;
+  font-size: 36px;
+  /* font-weight: bold; */
+  text-align: center;
+  color: #4492fe;
+  margin-bottom: 30px; }

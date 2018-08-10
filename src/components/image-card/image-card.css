@@ -18,15 +18,15 @@
   .image-card-sub-header {
     font-family: Din Next Medium;
     font-size: 36px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #4492fe;
     margin-top: 100px;
     margin-bottom: 10px;
-    text-align: center; }
+    text-align: left; }
   .image-card-para {
     font-family: Din Next light;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     color: #103363; }
   .image-card .Normal-button-link {
     text-transform: none; }
@@ -58,14 +58,14 @@
       min-height: 143px; }
     .image-card-container .image-card-text-1 {
       border-radius: 0 0 10px 10px;
-      background-color: #fdcf78;
+      background-color: #bad1dd;
       max-height: 180px;
       width: 100%;
       float: left;
       text-align: center;
       padding: 0px 0; }
       .image-card-container .image-card-text-1 h4 {
-        font-family: Din Next Bold;
+        font-family: Din Next light;
         font-size: 17px;
         font-weight: bold;
         text-align: center;
@@ -74,8 +74,9 @@
           .image-card-container .image-card-text-1 h4 {
             margin-top: 30px; } }
       .image-card-container .image-card-text-1 p {
-        font-family: Din Next;
+        font-family: Din Next light;
         font-size: 17px;
+        font-weight: bold;
         line-height: 1.33;
         text-align: center;
         color: #172436; }
@@ -95,14 +96,14 @@
       border-radius: 0 0 10px 10px;
       max-height: 180px;
       width: 100%;
-      background-color: #3bc37e;
-      color: #fff;
+      background-color: #bad1dd;
+      color: #172436;
       padding: 40px 0; }
       @media screen and (min-width: 768px) and (max-width: 991px) {
         .image-card-container .image-card-text-2 {
           padding: 50px 0; } }
       .image-card-container .image-card-text-2 h4 {
-        font-family: Din Next Bold;
+        font-family: Din Next light;
         font-size: 17px;
         font-weight: bold;
         text-align: center;
@@ -111,10 +112,11 @@
           .image-card-container .image-card-text-2 h4 {
             padding-top: 30px; } }
       .image-card-container .image-card-text-2 p {
-        font-family: Din Next;
+        font-family: Din Next light;
         font-size: 17px;
         line-height: 1.33;
-        text-align: center; }
+        text-align: center;
+        font-weight: bold; }
         @media screen and (min-width: 320px) and (max-width: 767px) {
           .image-card-container .image-card-text-2 p {
             padding-bottom: 30px; } }
@@ -122,11 +124,11 @@
       border-radius: 0 0 10px 10px;
       max-height: 180px;
       width: 100%;
-      background-color: #4492fe;
-      color: #fff;
+      background-color: #bad1dd;
+      color: #172436;
       padding: 38px 0px; }
       .image-card-container .image-card-text-3 h4 {
-        font-family: Din Next Bold;
+        font-family: Din Next light;
         font-size: 17px;
         font-weight: bold;
         text-align: center;
@@ -135,10 +137,11 @@
           .image-card-container .image-card-text-3 h4 {
             padding-top: 30px; } }
       .image-card-container .image-card-text-3 p {
-        font-family: Din Next;
+        font-family: Din Next light;
         font-size: 17px;
         line-height: 1.33;
-        text-align: center; }
+        text-align: center;
+        font-weight: bold; }
         @media screen and (min-width: 320px) and (max-width: 767px) {
           .image-card-container .image-card-text-3 p {
             padding-bottom: 30px; } }
@@ -146,11 +149,11 @@
       border-radius: 0 0 10px 10px;
       max-height: 180px;
       width: 100%;
-      background-color: #635ce4;
-      color: #fff;
+      background-color: #bad1dd;
+      color: #172436;
       padding: 30px 0; }
       .image-card-container .image-card-text-4 h4 {
-        font-family: Din Next Bold;
+        font-family: Din Next light;
         font-size: 17px;
         font-weight: bold;
         text-align: center;

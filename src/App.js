@@ -13,6 +13,7 @@ import OurPartners from './components/our-partners/our-partners';
 import TelegramButton from './components/telegram-button/telegram-button';
 import IcoValuesTabs from './components/ico-values-tabs/ico-values-tabs';
 import ProofOfHealth from './components/proof-of-health/proof-of-health';
+import Testimonials from './components/Testimonials/testimonials';
 
 
 class App extends Component {
@@ -26,11 +27,15 @@ class App extends Component {
         <IcoValuesTabs/>
         <ProofOfHealth/> 
         <IcoSummary/>
-        <IcoDistribution/> 
-        <OurPartners/>      
+        {/*<IcoDistribution/> */}
         <RoadMap/>
         <OurTeam/>
+        <Testimonials/>
+        <OurPartners/>      
+        
+        
         <ContactUs/>
+        <div className="sticky-telegram"><a href="https://t.me/NanoHealth" className="sticky-telegram-icon" target="_blank">Telegram</a></div>
       </div>
     );
   }

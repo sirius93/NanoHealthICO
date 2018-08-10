@@ -3,9 +3,17 @@
     &-heading{
         font-family: Din Next medium;
         font-size: 36px;
-        font-weight: bold;
+        /* font-weight: bold; */
         text-align: center;
         color: #4492fe;
+        margin-bottom: 30px;
+    }
+    &-employees{
+        font-family: Din Next medium;
+        font-size: 27px;
+        /* font-weight: bold; */
+        text-align: center;
+        color: #969ba0;
         margin-bottom: 30px;
     }
     .image-container{
@@ -26,11 +34,14 @@
       p{
         opacity: 0.5;
         font-family: Din Next Bold;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: bold;
         letter-spacing: 4px;
         color: #103363;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
+        @media screen and (max-width:1200px){
+          font-size: 16px;
+        }
       }
     }
     .team-image{

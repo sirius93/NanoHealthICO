@@ -54,7 +54,7 @@
     &-sub-header{
       font-family: Din Next Medium;
       font-size: 36px;
-      font-weight: bold;
+      /* font-weight: bold; */
       color: #4492fe;
       margin-top: 50px;
       margin-bottom: 26px;
@@ -217,4 +217,19 @@
             }
         }
     }
+}
+.ico-dotted-line::before{
+    position: absolute;
+    content: url('..//../assets/images/dotted-line.png');
+    left: 0;
+    top: 33%;
+    @media screen and (min-width:320px) and (max-width:767px){
+      content: '';
+    }
+}
+.ico-dotted-line{
+  @media screen and (min-width:320px) and (max-width:767px){
+    border-top: 5px dotted #3bc37e;
+    padding-top: 30px;
+  }
 }

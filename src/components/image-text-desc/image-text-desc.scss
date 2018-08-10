@@ -25,11 +25,14 @@
     &-heading{
         font-family: Din Next Medium;
         font-size: 36px;
-        font-weight: bold;
-        color: #1c5bb3;
+        /* font-weight: bold; */
+        color: #4492fe;
         margin-top: 64px;
         @media screen and (min-width:320px) and (max-width:767px){
             margin-top: 0px;
+        } 
+        @media screen and (min-width:768px) and (max-width:991px){
+           font-size: 24px;
         }    
     }
     &-text{
@@ -40,6 +43,9 @@
         margin-top: 19px;
         max-width: 459px;
         word-break: keep-all;
+        @media screen and (min-width:768px) and (max-width:991px){
+           font-size: 16px;
+        } 
     }
     &-learn{
         img{
@@ -50,11 +56,12 @@
         color: #337ab7;
         @media screen and (min-width:320px) and (max-width:767px){
           margin: 40px 0px;
+          
         }
     }
     &-pager{
         img{
-            width:60%;
+            width:80%;
         }
         span {
           position: absolute;
@@ -63,10 +70,15 @@
         }
         font-family: Din Next Bold;
         text-align: center;
+        @media screen and (min-width:320px) and (max-width:767px){
+          img{
+            width:30%;
+          }
+        }
     }
     &-investor-desk{
         img{
-            width:60%;
+            width:80%;
         }
         span {
           position: absolute;
@@ -75,10 +87,15 @@
         }
         font-family: Din Next Bold;
         text-align: center;
+        @media screen and (min-width:320px) and (max-width:767px){
+          img{
+            width:30%;
+          }
+        }
     }
     &-white-paper{
         img{
-            width:60%;
+            width:80%;
         }
         span {
           position: absolute;
@@ -87,6 +104,11 @@
         }
         font-family: Din Next Bold;
         text-align: center;
+        @media screen and (min-width:320px) and (max-width:767px){
+          img{
+            width:30%;
+          }
+        }
     }
     &-white-paper-container{
       margin-top: 70px;
