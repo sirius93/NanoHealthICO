@@ -1,5 +1,7 @@
 .our-team {
   margin-top: 45px; }
+  .our-team .our-team-div {
+    margin-bottom: 40px; }
   .our-team-heading {
     font-family: Din Next medium;
     font-size: 36px;
@@ -39,3 +41,6 @@
           font-size: 16px; } }
   .our-team .team-image {
     border: 10px solid rgba(68, 146, 254, 0.2); }
+  .our-team .our-advisor {
+    background-color: #ecf4fe;
+    padding-bottom: 40px; }

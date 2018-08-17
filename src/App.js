@@ -36,6 +36,7 @@ class App extends Component {
         
         <ContactUs/>
         <div className="sticky-telegram"><a href="https://t.me/NanoHealth" className="sticky-telegram-icon" target="_blank">Telegram</a></div>
+        <div className="cn-lang"><a href="http://cn.nhct.io/"  target="_blank">CN</a></div>
       </div>
     );
   }

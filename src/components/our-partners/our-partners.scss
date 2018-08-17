@@ -1,8 +1,14 @@
 .press-coverage-container{
   margin-top: 50px;  
   margin-bottom: 5px;
+  background: #ecf4fe;
+  padding: 40px 0px;
+  .slick-list {
+    margin: 0px 20px;
+  }
   @media screen and (min-width:320px) and (max-width:767px){
-    background-color: white;
+    //background-color: white;
+    background: #ecf4fe;
     margin-left: -15px;
     margin-right: -15px;
     margin-bottom: -1px;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './our-partners.css';
+import Slider from 'react-slick';
 import empowerLabs from '../../assets/images/empower-labs.png';
 import empowerLabsLogo from '../../assets/images/Secondary-Logo-vector.png';
 import empowerLabsLogo2x from '../../assets/images/Secondary-Logo-vector@2x.png';
@@ -12,8 +13,71 @@ import businessline from '../../assets/images/businessline.png';
 import financialexpress from '../../assets/images/financialexpress.svg';
 import pharmabiz from '../../assets/images/pharmabiz.jpg';
 import telangana_today from '../../assets/images/telangana-today.png';
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "#539afd",marginRight: "20px" }}
+      onClick={onClick}
+    >
+    </div>
+  );
+}
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "#539afd",marginLeft: "20px" }}
+      onClick={onClick}
+    >
+    </div>
+  );
+}
 class OurTeam extends Component {
   render() {
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 600,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      autoplay: true,
+      rtl: false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ],
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />
+    };
+
     return (
       <div>
        <div className="press-coverage-container">
@@ -22,7 +86,7 @@ class OurTeam extends Component {
               <div className="col-xs-12 col-sm-12 col-md-12">
                 <h6 className="press-coverage-heading">Press Coverage </h6>
                   <div className="press-coverage-links">
-                    <span className="press-coverage-link">
+                    {/*<span className="press-coverage-link">
                       <a href="http://www.fundamatics.net/the-nanohealth-story-a-new-way-to-look-at-your-health/" target="_blank">
                           <img width="20%" src={fundamatics} alt="telegram" />
                       </a>
@@ -41,12 +105,51 @@ class OurTeam extends Component {
                       <a href="http://www.pharmabiz.com/NewsDetails.aspx?aid=84336&sid=1" target="_blank">
                         <img width="20%" src={pharmabiz} alt="twitter" />
                       </a>
-                    </span>
+                    </span>*/}
                     {/*<span className="press-coverage-link">
                       <a href="https://telanganatoday.com/nanocare-to-focus-on-preventive-care" target="_blank">
                         <img width="20%" src={telangana_today} alt="twitter" />
                       </a>
                     </span>*/}
+                    <Slider {...settings}>
+                      <div>
+                        <span className="press-coverage-link">
+                          <a href="http://www.fundamatics.net/the-nanohealth-story-a-new-way-to-look-at-your-health/" target="_blank">
+                              <img width="60%" src={fundamatics} alt="telegram" />
+                          </a>
+                        </span>
+                      </div>
+                      <div>
+                        <span className="press-coverage-link">
+                          <a href="https://www.thehindubusinessline.com/news/national/nanohealth-gvk-bio-to-take-healthcare-to-slum-dwellers/article23111584.ece" target="_blank">
+                              <img width="60%" src={businessline} alt="facebook" />
+                          </a>
+                        </span>
+                      </div>
+                      <div>
+                        <span className="press-coverage-link">
+                          <a href="https://www.financialexpress.com/industry/nanohealths-doc-in-a-bag-breaks-economic-barriers/108240/" target="_blank">
+                            <img width="60%" src={financialexpress} alt="twitter" />
+                          </a>
+                        </span>
+                      </div>
+                      <div>
+                        <span className="press-coverage-link">
+                          <a href="http://www.pharmabiz.com/NewsDetails.aspx?aid=84336&sid=1" target="_blank">
+                            <img width="60%" src={pharmabiz} alt="twitter" />
+                          </a>
+                        </span>
+                      </div>
+                      <div>
+                        <span className="press-coverage-link">
+                          <a href="https://telanganatoday.com/nanocare-to-focus-on-preventive-care" target="_blank">
+                            <img width="60%" src={telangana_today} alt="twitter" />
+                          </a>
+                        </span>
+                      </div>
+                      
+                    </Slider>
+
                   </div>
               </div>
             </div>

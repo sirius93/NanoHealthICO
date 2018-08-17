@@ -39,6 +39,17 @@
   .token-flow-header {
     left: 13% !important; } }
 
+.cn-lang {
+  position: fixed;
+  right: 30px;
+  top: 7px;
+  z-index: 64; }
+  .cn-lang a {
+    color: #1f6294;
+    text-decoration: none;
+    font-family: Din Next Medium;
+    font-size: 16px; }
+
 .sticky-telegram {
   position: fixed;
   right: 20px;

@@ -1,11 +1,20 @@
-.testimonial-container .testimonial {
-  width: 80%;
-  margin: auto; }
-
-.testimonial-container-header {
-  font-family: Din Next medium;
-  font-size: 36px;
-  /* font-weight: bold; */
-  text-align: center;
-  color: #4492fe;
-  margin-bottom: 30px; }
+.testimonial-container {
+  margin-top: 40px; }
+  .testimonial-container .testimonial {
+    width: 80%;
+    margin: auto;
+    text-align: center; }
+  .testimonial-container-header {
+    font-family: Din Next medium;
+    font-size: 36px;
+    /* font-weight: bold; */
+    text-align: center;
+    color: #4492fe;
+    margin-bottom: 30px; }
+  .testimonial-container .content {
+    font-family: Din Next;
+    font-size: 18px; }
+  .testimonial-container .profile-pic img {
+    margin: auto;
+    border-radius: 50%;
+    height: 90px; }
