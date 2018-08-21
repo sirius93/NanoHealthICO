@@ -206,3 +206,55 @@
   .ico-dotted-line {
     border-top: 5px dotted #3bc37e;
     padding-top: 30px; } }
+
+.ico-sale-container .ico-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font-family: Din Next Medium; }
+  .ico-sale-container .ico-table .ico-sub-header {
+    background-color: #d2d3d5;
+    color: #1559ba; }
+  .ico-sale-container .ico-table .ico-header {
+    background-color: #1559ba;
+    color: white; }
+    .ico-sale-container .ico-table .ico-header .ico-header-cell {
+      text-align: center;
+      border: 2px solid white;
+      padding: 10px 5px;
+      font-family: Din Next Bold;
+      font-size: 18px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-sale-container .ico-table .ico-header .ico-header-cell {
+          padding: 0px;
+          font-size: 14px; } }
+  .ico-sale-container .ico-table .private-sale {
+    background-color: #fee7a6;
+    color: #103363; }
+    .ico-sale-container .ico-table .private-sale .ico-td {
+      text-align: center;
+      border: 2px solid white;
+      padding: 10px 5px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-sale-container .ico-table .private-sale .ico-td {
+          padding: 0px; } }
+  .ico-sale-container .ico-table .pre-sale {
+    background-color: #e6e7e8;
+    color: #103363; }
+    .ico-sale-container .ico-table .pre-sale .ico-td {
+      text-align: center;
+      border: 2px solid white;
+      padding: 10px 5px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-sale-container .ico-table .pre-sale .ico-td {
+          padding: 0px; } }
+  .ico-sale-container .ico-table .main-sale {
+    background-color: #cce7d4;
+    color: #103363; }
+    .ico-sale-container .ico-table .main-sale .ico-td {
+      text-align: center;
+      border: 2px solid white;
+      padding: 10px 5px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        .ico-sale-container .ico-table .main-sale .ico-td {
+          padding: 0px; } }
