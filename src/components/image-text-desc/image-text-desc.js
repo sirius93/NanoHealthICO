@@ -77,7 +77,7 @@ class ImageTextDesc extends Component {
                       </div>
                       <div className="col-xs-12 col-sm-3 col-md-3">
                         <div className="image-text-desc-pager">
-                          <a href="https://drive.google.com/open?id=1qB7FCPknuVg3kMmP-C2wRBP5T7YZI3JO" target="_blank" title="One Pager">
+                          <a href="https://drive.google.com/open?id=1hSJ2rTK49A5-omyRPi7Kdg710RWe--I4" target="_blank" title="One Pager">
                             <img src={One_pager} />
                             <p>One Pager</p>
                           </a>
@@ -85,7 +85,7 @@ class ImageTextDesc extends Component {
                       </div>
                       <div className="col-xs-12 col-sm-3 col-md-3">
                         <div className="image-text-desc-investor-desk">
-                          <a href="https://drive.google.com/open?id=1gOm2Hd_HFrLHsroeehtG1KSN6cVi3kce" target="_blank" title="Investor Deck">
+                          <a href="https://drive.google.com/open?id=1osxhl0YgytiWi_Z7PtoNEOS7EGYR5pdZ" target="_blank" title="Investor Deck">
                             <img src={Investor_deck} />
                             <p>Investor Deck</p>
                           </a>
@@ -93,7 +93,7 @@ class ImageTextDesc extends Component {
                       </div>
                       <div className="col-xs-12 col-sm-3 col-md-3">
                         <div className="image-text-desc-white-paper">
-                          <a href="https://drive.google.com/open?id=1GAqoyOxEKgz8CbXUNw7g0HTh95VpvLh7" target="_blank" title="White Paper">
+                          <a href="https://drive.google.com/open?id=1zlD7cfcg_0TJlTVjQiaQwXbDjHkrxwM-" target="_blank" title="White Paper">
                             <img src={White_paper} />
                             <p>Whitepaper</p>
                           </a>
@@ -123,7 +123,7 @@ class ImageTextDesc extends Component {
                       </div>
                       <div className="col-xs-12 col-sm-3 col-md-3">
                         <div className="image-text-desc-pager">
-                          <a href="https://drive.google.com/open?id=1qB7FCPknuVg3kMmP-C2wRBP5T7YZI3JO" target="_blank" title="One Pager">
+                          <a href="https://drive.google.com/open?id=1hSJ2rTK49A5-omyRPi7Kdg710RWe--I4" target="_blank" title="One Pager">
                             <img src={One_pager} />
                             <p>One Pager</p>
                           </a>
@@ -131,7 +131,7 @@ class ImageTextDesc extends Component {
                       </div>
                       <div className="col-xs-12 col-sm-3 col-md-3">
                         <div className="image-text-desc-investor-desk">
-                          <a href="https://drive.google.com/open?id=1gOm2Hd_HFrLHsroeehtG1KSN6cVi3kce" target="_blank" title="Investor Deck">
+                          <a href="https://drive.google.com/open?id=1osxhl0YgytiWi_Z7PtoNEOS7EGYR5pdZ" target="_blank" title="Investor Deck">
                             <img src={Investor_deck} />
                             <p>Investor Deck</p>
                           </a>
@@ -139,7 +139,7 @@ class ImageTextDesc extends Component {
                       </div>
                       <div className="col-xs-12 col-sm-3 col-md-3">
                         <div className="image-text-desc-white-paper">
-                          <a href="https://drive.google.com/open?id=1GAqoyOxEKgz8CbXUNw7g0HTh95VpvLh7" target="_blank" title="White Paper">
+                          <a href="https://drive.google.com/open?id=1zlD7cfcg_0TJlTVjQiaQwXbDjHkrxwM-" target="_blank" title="White Paper">
                             <img src={White_paper} />
                             <p>Whitepaper</p>
                           </a>
